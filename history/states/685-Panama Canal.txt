@@ -1,0 +1,27 @@
+state = { #Population Done
+	id = 685
+	name = "STATE_685"
+	manpower = 82133
+
+	state_category = enclave
+
+	history = {
+		owner = ZZZ # USA
+		# add_core_of = USA #Nobody contests it, nor do they difficulty managing it
+		victory_points = { 7617 5 }
+		buildings = {
+			infrastructure = 4
+			hydroelectric_plant = 1
+			barracks = 1
+			radar_station = 4
+			air_base = 6
+			7617 = {
+				naval_base = 3
+			}
+		}
+		# add_core_of = PAN
+		force_disable_resistance = yes
+	}
+
+	provinces = { 7617 14789 }
+}

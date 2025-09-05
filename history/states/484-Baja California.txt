@@ -1,0 +1,39 @@
+state = {
+	id = 484
+	name = "STATE_484"
+	manpower = 616609
+	state_category = town
+
+	history = {
+		owner = ZZZ # MEX
+		# set_state_flag = has_offshore_island
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			offices = 1
+			prisons = 1
+			barracks = 1
+			radar_station = 1
+			air_base = 3
+			12461 = {
+				naval_base = 4
+			}
+			1892 = {
+				naval_base = 2
+			}
+		}
+		# add_core_of = MEX
+		victory_points = { # Tijuana
+			12461 10
+		}
+		victory_points = { # Mexicali
+			14529 10
+		}
+		victory_points = { # Ensenada
+			1892 4
+		}
+	}
+	provinces = {
+		1892 7964 12461 12859 14529
+	}
+}

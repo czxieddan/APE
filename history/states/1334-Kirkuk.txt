@@ -1,0 +1,40 @@
+state = {
+	id = 1334
+	name = "STATE_1334"
+	resources = {
+		oil = 40.000
+	}
+
+	history = {
+		owner = ZZZ # BKU
+		# add_core_of = KUR
+		# add_core_of = BKU
+		# add_claim_by = IRQ
+		buildings = {
+			infrastructure = 3
+			offices = 2
+			prisons = 1
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			6826 10
+		}
+		victory_points = {
+			15759 4
+		}
+		victory_points = {
+			15758 5
+		}
+		# set_state_flag = GDP_category_large_town
+		# set_state_flag = state_renamings
+	}
+
+	provinces = {
+		6826 15758 15759 15761 16290 16294 18469
+	}
+	manpower = 466033
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

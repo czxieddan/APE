@@ -1,0 +1,34 @@
+state = {
+	id = 1430
+	name = "STATE_1430"
+
+	history = {
+		owner = ZZZ # UKR
+		# add_core_of = UKR
+		victory_points = {
+			11514 3
+		}
+		victory_points = {
+			11464 2
+		}
+		victory_points = {
+			3470 1
+		}
+		buildings = {
+			hospitals = 1
+			barracks = 1
+			schools = 1
+			thermoelectric_plant = 1
+			infrastructure = 4
+		}
+		# set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		3470 9533 11464 11514
+	}
+	manpower = 787820
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

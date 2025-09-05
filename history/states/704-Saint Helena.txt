@@ -1,0 +1,29 @@
+state = { #Population Done
+	id = 704
+	name = "STATE_704"
+	manpower = 2982
+	state_category = tiny_island
+
+	history = {
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		# add_claim_by = ENG
+		buildings = {
+			infrastructure = 1
+			air_base = 4
+			barracks = 1
+			radar_station = 5
+			13016 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { # Jamestown
+			13016 1
+		}
+		# set_state_flag = GDP_regions_south_atlantic
+	}
+
+	provinces = {
+		13016
+	}
+}

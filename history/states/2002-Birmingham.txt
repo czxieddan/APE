@@ -1,0 +1,31 @@
+state = {
+	id = 2002
+	name = "STATE_2002"
+
+	resources = {
+		steel = 22
+		power = 1
+	}
+
+	history = {
+		owner = ZZZ # ENG
+		victory_points = { 9297 30 }
+		buildings = {
+			infrastructure = 6
+			offices = 2
+			schools = 1
+			barracks = 1
+			hospitals = 1
+			prisons = 1
+			thermoelectric_plant = 3
+		}
+		# add_core_of = ENG
+	}
+
+	provinces = {
+		9297
+	}
+	manpower = 1107187
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

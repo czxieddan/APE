@@ -1,0 +1,30 @@
+state = {
+	id = 1672
+	name = "STATE_1672"
+	manpower = 309380
+
+	state_category = rural
+
+	resources = {
+		tungsten = 100
+		uranium = 3
+	}
+
+	history = {
+		owner = ZZZ # IBR
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		# add_core_of = IBR
+		victory_points = { 3969 3 }
+		victory_points = { 6996 3 }
+		# set_state_flag = GDP_regions_portugal
+		# set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		3969 6996 11885
+	}
+
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 1780
+	name = "STATE_1780"
+
+	state_category = pastoral
+
+	resources = {
+		oil = 16
+	}
+
+	history = {
+		owner = ZZZ # BKU
+		# add_core_of = KUR
+		# add_core_of = BKU
+		# add_claim_by = IRQ
+		buildings = {
+			infrastructure = 3
+			anti_air_building = 1
+			radar_station = 1
+		}
+		victory_points = { 3916 7 }
+		victory_points = { 16296 4 }
+		victory_points = { 15764 3 }
+		## set_state_flag = GDP_category_town
+		# set_state_flag = state_renamings
+	}
+
+	provinces = {
+		14692 3916 15764 16291 16296
+	}
+	manpower = 336788
+	buildings_max_level_factor = 1.000
+}

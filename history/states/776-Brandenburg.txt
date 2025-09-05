@@ -1,0 +1,42 @@
+state = {
+	id = 776
+	name = "STATE_776"
+
+	manpower = 3259123
+	state_category = large_city
+
+	history = {
+		owner = ZZZ # GER
+		# add_core_of = GER
+
+		victory_points = { 375 9 }
+		victory_points = {
+			11415 8
+		}
+		victory_points = {
+			9496 6
+		}
+		victory_points = {
+			6236 5
+		}
+		victory_points = {
+			11219 3
+		}
+
+		buildings = {
+			barracks = 1
+			schools = 1
+			offices = 2
+			prisons = 1
+			infrastructure = 6
+			radar_station = 2
+			air_base = 6
+			anti_air_building = 3
+			thermoelectric_plant = 3
+		}
+	}
+
+	provinces = {
+		9428 11505 478 9496 11415 514 
+	}
+}

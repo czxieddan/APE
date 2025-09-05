@@ -1,0 +1,29 @@
+state = { #Population Done
+	id = 1729
+	name = "STATE_1729"
+	manpower = 5025
+
+	state_category = tiny_island
+
+	resources = {
+	}
+	history = {
+		owner = ZZZ # CAN
+		buildings = {
+			schools = 1
+			infrastructure = 2
+			373 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { # St. Pierre
+			373 1
+		}
+		# add_claim_by = FRS
+		# add_claim_by = FFR
+		# set_state_flag = GDP_regions_quebec
+	}
+	provinces = {
+		373
+	}
+}

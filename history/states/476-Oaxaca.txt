@@ -1,0 +1,45 @@
+state = {
+	id = 476
+	name = "STATE_476"
+	resources = {
+		tungsten = 2.000
+	}
+
+	history = {
+		owner = ZZZ # MEX
+		buildings = {
+			offices = 1
+			barracks = 1
+			infrastructure = 2
+			hydroelectric_plant = 1
+			air_base = 2
+			8236 = {
+				naval_base = 2
+			}
+		}
+		# add_core_of = MEX
+		victory_points = {
+			10773 7
+		}
+		victory_points = {
+			8236 1
+		}
+		victory_points = {
+			17330 1
+		}
+		victory_points = {
+			12712 1
+		}
+		victory_points = {
+			14482 1
+		}
+	}
+
+	provinces = {
+		8236 10773 12712 14482 14483 16984 17142 17319 17329 17330
+	}
+	manpower = 1409951
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

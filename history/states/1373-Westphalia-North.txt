@@ -1,0 +1,37 @@
+state = {
+	id = 1373
+	name = "STATE_1373"
+
+	history = {
+		owner = ZZZ # GER
+		# add_core_of = GER
+		victory_points = {
+			15853 10
+		}
+		buildings = {
+			offices = 2
+			barracks = 1
+			prisons = 1
+			schools = 1
+			infrastructure = 6
+			thermoelectric_plant = 3
+		}
+		
+		victory_points = {
+			405 4
+		}
+		
+		victory_points = {
+			18141 5
+		}
+		
+	}
+
+	provinces = {
+		6622 15853 15854 18141
+	}
+	manpower = 3865375
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

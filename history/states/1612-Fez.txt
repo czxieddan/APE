@@ -1,0 +1,24 @@
+state = {
+	id = 1612
+	name = "STATE_1612"
+
+	history = {
+		owner = ZZZ # IBR
+		victory_points = { 18068 15 }
+		victory_points = { 18018 3 }
+		buildings = {
+			infrastructure = 4
+			prisons = 1
+		}
+		# add_core_of = MOR
+		# set_state_flag = GDP_category_town
+		# set_state_flag = GDP_regions_morocco
+	}
+
+	provinces = {
+		10013 4097 18018 11987 18068 7173 18020 18081 18090
+	}
+	manpower = 1166071
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

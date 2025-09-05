@@ -1,0 +1,24 @@
+state = {
+	id = 1407
+	name = "STATE_1407"
+	resources = {
+		oil = 1.000
+	}
+
+	history = {
+		owner = ZZZ # OST
+		# add_core_of = OST
+		buildings = {
+			infrastructure = 3
+		}
+		# set_state_flag = GDP_regions_belarus
+	}
+
+	provinces = {
+		3556 6280 6306 14546 14547 14548 14600
+	}
+	manpower = 269097
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

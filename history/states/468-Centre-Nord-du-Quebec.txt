@@ -1,0 +1,47 @@
+state = {
+	id = 468
+	name = "STATE_468"
+	resources = {
+		aluminium = 10.000
+	}
+
+	history = {
+		owner = ZZZ # CAN
+		buildings = {
+			thermoelectric_plant = 1
+			hydroelectric_plant = 2
+			schools = 1
+			hospitals = 1
+			prisons = 1
+			offices = 1
+			infrastructure = 6
+			radar_station = 2
+		}
+		# add_core_of = CAN
+		victory_points = { # Gatineau
+			12276 1
+		}
+		victory_points = { # Quebec City
+			12149 10
+		}
+		victory_points = { # Trois Rivieres
+			7291 5
+		}
+		victory_points = { # Mont Laurier
+			10700 1
+		}
+		victory_points = { # Val d'Or
+			17262 1
+		}
+		# set_state_flag = GDP_regions_quebec
+		# set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		1341 1764 5356 7291 7435 7683 7875 9601 10249 10700 12149 12205 12223 12276 13160 14616 14617 17253 17262
+	}
+	manpower = 1172894
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

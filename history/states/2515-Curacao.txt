@@ -1,0 +1,36 @@
+state = { #Population Done
+	id = 2515
+	name = "STATE_2515"
+	manpower = 133148
+	
+	resources = {
+		oil = 12
+	}
+	
+	state_category = small_island
+
+	history = {
+		owner = ZZZ # SUR
+		victory_points = { 19991 1 }
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 2
+			radar_station = 3
+			offices = 2
+			barracks = 1
+			air_base = 2
+			19991 = {
+				naval_base = 2
+				coastal_bunker = 2
+			}
+		}
+		# set_state_flag = GDP_category_metropolis
+		# add_core_of = SUR
+		# add_core_of = CUR
+	}
+
+	provinces = {
+		19991
+	}
+}

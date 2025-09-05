@@ -1,0 +1,34 @@
+state = {
+	id = 1759
+	name = "STATE_1759"
+
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = ZZZ # SLG
+		# add_claim_by = FRS
+		# add_core_of = ALG
+		# add_core_of = SLG
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+			barracks = 1
+			offices = 1
+		}
+		victory_points = { 1013 8 }
+		victory_points = { 9964 1 }
+		victory_points = { 18064 5 }
+		victory_points = { 18073 1 }
+		# set_state_flag = GDP_category_towwn
+		# set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		1013 9964 18073 18064
+	}
+	manpower = 674908
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

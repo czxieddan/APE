@@ -1,0 +1,42 @@
+state = {
+	id = 1815
+	name = "STATE_1815"
+	resources = {
+		chromium = 16.000
+		tungsten = 8.000
+	}
+
+	history = {
+		owner = ZZZ # GER
+		# add_core_of = GER
+		victory_points = {
+			564 15
+		}
+		victory_points = {
+			11533 4
+		}
+		victory_points = {
+			11445 6
+		}
+		victory_points = {
+			589 10
+		}
+		victory_points = {
+			3524 5
+		}
+		buildings = {
+			prisons = 2
+			offices = 1
+			infrastructure = 5
+			thermoelectric_plant = 2
+		}
+	}
+
+	provinces = {
+		564 589 3524 11445 11533 18133
+	}
+	manpower = 1345539
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

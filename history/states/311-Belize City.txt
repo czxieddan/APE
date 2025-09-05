@@ -1,0 +1,25 @@
+state = { #Population Done
+	id = 311
+	name = "STATE_311"
+	manpower = 54721
+
+	state_category = town
+	history = {
+		owner = ZZZ # BLZ
+		victory_points = { 2077 5 }
+		# add_core_of = BLZ
+		# add_claim_by = GUA
+		buildings = {
+			offices = 1
+			air_base = 1
+			infrastructure = 3
+			2077 = {
+				naval_base = 1
+			}
+		}
+		# set_state_flag = GDP_category_large_town
+	}
+	provinces = {
+		2077 16165 16166
+	}
+}

@@ -1,0 +1,43 @@
+state = { #Population Done
+	id = 690
+	name = "STATE_690"
+	manpower = 96738
+
+	state_category = small_island
+
+	history = {
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		# add_claim_by = ENG
+		# add_core_of = BAH
+		buildings = {
+			offices = 1
+			barracks = 1
+			thermoelectric_plant = 1
+			infrastructure = 2
+			radar_station = 3
+			air_base = 2
+			10254 = {
+				naval_base = 1
+			}
+			4647 = {
+				naval_base = 1
+			}
+			7245 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { # Nassau
+			10254 3
+		}
+		victory_points = { # Freeport
+			4647 1
+		}
+		# set_state_flag = GDP_regions_bahamas
+	}
+
+	provinces = {
+		4647 7245 10254
+	}
+
+}

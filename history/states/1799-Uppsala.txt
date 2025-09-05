@@ -1,0 +1,32 @@
+state = {
+	id = 1799
+	name = "STATE_1799"
+
+	history = {
+		victory_points = {
+			9149 7
+		}
+		victory_points = {
+			11163 1
+		}
+		owner = ZZZ # SWE
+		# add_core_of = SWE
+		buildings = {
+			infrastructure = 6
+			thermoelectric_plant = 1
+			offices = 1
+			hospitals = 2
+			prisons = 2
+			schools = 2
+		}
+		add_extra_state_shared_building_slots = 1
+	}
+
+	provinces = {
+		3182 6127 9149 11163 11278 18420
+	}
+	manpower = 203800
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,49 @@
+state = {
+	id = 1940
+	name = "STATE_1940"
+	resources = {
+		aluminium = 36.000
+	}
+
+	history = {
+		owner = ZZZ # IND
+		victory_points = {
+			10801 20
+		}
+		victory_points = {
+			18825 5
+		}
+		victory_points = {
+			12799 6
+		}
+		victory_points = {
+			18829 2
+		}
+		victory_points = {
+			4883 2
+		}
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 2
+			offices = 1
+			prisons = 1
+			barracks = 1
+			radar_station = 1
+			10801 = {
+				bunker = 1
+			}
+		}
+		# add_core_of = IND
+		# add_claim_by = AZH
+		# set_state_flag = GDP_regions_madhya_pradesh
+	}
+
+	provinces = {
+		4883 10801 12799 12854 16077 18829 18942 18825
+	}
+	manpower = 4486712
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

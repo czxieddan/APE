@@ -1,0 +1,44 @@
+state = {
+	id = 2464
+	name = "STATE_2464"
+	history = {
+		owner = ZZZ # AST
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+			barracks = 1
+			schools = 1
+			offices = 1
+			7520 = {
+				coastal_bunker = 1
+			}
+		}
+		victory_points = { # Newcastle
+			12406 10
+		}
+		victory_points = { # Lismore
+			10458 1
+		}
+		victory_points = { # Armidale
+			7471 1
+		}
+		victory_points = { # Tamworth
+			10388 2
+		}
+		victory_points = { # Coff Harbour
+			7450 1
+		}
+		victory_points = { # Port Macquarie
+			7520 1
+		}
+		# set_state_flag = GDP_category_large_town
+		# add_core_of = AST
+	}
+	provinces = {
+		1537 1611 2163 2997 4453 4478 4658 7450 7471 7496 7520 7664 10388 10458 10500 12406
+	}
+	manpower = 739695
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,30 @@
+state = { #Population Done
+	id = 703
+	name = "STATE_703"
+	manpower = 549
+
+	state_category = tiny_island
+	history = {
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		# add_claim_by = ENG
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			barracks = 1
+			radar_station = 5
+			13013 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		victory_points = { # USAF Ascension
+			13013 1
+		}
+		# set_state_flag = GDP_regions_south_atlantic
+	}
+
+	provinces = {
+		13013
+	}
+}

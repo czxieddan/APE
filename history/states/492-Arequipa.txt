@@ -1,0 +1,32 @@
+state = {
+	id = 492
+	name = "STATE_492"
+	resources = {
+		tungsten = 2.000
+	}
+
+	history = {
+		owner = ZZZ # PRU
+		buildings = {
+			barracks = 1
+			schools = 1
+			prisons = 2
+			infrastructure = 3
+			thermoelectric_plant = 1
+			air_base = 1
+		}
+		# set_state_flag = GDP_category_large_town
+		# add_core_of = PRU
+		victory_points = {
+			15499 10
+		}
+	}
+
+	provinces = {
+		2210 5202 15498 15499 17451
+	}
+	manpower = 407163
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

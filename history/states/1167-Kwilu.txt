@@ -1,0 +1,22 @@
+state = {
+	id = 1167
+	name = "STATE_1167"
+
+	history = {
+		owner = ZZZ # COG
+		# add_core_of = COG
+
+		victory_points = { 13890 2 }
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		4128 12896 12945 13890
+	}
+	manpower = 1420922
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

@@ -1,0 +1,35 @@
+state = {
+	id = 469
+	name = "STATE_469"
+
+	history = {
+		owner = ZZZ # CAN
+		buildings = {
+			infrastructure = 6
+			thermoelectric_plant = 3
+			hydroelectric_plant = 1
+			schools = 2
+			hospitals = 1
+			offices = 1
+			1408 = {
+				naval_base = 5
+			}
+		}
+		# add_core_of = CAN
+		victory_points = { # Vancouver
+			1408 25
+		}
+		victory_points = { # Surrey
+			4428 7
+		}
+		# set_state_flag = GDP_regions_british_columbia
+	}
+
+	provinces = {
+		1408 4413 4428
+	}
+	manpower = 924683
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

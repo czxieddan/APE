@@ -1,0 +1,44 @@
+state = {
+	id = 1418
+	name = "STATE_1418"
+	resources = {
+		steel = 7.000
+	}
+
+	history = {
+		owner = ZZZ # MEX
+		# add_core_of = MEX
+		victory_points = {
+			12755 10
+		}
+		victory_points = {
+			11774 4
+		}
+		victory_points = {
+			4887 3
+		}
+		victory_points = {
+			7942 1
+		}
+		victory_points = {
+			14493 1
+		}
+		buildings = {
+			hospitals = 1
+			schools = 1
+			prisons = 2
+			infrastructure = 3
+			thermoelectric_plant = 1
+			hydroelectric_plant = 1
+		}
+		add_extra_state_shared_building_slots = 1
+	}
+
+	provinces = {
+		4887 7942 8032 8599 11774 12755 14493 17124
+	}
+	manpower = 2195232
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 1238
+	name = "STATE_1238"
+	resources = {
+		chromium = 8
+	}
+	history = {
+		owner = ZZZ # CUB
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			offices = 1
+			barracks = 1
+			air_base = 1
+		}
+		# add_core_of = CUB
+		victory_points = { # Moron
+			10374 3
+		}
+		victory_points = { # Camaguey
+			4476 5
+		}
+	}
+	provinces = {
+		4476 7546 10374
+	}
+	manpower = 1534262
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

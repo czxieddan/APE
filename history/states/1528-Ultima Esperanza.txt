@@ -1,0 +1,21 @@
+state = {
+	id = 1528
+	name = "STATE_1528"
+	manpower = 1598
+	impassable = yes
+
+	state_category = wasteland
+
+	history = {
+		owner = ZZZ # CHL
+		buildings = {
+			infrastructure = 0
+		}
+		# add_core_of = CHL
+		# set_state_flag = GDP_regions_aysen
+	}
+
+	provinces = {
+		5159 10961 14804 17501
+	}
+}

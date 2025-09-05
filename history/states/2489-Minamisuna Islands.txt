@@ -1,0 +1,25 @@
+state = {
+	id = 2489
+	name = "STATE_2489"
+	manpower = 134
+	state_category = tiny_island
+	history = {
+		owner = ZZZ # JAP
+		# add_core_of = JAP
+		# set_state_flag = state_renamings
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 3
+			19950 = {
+				naval_base = 1
+			}
+		}
+		# set_variable = { china_state_ref = 36 }
+		# set_variable = { china_region_ref = 4 }
+	}
+	provinces = {
+		19950
+	}
+}

@@ -1,0 +1,37 @@
+state = {
+	id = 518
+	name = "STATE_518"
+	manpower = 350340
+
+	state_category = small_island
+
+	history = {
+		owner = ZZZ # AST
+		add_extra_state_shared_building_slots = 1
+		victory_points = { # Hobart
+			2189 10 
+		}
+		victory_points = { # Launceton
+			12645 4 
+		}
+		victory_points = { # Devonport
+			5181 1
+		}
+		victory_points = { # Burnie
+			10665 1
+		}
+		buildings = {
+			thermoelectric_plant = 1
+			infrastructure = 5
+			air_base = 1
+			radar_station = 2
+			2189 = {
+				naval_base = 2
+			}
+		}
+		# add_core_of = AST
+	}
+	provinces = {
+		2183 2189 5181 5187 10665 12645
+	}
+}

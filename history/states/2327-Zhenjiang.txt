@@ -1,0 +1,34 @@
+state = {
+	id = 2327
+	name = "STATE_2327"
+
+	history = {
+		owner = ZZZ # CHI
+		# add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 2
+		}
+		victory_points = {
+			7120 14
+		}
+		victory_points = {
+			11982 16
+		}
+		victory_points = {
+			19836 5
+		}
+		#add_extra_state_shared_building_slots = 2
+		# set_state_flag = GDP_regions_jiangsu_huaihai
+		# set_variable = { china_state_ref = 2 }
+		# set_variable = { china_region_ref = 0 }
+	}
+
+	provinces = {
+		7120 11982 19836 19835 996
+	}
+	manpower = 4380359
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

@@ -1,0 +1,72 @@
+state = { #Population Done
+	id = 284
+	name = "STATE_284" # North Island
+	manpower = 1923219
+
+	resources = {
+		oil = 4
+		steel = 8
+	}
+
+	state_category = large_city
+
+	history = {
+		owner = ZZZ # NZL
+		# set_state_flag = has_offshore_island
+		buildings = {
+			thermoelectric_plant = 3
+			infrastructure = 5
+			radar_station = 5
+			air_base = 3
+			barracks = 2
+			schools = 2
+			offices = 2
+			prisons = 2
+			hospitals = 2
+			4543 = {
+				naval_base = 3
+			}
+			1814 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { # Wellington
+			1814 25 
+		}
+		victory_points = { # Auckland
+			4543 20 
+		}
+		victory_points = { # Hamilton
+			7887 5 
+		}
+		victory_points = { # Tauranga
+			12664 2 
+		}
+		victory_points = { # Rotorua
+			4718 2
+		}
+		victory_points = { # Palmerston North
+			4804 6
+		}
+		victory_points = { # Napier
+			1801 3 
+		}
+		victory_points = { # New Plymouth
+			12604 3 
+		}
+		victory_points = { # Gisborne
+			4748 2 
+		}
+		victory_points = { # Wanganui
+			12617 3 
+		}
+		victory_points = { # Whangarei
+			10334 2
+		}
+		# add_core_of = NZL
+	}
+
+	provinces = {
+		1565 1713 1746 1786 1801 1814 4543 4615 4718 4748 4804 7692 7742 7783 7826 7887 10334 10373 10609 10710 12362 12604 12617 12664
+	}
+}

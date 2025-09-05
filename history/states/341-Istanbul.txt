@@ -1,0 +1,33 @@
+state = { #Population Done
+	id = 341
+	name = "STATE_341"
+
+	history = {
+		owner = ZZZ # TUR
+		victory_points = { 9833 50 }
+		victory_points = { 3851 1 }
+		buildings = {
+			infrastructure = 6
+			thermoelectric_plant = 3
+			dockyard = 2
+			air_base = 8
+			radar_station = 2
+			9833 = {
+				naval_base = 9
+			}
+			offices = 2
+			schools = 2
+			barracks = 1
+			prisons = 1
+			hospitals = 2
+		}
+		# add_core_of = TUR
+	}
+
+	provinces = {
+		9833 11829 16254 3851
+	}
+	manpower = 2121786
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 1622
+	name = "STATE_1622"
+	manpower = 29870
+
+	state_category = pastoral
+
+	history = {
+		owner = ZZZ # PAR
+		# add_core_of = PAR
+		# add_claim_by = BOL
+		victory_points = { 2209 1 }
+		buildings = {
+			infrastructure = 2
+		}
+		# set_state_flag = universal_renamings
+
+		# set_state_flag = PAR_bush_war_state
+	}
+
+	provinces = {
+		2209
+	}
+}

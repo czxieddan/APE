@@ -1,0 +1,29 @@
+state = {
+	id = 877
+	name = "STATE_877"
+
+	resources = {
+		rubber = 2
+	}
+
+	history = {
+		owner = ZZZ # LAO
+		# add_core_of = LAO
+		buildings = {
+			infrastructure = 3
+			hospitals = 1
+		}
+		victory_points = {
+			4539 5
+		}
+		# set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		4539 10195 10238 19017
+	}
+	manpower = 305325
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 1618
+	name = "STATE_1618"
+	manpower = 212253
+	resources = {
+	}
+
+	state_category = town
+
+	history = {
+		owner = ZZZ # PAR
+		# add_core_of = PAR
+		victory_points = { 2194 10 }
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			schools = 1
+			prisons = 1
+		}
+		# set_state_flag = GDP_category_large_town
+
+		# set_state_flag = PAR_bush_war_state
+	}
+
+	provinces = {
+		2194 15263
+	}
+
+}

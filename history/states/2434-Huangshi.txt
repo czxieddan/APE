@@ -1,0 +1,42 @@
+state = {
+	id = 2434
+	name = "STATE_2434"
+	resources = {
+		steel = 6
+	}
+
+	history = {
+		owner = ZZZ # CHI
+		# add_core_of = CHI
+		buildings = {
+			offices = 1
+			infrastructure = 3
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			1036 5
+		}
+		victory_points = {
+			4619 11
+		}
+		victory_points = {
+			4941 2
+		}
+		victory_points = {
+			19803 4
+		}
+		add_extra_state_shared_building_slots = 1
+		# set_state_flag = GDP_regions_hubei
+		# set_variable = { china_state_ref = 26 }
+		# set_variable = { china_region_ref = 3 }
+		# set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		1036 4619 4631 4941 19803
+	}
+	manpower = 2808651
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

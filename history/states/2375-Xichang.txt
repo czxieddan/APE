@@ -1,0 +1,38 @@
+state = {
+	id = 2375
+	name = "STATE_2375"
+
+	resources = {
+		steel = 8
+	}
+
+	history = {
+		owner = ZZZ # XIK
+		# add_core_of = XIK
+		buildings = {
+			barracks = 1
+			offices = 1
+			prisons = 1
+			infrastructure = 3
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			2067 15
+		}
+		victory_points = {
+			7294 3
+		}
+		add_extra_state_shared_building_slots = 2
+		# set_variable = { china_state_ref = 21 }
+		# set_variable = { china_region_ref = 2 }
+		# set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		2067 7294 19695 10726
+	}
+	manpower = 2508497
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

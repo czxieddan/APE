@@ -1,0 +1,32 @@
+state = {
+	id = 2325
+	name = "STATE_2325"
+
+	history = {
+		owner = ZZZ # CHI
+		# add_core_of = CHI
+		buildings = {
+			prisons = 1
+			offices = 1
+			schools = 1
+			barracks = 1
+			hospitals = 1
+			thermoelectric_plant = 2
+			infrastructure = 5
+		}
+		victory_points = {
+			16908 41
+		}
+		# set_variable = { china_state_ref = 8 }
+		# set_variable = { china_region_ref = 1 }
+		# set_variable = { china_city_ref = 1 }
+	}
+
+	provinces = {
+		16908 16916
+	}
+	manpower = 3283765
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

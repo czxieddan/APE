@@ -1,0 +1,20 @@
+state = { #Population Done
+	id = 1882
+	name = "STATE_1882"
+	manpower = 666746
+
+	state_category = wasteland
+
+	history = {
+		owner = ZZZ # HAI
+		buildings = {
+			infrastructure = 2
+			1635 = { naval_base = 2 }
+		}
+		# set_state_flag = universal_renamings
+		# add_core_of = HAI
+	}
+	provinces = {
+		15644 1635 15645
+	}
+}

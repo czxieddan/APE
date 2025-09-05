@@ -1,0 +1,41 @@
+
+state = {
+	id = 497
+	name = "STATE_497"
+	resources = {
+		rubber = 30.000
+		aluminium = 9.000
+	}
+
+	history = {
+		owner = ZZZ # BRA
+		buildings = {
+			radar_station = 3
+			air_base = 2
+			infrastructure = 2
+			barracks = 1
+		}
+		# add_core_of = BRA
+		victory_points = {
+			12933 10
+		}
+		victory_points = {
+			17404 10
+		}
+		victory_points = {
+			5220 8
+		}
+		victory_points = {
+			12913 3
+		}
+		# set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		2150 5220 12913 12933 12947 17404 17419
+	}
+	manpower = 2771371
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

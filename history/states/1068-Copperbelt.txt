@@ -1,0 +1,29 @@
+state = {
+	id = 1068
+	name = "STATE_1068"
+
+	resources = {
+		chromium = 29
+		tungsten = 7
+	}
+
+	history = {
+		owner = ZZZ # GRO
+		# add_core_of = GRO
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			offices = 1
+		}
+		victory_points = { 12504 10 }
+		victory_points = { 13804 10 }
+		# set_state_flag = state_renamings
+	}
+
+	provinces = {
+		12504 13804
+	}
+	manpower = 577931
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

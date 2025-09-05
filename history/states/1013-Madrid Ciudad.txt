@@ -1,0 +1,27 @@
+state = {
+	id = 1013
+	name = "STATE_1013"
+	provinces = {
+		15523
+	}
+	history = {
+		owner = ZZZ # IBR
+		# add_core_of = IBR
+
+		victory_points = { 15523 50 }
+		buildings = {
+			thermoelectric_plant = 2
+			schools = 2
+			barracks = 1
+			hospitals = 2
+			offices = 1
+			prisons = 1
+			barracks = 1
+			infrastructure = 6
+		}
+		# set_state_flag = GDP_category_metropolis
+	}
+	manpower = 2189081
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+}

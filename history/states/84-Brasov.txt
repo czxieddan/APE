@@ -1,0 +1,38 @@
+state = {
+	id = 84
+	name = "STATE_84"
+	resources = {
+		steel = 4.000
+	}
+
+	history = {
+		owner = ZZZ # ROM
+		buildings = {
+			infrastructure = 5
+			prisons = 1
+			schools = 1
+			offices = 1
+			barracks = 1
+			thermoelectric_plant = 2
+		}
+		victory_points = {
+			690 10
+		}
+		victory_points = {
+			6679 10
+		}
+		victory_points = {
+			18215 4
+		}
+		# add_core_of = ROM
+		# set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		676 690 3676 6679 6709 11639 18207 18215
+	}
+	manpower = 1004529
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

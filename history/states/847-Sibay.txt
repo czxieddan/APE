@@ -1,0 +1,24 @@
+state = { #Population Done
+	id = 847
+	name = "STATE_847"
+	resources = {
+		steel = 3
+		chromium = 11
+	}
+	provinces = {
+		4311 4383 7300 7373 12200 13303
+	}
+	history = {
+		owner = ZZZ # URL
+		buildings = {
+			infrastructure = 2
+			schools = 1
+			hospitals = 1
+		}
+		victory_points = { 12200 1 }
+		# add_core_of = URL
+	}
+	manpower = 213000
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+}

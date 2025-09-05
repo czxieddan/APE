@@ -1,0 +1,28 @@
+state = {
+	id = 1822
+	name = "STATE_1822"
+	resources = {
+		oil = 2.000
+	}
+
+	history = {
+		owner = ZZZ # JAP
+		# add_core_of = JAP
+		buildings = {
+			infrastructure = 4
+			hydroelectric_plant = 1
+			missile_silo = 1
+		}
+		victory_points = {
+			15886 10
+		}
+	}
+
+	provinces = {
+		1063 9865 15886 19717 19794
+	}
+	manpower = 1289487
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

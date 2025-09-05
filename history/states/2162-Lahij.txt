@@ -1,0 +1,25 @@
+state = {
+	id = 2162
+	name = "STATE_2162"
+
+	resources = {
+		aluminium = 2
+	}
+
+	history = {
+		owner = ZZZ # YEM
+		# add_core_of = YEM
+		buildings = {
+
+		}
+		# set_state_flag = state_renamings
+	}
+
+	provinces = {
+		5074 18559
+	}
+	manpower = 165902
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

@@ -1,0 +1,19 @@
+state = { 
+	id = 2514
+	name = "STATE_2514"
+	manpower = 30002
+	state_category = wasteland
+
+	history = {
+		owner = ZZZ # BRA
+		# add_core_of = BRA
+		buildings = {
+			#
+		}
+		# set_state_flag = GDP_regions_amazonas
+	}
+
+	provinces = {
+		17044 17433 17436 19992 
+	}
+}

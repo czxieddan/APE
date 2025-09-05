@@ -1,0 +1,31 @@
+state = { #Population Done
+	id = 177
+	name = "STATE_177"
+	manpower = 445762
+
+	state_category = small_island
+
+	history = {
+		owner = ZZZ # IBR
+		# add_core_of = IBR
+		victory_points = { 9793 10 }
+		victory_points = { 7114 1 }
+		buildings = {
+			barracks = 1
+			offices = 1
+			thermoelectric_plant = 1
+			infrastructure = 5
+			radar_station = 3
+			air_base = 3
+			9793 = {
+				naval_base = 2
+			}
+			7114 = {
+				naval_base = 1
+			}
+		}
+		# set_state_flag = state_renamings
+		# set_state_flag = GDP_category_city
+	}
+	provinces = { 7114 9793 9845 }
+}

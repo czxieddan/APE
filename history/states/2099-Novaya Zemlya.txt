@@ -1,0 +1,25 @@
+state = {
+	id = 2099
+	name = "STATE_2099"
+	manpower = 278
+	state_category = wasteland
+
+	history = {
+		owner = ZZZ # GER
+		# add_core_of = GER #Who'd challenge their control?
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			barracks = 1
+			infrastructure = 1
+			radar_station = 4
+			air_base = 2
+			11047 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		11047 16821 16820
+	}
+}

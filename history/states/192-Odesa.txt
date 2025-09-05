@@ -1,0 +1,31 @@
+state = {
+	id = 192
+	name = "STATE_192"
+	manpower = 548190
+
+	state_category = city
+
+	history = {
+		owner = ZZZ # TNS
+		victory_points = { 11670 20 }
+		buildings = {
+			infrastructure = 4
+			offices = 1
+			barracks = 1
+			schools = 1
+			hospitals = 1
+			air_base = 6
+			thermoelectric_plant = 1
+			11670 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+
+		# add_core_of = TNS
+	}
+
+	provinces = {
+		11670 9698
+	}
+}

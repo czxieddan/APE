@@ -1,0 +1,28 @@
+state = {
+	id = 2173
+	name = "STATE_2173"
+
+	history = {
+		owner = ZZZ # ULS
+		victory_points = {
+			276 5
+		}
+		buildings = {
+			infrastructure = 3
+			prisons = 1
+			offices = 1
+			schools = 1
+		}
+		# add_core_of = ULS
+		# add_core_of = IRE
+		# set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		276
+	}
+	manpower = 165298
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

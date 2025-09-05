@@ -1,0 +1,32 @@
+state = {
+	id = 641
+	name = "STATE_641"
+	manpower = 105786
+	state_category = tiny_island
+
+	history = {
+		owner = ZZZ # USA
+		# add_core_of = USA
+		buildings = {
+			infrastructure = 1
+			radar_station = 2
+			air_base = 1
+			barracks = 1
+			12148 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			12148 5
+		}
+		victory_points = {
+			10188 1
+		}
+		# add_claim_by = FRS
+		# add_claim_by = FFR
+	}
+
+	provinces = {
+		10188 12148
+	}
+}

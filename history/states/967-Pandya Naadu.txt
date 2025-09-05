@@ -1,0 +1,43 @@
+state = {
+	id = 967
+	name = "STATE_967"
+
+	history = {
+		owner = ZZZ # IND
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 2
+			barracks = 2
+			prisons = 1
+			offices = 1
+			radar_station = 2
+		}
+		victory_points = {
+			1409 20
+		}
+		victory_points = {
+			7402 10
+		}
+		victory_points = {
+			4327 10
+		}
+		victory_points = {
+			7288 7
+		}
+		victory_points = {
+			7265 5
+		}
+		add_extra_state_shared_building_slots = 2
+		# add_core_of = IND
+		# add_claim_by = AZH
+		# set_state_flag = GDP_regions_tamil_nadu
+	}
+
+	provinces = {
+		1409 4327 7265 7288 7402 18863
+	}
+	manpower = 6385623
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

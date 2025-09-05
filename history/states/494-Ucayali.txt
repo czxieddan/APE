@@ -1,0 +1,20 @@
+state = {
+	id = 494
+	name = "STATE_494"
+
+	history = {
+		owner = ZZZ # PRU
+		buildings = {
+			infrastructure = 1
+		}
+		# add_core_of = PRU
+	}
+
+	provinces = {
+		2212 2226 8160 15470 15477 15482 15573 17446
+	}
+	manpower = 90223
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

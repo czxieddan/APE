@@ -1,0 +1,39 @@
+state = {
+	id = 212
+	name = "STATE_212"
+	resources = {
+		chromium = 6.000
+	}
+
+	history = {
+		owner = ZZZ # BUL
+		victory_points = {
+			6923 15
+		}
+		victory_points = {
+			3937 5
+		}
+		victory_points = {
+			9818 2
+		}
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 1
+			air_base = 2
+			radar_station = 1
+			offices = 1
+			barracks = 1
+			schools = 1
+		}
+		# add_core_of = BUL
+		# set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		3937 6923 6982 9818 11813 18189 18196
+	}
+	manpower = 1103163
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

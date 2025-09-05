@@ -1,0 +1,52 @@
+state = {
+	id = 2468
+	name = "STATE_2468"
+
+	history = {
+		owner = ZZZ # CAN
+		# set_state_flag = has_offshore_island
+		buildings = {
+			thermoelectric_plant = 2
+			schools = 1
+			hospitals = 1
+			barracks = 1
+			infrastructure = 7
+			air_base = 3
+		}
+		# add_core_of = CAN
+		victory_points = { # Windsor
+			14615 10
+		}
+		victory_points = { # London
+			722 10
+		}
+		victory_points = { # Kitchener
+			774 7
+		}
+		victory_points = { # Sarnia
+			9711 5
+		}
+		victory_points = { # Orillia
+			9585 1
+		}
+		victory_points = { # Owen Sound
+			779 1
+		}
+		victory_points = { # Chatham
+			9667 4
+		}
+		victory_points = { # Stratford
+			11725 2
+		}
+		# set_state_flag = GDP_regions_ontario
+		# set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		722 774 779 6607 6610 9585 9667 9711 9743 11725 14615
+	}
+	manpower = 1603741
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 1160
+	name = "STATE_1160"
+
+	history = {
+		owner = ZZZ # EGY
+		# add_core_of = EGY
+		victory_points = {
+			15772 5
+		}
+		victory_points = {
+			10073 8
+		}
+		# set_state_flag = GDP_category_town
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 4
+			offices = 1
+		}
+		# set_state_flag = state_renamings
+	}
+
+	provinces = {
+		10073 15772
+	}
+	manpower = 2174771
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

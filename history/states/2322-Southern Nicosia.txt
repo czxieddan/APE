@@ -1,0 +1,29 @@
+state = {
+	id = 2322
+	name = "STATE_2322"
+	state_category = large_town
+
+	history = {
+		owner = ZZZ # GRE
+		victory_points = { 14689 5 }
+		buildings = {
+			offices = 1
+			schools = 1
+			barracks = 1
+			thermoelectric_plant = 1
+			infrastructure = 5
+		}
+		# add_core_of = GRE
+		# add_claim_by = TUR
+		# set_demilitarized_zone = yes
+		# set_state_flag = universal_renamings
+		# set_state_flag = GDP_regions_cyprus
+		# set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		14689
+	}
+	manpower = 27645
+	buildings_max_level_factor = 1.000
+}

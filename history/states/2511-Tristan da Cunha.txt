@@ -1,0 +1,29 @@
+state = { #Population Done
+	id = 2511
+	name = "STATE_2511"
+	manpower = 268
+	state_category = tiny_island
+
+	history = {
+		owner = ZZZ # CAN
+		# add_core_of = CAN
+		# add_claim_by = ENG
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 5
+			19986 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { # Edinburgh of the Seven Seas
+			19986 1
+		}
+		# set_state_flag = GDP_regions_south_atlantic
+	}
+
+	provinces = {
+		19986
+	}
+}

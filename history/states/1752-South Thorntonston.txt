@@ -1,0 +1,24 @@
+state = {
+	id = 1752
+	name = "STATE_1752"
+
+	history = {
+		owner = ZZZ # GRO
+		# add_core_of = GRO
+		buildings = {
+			infrastructure = 3
+			schools = 1
+		}
+		victory_points = {
+			17859 1
+		}
+	}
+
+	provinces = {
+		5155 17856 17859
+	}
+	manpower = 314235
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 1792
+	name = "STATE_1792"
+	manpower = 17800
+
+	state_category = tiny_island
+
+	history = {
+		owner = ZZZ # SWE
+		# add_core_of = SWE
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		211
+	}
+}

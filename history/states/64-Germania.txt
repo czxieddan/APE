@@ -1,0 +1,28 @@
+state = { #Population Done
+	id = 64
+	name = "STATE_64"
+
+	history = {
+		owner = ZZZ # GER
+		buildings = {
+			schools = 2
+			offices = 2
+			hospitals = 2
+			barracks = 1
+			prisons = 1
+			infrastructure = 8
+			thermoelectric_plant = 3
+			radar_station = 2
+			anti_air_building = 4
+			air_base = 4
+		}
+		# add_core_of = GER
+	}
+
+	provinces = {
+	    9264 11359 9294 11276 11219 375 3367 11444 6521
+	}
+	manpower = 5315477
+	buildings_max_level_factor = 1.000
+	state_category = megalopolis
+}

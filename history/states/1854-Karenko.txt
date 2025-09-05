@@ -1,0 +1,24 @@
+state = {
+	id = 1854
+	name = "STATE_1854"
+	manpower = 256643
+
+	state_category = pastoral
+
+	history = {
+		owner = ZZZ # JAP
+		# add_core_of = JAP
+		# set_state_flag = state_renamings
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 9955 1 }
+		# set_variable = { china_state_ref = 37 }
+		# set_variable = { china_region_ref = 4 }
+		# set_state_flag = GDP_regions_formosa
+	}
+
+	provinces = {
+		9955 4096
+	}
+}

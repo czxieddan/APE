@@ -1,0 +1,30 @@
+state = {
+	id = 991
+	name = "STATE_991"
+
+	history = {
+		owner = ZZZ # DEN
+		victory_points = {
+			3325 10
+		}
+		victory_points = {
+			3374 1
+		}
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 1
+			schools = 1
+			offices = 1
+		}
+		# set_state_flag = GDP_category_town
+		# add_core_of = DEN
+	}
+
+	provinces = {
+		3325 3374
+	}
+	manpower = 408719
+	buildings_max_level_factor = 1.000
+	state_category = small_island
+	local_supplies = 0.000
+}

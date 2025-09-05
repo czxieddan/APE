@@ -1,0 +1,28 @@
+state = {
+	id = 1264
+	name = "STATE_1264"
+
+	history = {
+		owner = ZZZ # ITA
+		victory_points = { 1106 2 }
+		victory_points = { 10203 1 }
+		buildings = {
+			barracks = 2
+			radar_station = 3
+			infrastructure = 4
+			1106 = {
+				naval_base = 5
+			}
+		}
+		# add_core_of = GRE
+		# add_core_of = ITA
+		# set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1106 10203
+	}
+	manpower = 116610
+	buildings_max_level_factor = 1.000
+	state_category = small_island
+}

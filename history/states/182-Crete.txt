@@ -1,0 +1,32 @@
+state = { #Population Done
+	id = 182
+	name = "STATE_182"
+	manpower = 673800
+
+	state_category = small_island
+	history = {
+		owner = ZZZ # GRE
+		victory_points = { 9940 6 }
+		victory_points = { 12058 4 }
+		victory_points = { 1164 1 }
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			barracks = 1
+			offices = 1
+			thermoelectric_plant = 1
+			radar_station = 2
+			12058 = {
+				naval_base = 1
+			}
+			9940 = {
+				naval_base = 3
+			}
+		}
+		# set_state_flag = GDP_category_town
+		# add_core_of = GRE
+	}
+	provinces = {
+		1164 4170 9940 12058
+	}
+}

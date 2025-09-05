@@ -1,0 +1,24 @@
+state = {
+	id = 1490
+	name = "STATE_1490"
+	history = {
+		owner = ZZZ # BRA
+		buildings = {
+			radar_station = 3
+			air_base = 2
+			infrastructure = 3
+			barracks = 2
+		}
+		# add_core_of = BRA
+		victory_points = { 10939 10 }
+		victory_points = { 10998 5 }
+		# set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		1524 10939 10998
+	}
+	manpower = 1256159
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

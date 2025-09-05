@@ -1,0 +1,28 @@
+state = {
+	id = 1143
+	name = "STATE_1143"
+
+	history = {
+		owner = ZZZ # ILG
+		# add_claim_by = FRS
+		# add_core_of = SLG
+		# add_core_of = ILG
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14402 1
+		}
+		# set_state_flag = GDP_category_rural
+		# set_state_flag = state_renamings
+	}
+	resources = {
+		oil = 10
+	}
+	provinces = {
+		14406 12711 14396 14402 14397 14399
+	}
+	manpower = 58664
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+}

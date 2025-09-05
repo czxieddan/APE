@@ -1,0 +1,30 @@
+state = { #Population Done
+	id = 1576
+	name = "STATE_1576"
+	manpower = 727267
+
+	resources = {
+		steel = 7
+	}
+
+	state_category = city
+
+	history = {
+		owner = ZZZ # ARG
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 1
+			prisons = 1
+			hospitals = 1
+			schools = 1
+			offices = 1
+		}
+		# add_core_of = ARG
+		victory_points = { 14965 20 }
+		# set_state_flag = GDP_regions_cordoba
+	}
+
+	provinces = {
+		14965
+	}
+}

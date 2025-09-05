@@ -1,0 +1,40 @@
+state = {
+	id = 757
+	name = "STATE_757"
+	resources = {
+		tungsten = 9.000
+		steel = 19.000
+		oil = 7.000
+	}
+
+	history = {
+		owner = ZZZ # KRS
+		buildings = {
+			schools = 1
+			offices = 1
+			hospitals = 1
+			barracks = 1
+			prisons = 1
+			thermoelectric_plant = 2
+			infrastructure = 4
+		}
+		victory_points = {
+			4724 20
+		}
+		victory_points = {
+			10649 3
+		}
+		victory_points = {
+			7815 1
+		}
+		# add_core_of = KRS
+	}
+
+	provinces = {
+		1777 1816 1850 4711 4724 5470 7815 7886 10580 10639 10649 10712 13294 13312
+	}
+	manpower = 1717000
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

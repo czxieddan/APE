@@ -1,0 +1,25 @@
+state = {
+	id = 2536
+	name = "STATE_2536"
+
+	history = {
+		owner = ZZZ # COL
+		buildings = {
+			infrastructure = 2
+			hospitals = 1
+			schools = 1
+			offices = 2
+			barracks = 1
+			prisons = 1
+			thermoelectric_plant = 2
+		}
+	}
+
+	provinces = {
+		 469 573 3514 9414 11401 3462 494 11414
+	}
+	manpower = 671618
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

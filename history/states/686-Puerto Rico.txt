@@ -1,0 +1,32 @@
+state = { #Population Done
+	id = 686
+	name = "STATE_686"
+	manpower = 3434982
+
+	state_category = small_island
+
+	history = {
+		owner = ZZZ # USA
+		# add_core_of = USA
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			air_base = 4
+			barracks = 2
+			offices = 1
+			thermoelectric_plant = 2
+			radar_station = 5
+			1440 = {
+				naval_base = 3
+			}
+		}
+		add_extra_state_shared_building_slots = 2
+		victory_points = { # San Juan
+			1440 20
+		}
+	}
+
+	provinces = {
+		1440
+	}
+}

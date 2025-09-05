@@ -1,0 +1,20 @@
+state = {
+	id = 2483
+	name = "STATE_2483"
+
+	history = {
+		owner = ZZZ # NZL
+		# add_core_of = NZL
+		victory_points = {
+			19939 1
+		}
+	}
+
+	provinces = {
+		19939
+	}
+	manpower = 817
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
+}

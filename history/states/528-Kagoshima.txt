@@ -1,0 +1,31 @@
+state = {
+	id = 528
+	name = "STATE_528" # Kyushu
+	manpower = 1860210
+	state_category = town
+	resources = {
+		#tungsten = 10
+	}
+
+	history = {
+		owner = ZZZ # JAP
+		# add_core_of = JAP
+		# set_state_flag = has_offshore_island
+		buildings = {
+			infrastructure = 4
+			hydroelectric_plant = 3
+			air_base = 2
+			4102 = {
+				naval_base = 3
+			}
+			radar_station = 1
+			schools = 1
+		}
+		victory_points = { 4102 10 }
+		victory_points = { 7115 5 }
+	}
+
+	provinces = {
+		4102 11949 12032 4198 1183 7115 1123
+	}
+}

@@ -1,0 +1,36 @@
+state = {
+	id = 973
+	name = "STATE_973"
+
+	history = {
+		owner = ZZZ # PER
+		buildings = {
+			infrastructure = 4
+			hospitals = 1
+		}
+		# add_core_of = PER
+		victory_points = {
+			18798 10
+		}
+		victory_points = {
+			18794 4
+		}
+		victory_points = {
+			18763 2
+		}
+		victory_points = {
+			18772 1
+		}
+		victory_points = {
+			18786 1
+		}
+	}
+
+	provinces = {
+		1636 1822 7604 13120 18743 18763 18772 18786 18794 18798
+	}
+	manpower = 1087182
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

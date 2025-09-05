@@ -1,0 +1,30 @@
+state = { #Population Done
+	id = 61
+	name = "STATE_61"
+	manpower = 1051694
+
+
+	state_category = city
+
+	history = {
+		owner = ZZZ # GER
+		victory_points = { 321 10 }
+		victory_points = { 11305 3 }
+		victory_points = { 293 3 }
+		victory_points = { 3258 2 }
+		buildings = {
+			offices = 1
+			barracks = 1
+			infrastructure = 5
+			thermoelectric_plant = 2
+			321 = {
+				naval_base = 6
+			}
+		}
+		# add_core_of = GER
+	}
+
+	provinces = {
+		268 293 321 11305 15835
+	}
+}

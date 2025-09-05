@@ -1,0 +1,52 @@
+state = {
+	id = 483
+	name = "STATE_483"
+	resources = {
+		tungsten = 4.000
+	}
+
+	history = {
+		owner = ZZZ # MEX
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			offices = 1
+			hospitals = 1
+			schools = 1
+			infrastructure = 2
+			thermoelectric_plant = 1
+			4908 = {
+				naval_base = 3
+			}
+		}
+		# add_core_of = MEX
+		victory_points = { # Hermosillo
+			10765 8
+		}
+		victory_points = { # Nogales
+			8012 3
+		}
+		victory_points = { # Guaymas
+			4908 3
+		}
+		victory_points = { # Ciudad Obregon
+			4977 6
+		}
+		victory_points = { # SLRC
+			12833 2
+		}
+		victory_points = { # Caborca
+			2069 1
+		}
+		victory_points = { # Agua Prieta
+			5071 1
+		}
+	}
+
+	provinces = {
+		245 2069 4908 4977 5071 8012 8033 10765 10848 12833 17309 17320
+	}
+	manpower = 928624
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

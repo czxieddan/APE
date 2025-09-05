@@ -1,0 +1,30 @@
+state = {
+	id = 2298
+	name = "STATE_2298"
+
+	history = {
+		owner = ZZZ # NRB
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 3
+			19250 = {
+				naval_base = 1
+			}
+			19268 = {
+				naval_base = 1
+			}
+		}
+		# add_core_of = NRB
+		# set_state_flag = GDP_regions_sarawak
+	}
+
+	provinces = {
+		19250 19268
+	}
+	manpower = 39162
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
+}

@@ -1,0 +1,44 @@
+state = {
+	id = 147
+	name = "STATE_147"
+
+	resources = {
+		uranium = 2
+	}
+
+	history = {
+		owner = ZZZ # FIN
+		buildings = {
+			infrastructure = 3
+			anti_air_building = 3
+			thermoelectric_plant = 1
+			offices = 1
+			schools = 1
+			barracks = 1
+			prisons = 1
+			hospitals = 2
+		}
+		# add_core_of = FIN
+		victory_points = {
+			6108 5
+		}
+		victory_points = {
+			6144 3
+		}
+		victory_points = {
+			204 3
+		}
+		victory_points = {
+			11211 3
+		}
+		# set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		204 3161 6009 6108 6144 9129 11211 18426
+	}
+	manpower = 379667
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

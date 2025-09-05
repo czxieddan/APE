@@ -1,0 +1,22 @@
+state = {
+	id = 648
+	name = "STATE_648"
+	state_category = tiny_island
+	manpower = 42
+	history = {
+		owner = ZZZ # JAP
+		# add_core_of = JAP
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 3
+			13026 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		13026
+	}
+}

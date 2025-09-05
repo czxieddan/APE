@@ -1,0 +1,23 @@
+state = {
+	id = 2057
+	name = "STATE_2057"
+	provinces = {
+		17804 17713
+	}
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		# set_state_flag = universal_renamings
+		owner = ZZZ # AAG
+		# add_core_of = AAG
+		victory_points = { 17804 1 }
+		buildings = {
+			infrastructure = 0
+			17804 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,71 @@
+state = {
+	id = 739
+	name = "STATE_739"
+	resources = {
+		oil = 34.000
+	}
+
+	history = {
+		owner = ZZZ # CAN
+		buildings = {
+			barracks = 1
+			infrastructure = 5
+			dockyard = 1
+			radar_station = 3
+			1799 = {
+				naval_base = 1
+			}
+			hydroelectric_plant = 3
+		}
+		victory_points = { # Prince George
+			1323 5
+		}
+		victory_points = { # Kelowna
+			7677 2
+		}
+		victory_points = { # Kamloops
+			7753 1
+		}
+		victory_points = { # Castlegar
+			12578 1
+		}
+		victory_points = { # Prince Rupert
+			1799 1
+		}
+		victory_points = { # Kitimat
+			10548 1
+		}
+		victory_points = { # Dawson Creek
+			1411 1
+		}
+		victory_points = { # Williams Lake
+			1737 1
+		}
+		victory_points = { # Quesnel
+			10644 1
+		}
+		victory_points = { # Revelstroke
+			4877 1
+		}
+		victory_points = { # Cranbrook
+			7820 1
+		}
+		victory_points = { # Fort St John
+			5981 1
+		}
+		victory_points = { # Fort Nelson
+			917 1
+		}
+		# add_core_of = CAN
+		# set_state_flag = GDP_regions_british_columbia
+		# set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		917 1323 1393 1411 1737 1799 1858 1872 2991 4343 4385 4678 4870 4877 5981 7677 7753 7761 7820 7853 10228 10258 10273 10548 10644 12231 12508 12571 12578 17172 17227 17231 17235 17236
+	}
+	manpower = 435785
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

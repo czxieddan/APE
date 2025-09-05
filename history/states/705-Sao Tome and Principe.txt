@@ -1,0 +1,26 @@
+state = { #Population Done
+	id = 705
+	name = "STATE_705"
+	manpower = 29670
+	state_category = tiny_island
+
+	history = {
+		owner = ZZZ # IBR
+		# add_core_of = SAO
+		victory_points = { 13015 1 }
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			barracks = 1
+			radar_station = 4
+			13015 = {
+				naval_base = 1
+			}
+		}
+		# set_state_flag = GDP_regions_equatorial_guinea
+	}
+
+	provinces = {
+		13015 19989
+	}
+}

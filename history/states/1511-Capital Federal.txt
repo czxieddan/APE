@@ -1,0 +1,27 @@
+state = { #Population Done
+	id = 1511
+	name = "STATE_1511" # Ciudad de Buenos Aires
+	manpower = 2966634
+
+	state_category = metropolis
+
+	history = {
+		owner = ZZZ # ARG
+		buildings = {
+			barracks = 1
+			thermoelectric_plant = 3
+			offices = 2
+			prisons = 1
+			schools = 2
+			hospitals = 1
+			dockyard = 1
+			infrastructure = 6
+		}
+		# add_core_of = ARG
+		victory_points = { 14946 35 }
+	}
+
+	provinces = {
+		14946
+	}
+}

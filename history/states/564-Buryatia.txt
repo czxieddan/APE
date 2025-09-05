@@ -1,0 +1,46 @@
+state = {
+	id = 564
+	name = "STATE_564"
+	resources = {
+		steel = 18.000
+		chromium = 17.000
+		tungsten = 12.000
+		oil = 3.000
+	}
+
+	history = {
+		owner = ZZZ # BRY
+		buildings = {
+			infrastructure = 2
+			thermoelectric_plant = 1
+			offices = 1
+			schools = 1
+		}
+		# add_core_of = BRY
+		victory_points = {
+			14459 10
+		}
+		victory_points = {
+			8551 1
+		}
+		victory_points = {
+			4766 1
+		}
+		victory_points = {
+			1762 1
+		}
+		victory_points = {
+			10528 1
+		}
+		# set_state_flag = GDP_category_town
+		#Lack of GDP compared to others in the category
+	}
+
+	provinces = {
+		1762 1810 4766 4837 5808 7038 7751 7816 7835 7962 8549 8551 8624 8671 10528 10543 10658 13176 14458 14459
+	}
+	manpower = 602617
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

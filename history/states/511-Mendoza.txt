@@ -1,0 +1,29 @@
+state = {
+	id = 511
+	name = "STATE_511" # Mendoza
+	manpower = 527383
+
+	state_category = town
+
+	history = {
+		owner = ZZZ # ARG
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			barracks = 2
+			schools = 1
+			offices = 1
+			prisons = 1
+			hospitals = 1
+			air_base = 1
+		}
+		# add_core_of = ARG
+		victory_points = { 10992 15 }
+		victory_points = { 15077 1 }
+		# set_state_flag = GDP_regions_mendoza
+	}
+
+	provinces = {
+		8215 10992 14932 14953 15058 15077 15092
+	}
+}

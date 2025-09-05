@@ -1,0 +1,25 @@
+state = { #Population Done
+	id = 902
+	name = "STATE_902"
+	provinces = {
+		13009
+	}
+	manpower = 94814
+	state_category = tiny_island
+
+
+	history = {
+		owner = ZZZ # WIN
+		# add_core_of = WIN
+		# add_core_of = SLU
+		buildings = {
+			infrastructure = 2
+			offices = 1
+			barracks = 1
+			air_base = 1
+		}
+		add_extra_state_shared_building_slots = 1
+		victory_points = { 13009 1 }
+	}
+	buildings_max_level_factor = 1.000
+}

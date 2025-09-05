@@ -1,0 +1,37 @@
+bookmarks = {
+	bookmark = {
+		name = "2050_NAME"
+		desc = "2050_DESC"
+		date = 2050.1.1.12
+		picture = "GFX_select_date_2050"
+		default_country = "ZZZ"
+		default = yes
+		
+		"ZZZ"={
+			history = "2050_ZZZ_DESC"
+			ideology = NoIdeologyGroup
+			available = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		
+		
+
+		"---"={
+			history = "2050_OTHER_DESC"
+		}
+
+
+		# minors from DLC ####
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

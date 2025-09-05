@@ -1,0 +1,25 @@
+state = {
+	id = 2210
+	name = "STATE_2210"
+
+	history = {
+		owner = ZZZ # IND
+		buildings = {
+			infrastructure = 1
+			radar_station = 1
+			air_base = 2
+			barracks = 1
+		}
+		# add_core_of = IND
+		# add_claim_by = AZH
+		# set_state_flag = GDP_regions_karnataka
+	}
+
+	provinces = {
+		18824
+	}
+	manpower = 42162
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
+}

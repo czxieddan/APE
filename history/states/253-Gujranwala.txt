@@ -1,0 +1,39 @@
+state = {
+	id = 253
+	name = "STATE_253"
+
+	history = {
+		owner = ZZZ # IND
+		# add_claim_by = AZH
+		# add_core_of = IND
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 4
+			prisons = 1
+			barracks = 1
+		}
+		victory_points = {
+			10887 15
+		}
+		victory_points = {
+			16032 10
+		}
+		victory_points = {
+			18941 2
+		}
+		victory_points = {
+			18830 5
+		}
+		victory_points = {
+			4979 1
+		}
+	}
+
+	provinces = {
+		4979 10887 16032 18830 18941
+	}
+	manpower = 4290241
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

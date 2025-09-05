@@ -1,0 +1,29 @@
+state = {
+	id = 1480
+	name = "STATE_1480"
+	resources = {
+		rubber = 8.000
+	}
+
+	history = {
+		owner = ZZZ # BRA
+		buildings = {
+			radar_station = 1
+			infrastructure = 1
+			barracks = 1
+		}
+		# add_core_of = BRA
+		# set_state_flag = GDP_regions_amazonas
+		victory_points = {
+			14767 5
+		}
+	}
+
+	provinces = {
+		12939 14766 14767 14768 17432 17440 17476
+	}
+	manpower = 73232
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

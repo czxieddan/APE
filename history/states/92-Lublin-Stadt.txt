@@ -1,0 +1,31 @@
+state = {
+	id = 92
+	name = "STATE_92"
+
+	history = {
+		owner = ZZZ # GGN
+		# add_core_of = GGN
+		# add_core_of = POL
+		victory_points = {
+			3559 10
+		}
+		buildings = {
+			infrastructure = 6
+			thermoelectric_plant = 1
+			barracks = 1
+			schools = 1
+			air_base = 1
+			offices = 1
+		}
+		# set_state_flag = universal_renamings
+		# set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		3559
+	}
+	manpower = 137096
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 2443
+	name = "STATE_2443"
+
+	history = {
+		owner = ZZZ # GUC
+		# add_core_of = GUC
+		# add_claim_by = SUR
+		# add_claim_by = FFR
+		# add_claim_by = FRS
+	}
+
+	provinces = {
+		2244
+	}
+	manpower = 85
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

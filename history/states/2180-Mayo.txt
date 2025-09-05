@@ -1,0 +1,21 @@
+state = {
+	id = 2180
+	name = "STATE_2180"
+
+	history = {
+		owner = ZZZ # IRE
+		buildings = {
+			infrastructure = 2
+			thermoelectric_plant = 1
+		}
+		# add_core_of = IRE
+	}
+
+	provinces = {
+		9321 9255
+	}
+	manpower = 123330
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

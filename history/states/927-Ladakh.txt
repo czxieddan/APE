@@ -1,0 +1,23 @@
+state = {
+	id = 927
+	name = "STATE_927"
+	provinces = {
+		12884 7316 16008 8005 16007 7273 2041
+	}
+	history = {
+		owner = ZZZ # IND
+		# add_claim_by = AZH
+		# add_claim_by = TIB
+		# add_core_of = IND
+		victory_points = { 8005 1 }
+		buildings = {
+			infrastructure = 1
+		}
+		# set_state_flag = GDP_regions_jammu_kashmir
+		# set_variable = { china_state_ref = 22 }
+		# set_variable = { china_region_ref = 2 }
+	}
+	manpower = 69735
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 1365
+	name = "STATE_1365"
+
+	history = {
+		owner = ZZZ # IME
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		victory_points = { 15738 2 }
+
+		# add_core_of = IME
+		# set_state_flag = GDP_category_rural
+		# set_state_flag = state_renamings
+	}
+
+	provinces = {
+		15738 15804
+	}
+
+	manpower = 240506
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

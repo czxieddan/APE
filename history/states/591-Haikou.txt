@@ -1,0 +1,38 @@
+state = {
+	id = 591
+	name = "STATE_591"
+
+	history = {
+		owner = ZZZ # CHI
+		# add_core_of = CHI
+		victory_points = {
+			8851 17
+		}
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 3
+			radar_station = 2
+			air_base = 1
+			barracks = 2
+			offices = 2
+			schools = 1
+			prisons = 1
+			8851 = {
+				naval_base = 2
+			}
+		}
+		add_extra_state_shared_building_slots = 4
+		# set_variable = { china_state_ref = 36 }
+		# set_variable = { china_region_ref = 4 }
+		# set_state_flag = GDP_regions_hainan
+		# set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		1070 8448 8851
+	}
+	manpower = 1121849
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

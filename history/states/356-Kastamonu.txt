@@ -1,0 +1,24 @@
+state = { ###POPS DONE
+	id = 356
+	name = "STATE_356" # Kastamonu
+	manpower = 654629
+	state_category = pastoral
+
+	history = {
+		owner = ZZZ # TUR
+		buildings = {
+			infrastructure = 3
+			6995 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 6938 2 }
+		victory_points = { 6995 1 }
+		# add_core_of = TUR
+		# set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		979 3967 3982 6938 6995 16218
+	}
+}

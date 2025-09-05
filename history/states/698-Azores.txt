@@ -1,0 +1,28 @@
+state = { #Population Done
+	id = 698
+	name = "STATE_698"
+	manpower = 320072
+
+	state_category = small_island
+
+	history = {
+		owner = ZZZ # IBR
+		victory_points = { 1751 7 }
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			barracks = 1
+			radar_station = 3
+			1751 = {
+				naval_base = 3
+			}
+		}
+		# add_core_of = IBR
+		# set_state_flag = GDP_regions_portugal
+		# set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		1751
+	}
+}

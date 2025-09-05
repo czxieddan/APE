@@ -1,0 +1,29 @@
+state = {
+	id = 709
+	name = "STATE_709"
+
+	history = {
+		owner = ZZZ # ITA
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			barracks = 1
+			radar_station = 4
+			2188 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			2188 10
+		}
+		# add_core_of = ITA
+	}
+
+	provinces = {
+		2188
+	}
+	manpower = 126703
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 917
+	name = "STATE_917"
+
+	history = {
+		owner = ZZZ # SAU
+		# add_core_of = SAU
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			8073 1
+		}
+		victory_points = {
+			13437 1
+		}
+		# set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1923 8073 10786 13437 18572
+	}
+	manpower = 371781
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

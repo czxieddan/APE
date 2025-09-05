@@ -1,0 +1,54 @@
+state = {
+	id = 723
+	name = "STATE_723"
+	resources = {
+		tungsten = 6.000
+	}
+
+	history = {
+		owner = ZZZ # NZL
+		buildings = {
+			infrastructure = 4
+			radar_station = 3
+			thermoelectric_plant = 2
+			prisons = 1
+			schools = 1
+			offices = 1
+			air_base = 1
+			2197 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { # Christchurch
+			2197 10
+		}
+		victory_points = { # Dunedin
+			2211 7
+		}
+		victory_points = { # Nelson
+			12632 2
+		}
+		victory_points = { # Timaru
+			2203 2
+		}
+		victory_points = { # Invercargill
+			8241 3
+		}
+		victory_points = { # Oban
+			15278 1
+		}
+		victory_points = { # Greymouth
+			8204 1
+		}
+		# set_state_flag = GDP_category_large_town
+		# add_core_of = NZL
+	}
+
+	provinces = {
+		2197 2203 2211 3232 4819 5195 7839 8204 8212 8232 8241 10650 12632 12966 12974 12980 12988 15278
+	}
+	manpower = 584362
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

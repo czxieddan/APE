@@ -1,0 +1,22 @@
+state = {
+	id = 1581
+	name = "STATE_1581"
+	provinces = {
+		11007
+	}
+history = {
+		owner = ZZZ # ARG
+		buildings = {
+			infrastructure = 2
+			barracks = 1
+		}
+		# add_core_of = ARG
+		victory_points = {
+			11007 7
+		}
+		# set_state_flag = GDP_regions_misiones
+	}
+	manpower = 126504
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

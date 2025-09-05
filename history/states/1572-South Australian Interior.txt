@@ -1,0 +1,30 @@
+state = {
+	id = 1572
+	name = "STATE_1572"
+	resources = {
+		uranium = 6.000
+	}
+
+	history = {
+		owner = ZZZ # AST
+		# add_core_of = AST
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { # Coober Pedy
+			12906 1
+		}
+		victory_points = { # Leigh Creek
+			2205 1
+		}
+		# set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		2205 5138 7623 8165 8206 10927 12906 13131 13170 13171 13172 15618
+	}
+	manpower = 69991
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

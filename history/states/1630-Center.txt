@@ -1,0 +1,25 @@
+state = {
+	id = 1630
+	name = "STATE_1630"
+	manpower = 141427
+
+	state_category = pastoral
+
+	history = {
+		owner = ZZZ # URG
+		buildings = {
+			infrastructure = 3
+			schools = 1
+			barracks = 1
+			air_base = 1
+		}
+		# add_core_of = URG
+		victory_points = { 15303 1 }
+		victory_points = { 12496 1 }
+		victory_points = { 15306 2 }
+	}
+
+	provinces = {
+		12496 15303 15306
+	}
+}

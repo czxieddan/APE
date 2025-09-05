@@ -1,0 +1,27 @@
+state = {
+	id = 529
+	name = "STATE_529" # Chugoku
+	manpower = 593272
+	state_category = town
+
+	#resources = {
+	#	chromium = 20
+	#}
+
+	history = {
+		owner = ZZZ # JAP
+		# add_core_of = JAP
+		# set_state_flag = has_offshore_island
+		buildings = {
+			infrastructure = 4
+			hydroelectric_plant = 1
+		}
+		victory_points = {
+			10055 10
+		}
+	}
+
+	provinces = {
+		1167 10055
+	}
+}

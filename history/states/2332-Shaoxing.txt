@@ -1,0 +1,45 @@
+state = {
+	id = 2332
+	name = "STATE_2332"
+
+	resources = {
+		steel = 10
+	}
+
+	history = {
+		owner = ZZZ # CHI
+		# add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			prisons = 1
+			schools = 1
+			barracks = 1
+			thermoelectric_plant = 2
+		}
+		victory_points = {
+			1096 11
+		}
+		victory_points = {
+			11991 5
+		}
+		victory_points = {
+			19522 5
+		}
+		victory_points = {
+			19524 4
+		}
+		add_extra_state_shared_building_slots = 1
+		# set_state_flag = GDP_regions_zhejiang_ouhai
+		# set_variable = { china_state_ref = 4 }
+		# set_variable = { china_region_ref = 0 }
+		# set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		11991 1096 19522 19524
+	}
+	manpower = 3564646
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

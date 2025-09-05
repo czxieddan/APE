@@ -1,0 +1,41 @@
+state = {
+	id = 466
+	name = "STATE_466"
+	resources = {
+		#
+	}
+
+	history = {
+		owner = ZZZ # CAN
+		buildings = {
+			infrastructure = 1
+			radar_station = 3
+		}
+		# add_core_of = CAN
+		victory_points = { # Schefferville
+			3208 1
+		}
+		victory_points = { # Puvirnituq
+			12147 1
+		}
+		victory_points = { # Chisasibi
+			490 1
+		}
+		victory_points = { # Ivujivik
+			17261 1
+		}
+		victory_points = { # Kuujjuaq
+			7364 1
+		}
+		# set_state_flag = GDP_regions_quebec
+		# set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		490 983 3208 3911 4666 6740 7364 10176 11682 11902 12147 13162 13166 13181 13184 13196 17251 17252 17259 17260 17261 17267 17271 17272 17276
+	}
+	manpower = 21639
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

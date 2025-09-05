@@ -1,0 +1,35 @@
+state = {
+	id = 1446
+	name = "STATE_1446"
+	resources = {
+		oil = 31.000
+	}
+
+	history = {
+		owner = ZZZ # TUR
+		victory_points = {
+			1549 5
+		}
+		victory_points = {
+			16282 4
+		}
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			offices = 1
+		}
+		# add_core_of = SYR
+		# add_core_of = KUR
+		# add_core_of = TUR
+		# set_state_flag = state_renamings
+		# set_state_flag = GDP_regions_turkish_syria
+	}
+
+	provinces = {
+		1549 1578 16281 16282 16283 18477
+	}
+	manpower = 377401
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}
