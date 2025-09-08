@@ -1,0 +1,17 @@
+characters = {
+	QDN_WangYaocheng = {
+		name = QDN_WangYaocheng
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_QDN_WangYaocheng
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup001_IdelogySubtype001
+			desc = QDN_WangYaocheng_desc
+			traits = { 
+		    }
+			expire = "2099.12.31.23"
+		}     
+	}
+}

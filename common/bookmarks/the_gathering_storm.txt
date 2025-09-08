@@ -4,12 +4,12 @@ bookmarks = {
 		desc = "2050_DESC"
 		date = 2050.1.1.12
 		picture = "GFX_select_date_2050"
-		default_country = "ZZZ"
+		default_country = "QDN"
 		default = yes
 		
-		"ZZZ"={
-			history = "2050_ZZZ_DESC"
-			ideology = NoIdeologyGroup
+		"QDN"={
+			history = "2050_QDN_DESC"
+			ideology = IdeologyGroup001
 			available = yes
 			ideas = {
 				

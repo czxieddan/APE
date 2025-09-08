@@ -63,6 +63,20 @@ D15 = {
 	color_ui = rgb { 252 182 112 }
 }
 
+# C
+
+GUZ = {
+	color = rgb { 15 90 5 }
+	color_ui = rgb { 15 90 5 }
+}
+
+QDN = {
+	color = rgb { 225 60 50 }
+	color_ui = rgb { 225 60 50 }
+}
+
+# DEBUG
+
 ZZZ = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }

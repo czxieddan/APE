@@ -1,19 +1,93 @@
 ideologies = {
-    NoIdeologyGroup = { # 没注册意识形态的用这个或作为占位符
+    IdeologyGroup000 = { # 没注册意识形态的用这个或作为占位符
 
 		types = {
-		    NoIdeologyGroup_NoIdelogySubtype = {}
+		    IdeologyGroup000_IdelogySubtype000 = {}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_NoIdeologyGroup_NoIdelogySubtype_1"
-			"FACTION_NAME_NoIdeologyGroup_NoIdelogySubtype_2"
-			"FACTION_NAME_NoIdeologyGroup_NoIdelogySubtype_3"
-			"FACTION_NAME_NoIdeologyGroup_NoIdelogySubtype_4"
-			"FACTION_NAME_NoIdeologyGroup_NoIdelogySubtype_5"
+			"FACTION_NAME_IdeologyGroup000_1"
+			"FACTION_NAME_IdeologyGroup000_2"
+			"FACTION_NAME_IdeologyGroup000_3"
+			"FACTION_NAME_IdeologyGroup000_4"
+			"FACTION_NAME_IdeologyGroup000_5"
 		}
 
 		color = { 0 0 0 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup001 = { 
+
+		types = {
+		    IdeologyGroup001_IdelogySubtype000 = {}
+			IdeologyGroup001_IdelogySubtype001 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup001_1"
+			"FACTION_NAME_IdeologyGroup001_2"
+			"FACTION_NAME_IdeologyGroup001_3"
+			"FACTION_NAME_IdeologyGroup001_4"
+			"FACTION_NAME_IdeologyGroup001_5"
+		}
+
+		color = { 225 60 50 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup002 = { 
+
+		types = {
+		    IdeologyGroup002_IdelogySubtype000 = {}
+			IdeologyGroup002_IdelogySubtype001 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup002_1"
+			"FACTION_NAME_IdeologyGroup002_2"
+			"FACTION_NAME_IdeologyGroup002_3"
+			"FACTION_NAME_IdeologyGroup002_4"
+			"FACTION_NAME_IdeologyGroup002_5"
+		}
+
+		color = { 0 55 90 }
 
 		rules = {
 			can_force_government = no

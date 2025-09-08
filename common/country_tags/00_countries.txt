@@ -1,1 +1,3 @@
+GUZ = "countries/GUZ.txt"
+QDN = "countries/QDN.txt"
 ZZZ = "countries/ZZZ.txt"

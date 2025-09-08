@@ -1656,7 +1656,17 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "tahoma_60"
-		path = "gfx/fonts/hoi_mapfont4"
+		fontfiles = { 
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_0"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_1"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_2"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_3"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_4"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_5"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_6"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_7"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_8"
+		}
 		color = 0xffffffff
 
 		textcolors = {
@@ -1671,7 +1681,15 @@ bitmapfonts = {
 	bitmapfont_override = {
 		name = "tahoma_60"
 		fontfiles = {
-			"gfx/fonts/japanese/hoi_mapfont4"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_0"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_1"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_2"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_3"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_4"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_5"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_6"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_7"
+			"gfx/fonts/FWZZAYB/FWZZAYB_100_8"
 		}
 		languages = { "l_japanese" }
 	}

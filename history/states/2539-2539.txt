@@ -1,0 +1,22 @@
+state = {
+	id = 2539
+	name = "STATE_2539"
+
+	history = {
+		owner = QDN
+		add_core_of = QDN
+		add_core_of = GUZ
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		19612 19546 7521
+	}
+	manpower = 2938101
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+	#impassable = yes
+}
