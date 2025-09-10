@@ -1,0 +1,25 @@
+DEBUG_FOCUS_decisions = {
+
+	LOAD_ZZZ_00 = {
+		icon = GFX_DEBUG_thumbnail cost = 0 fire_only_once = no allowed = {original_tag=ZZZ}
+		available = {hidden_trigger ={is_debug=yes NOT={has_focus_tree=ZZZ_00}}}
+		complete_effect = {hidden_effect = {load_focus_tree={tree = ZZZ_00 keep_completed = yes}mark_focus_tree_layout_dirty = yes}}
+	}
+}
+
+DEBUG_EVENT_decisions = {
+}
+DEBUG_SE_decisions = {
+
+	APE_SE_T_1 = {
+		icon = GFX_DEBUG_thumbnail
+		available = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			set_variable = { global.SE_ID = 1 } APE_SE_SE = yes
+		}
+	}
+}

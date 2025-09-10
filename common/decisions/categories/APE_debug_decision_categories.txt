@@ -1,0 +1,36 @@
+DEBUG_FOCUS_decisions = {
+	icon = GFX_DEBUG_thumbnail
+	allowed = {
+		
+	}
+	visible = {
+		is_debug  = yes
+		has_global_flag = DEBUGFOCUS
+	}
+	visible_when_empty = yes
+	priority = 10000
+}
+DEBUG_EVENT_decisions = {
+	icon = GFX_DEBUG_thumbnail
+	allowed = {
+		
+	}
+	visible = {
+		is_debug  = yes
+		has_global_flag = DEBUGEVENT
+	}
+	visible_when_empty = yes
+	priority = 9999
+}
+DEBUG_SE_decisions = {
+	icon = GFX_DEBUG_thumbnail
+	allowed = {
+		
+	}
+	visible = {
+		is_debug  = yes
+		# has_global_flag = DEBUGEVENT
+	}
+	visible_when_empty = yes
+	priority = 9998
+}

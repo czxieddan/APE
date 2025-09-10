@@ -1,0 +1,100 @@
+APE_SE_SE = {
+    hidden_effect = {
+   		every_possible_country = { 
+	 	    add_to_array = { THIS.APE_SE_ID = global.SE_ID } 
+			set_variable = { var_SE_ID = global.SE_ID }
+			meta_effect = {
+			    text = {
+				    play_song = music_SE_[GetAPESEID]
+				}
+				GetAPESEID = "[?var_SE_ID]"
+			}
+			clear_variable = var_SE_ID
+		}
+		set_variable = { SE_ID = global.SE_ID }
+		meta_effect = {
+		    text = {
+			    SE_SE_[GetSEID] = yes
+			}
+			GetSEID = "[?SE_ID]"
+		}
+		clear_variable = SE_ID
+		clear_variable = global.SE_ID
+	}
+}
+
+
+SE_SE_1 = {
+    ROOT = {
+	    add_to_array = { ROOT.SE_SE_1_States = 6 }
+		add_to_array = { ROOT.SE_SE_1_States = 34 }
+		add_to_array = { ROOT.SE_SE_1_States = 1734 }
+		add_to_array = { ROOT.SE_SE_1_States = 8 }
+		add_to_array = { ROOT.SE_SE_1_States = 42 }
+		add_to_array = { ROOT.SE_SE_1_States = 1811 }
+		add_to_array = { ROOT.SE_SE_1_States = 72 }
+		add_to_array = { ROOT.SE_SE_1_States = 68 }
+		add_to_array = { ROOT.SE_SE_1_States = 50 }
+		add_to_array = { ROOT.SE_SE_1_States = 52 }
+		add_to_array = { ROOT.SE_SE_1_States = 116 }
+		add_to_array = { ROOT.SE_SE_1_States = 159 }
+		add_to_array = { ROOT.SE_SE_1_States = 39 }
+		add_to_array = { ROOT.SE_SE_1_States = 153 }		
+		add_to_array = { ROOT.SE_SE_1_States = 2111 }
+		add_to_array = { ROOT.SE_SE_1_States = 102 }
+		add_to_array = { ROOT.SE_SE_1_States = 98 }
+		add_to_array = { ROOT.SE_SE_1_States = 1772 }
+		add_to_array = { ROOT.SE_SE_1_States = 770 }
+		add_to_array = { ROOT.SE_SE_1_States = 62 }
+		add_to_array = { ROOT.SE_SE_1_States = 86 }
+		add_to_array = { ROOT.SE_SE_1_States = 4 }
+		add_to_array = { ROOT.SE_SE_1_States = 1025 }	
+		add_to_array = { ROOT.SE_SE_1_States = 60 }
+		add_to_array = { ROOT.SE_SE_1_States = 9 }
+		add_to_array = { ROOT.SE_SE_1_States = 54 }
+		add_to_array = { ROOT.SE_SE_1_States = 1026 }
+		add_to_array = { ROOT.SE_SE_1_States = 60 }
+		add_to_array = { ROOT.SE_SE_1_States = 9 }
+		add_to_array = { ROOT.SE_SE_1_States = 2536 }
+		add_to_array = { ROOT.SE_SE_1_States = 75 }
+		add_to_array = { ROOT.SE_SE_1_States = 69 }
+		add_to_array = { ROOT.SE_SE_1_States = 66 }
+		add_to_array = { ROOT.SE_SE_1_States = 776 }
+		add_to_array = { ROOT.SE_SE_1_States = 152 }
+		add_to_array = { ROOT.SE_SE_1_States = 53 }
+		add_to_array = { ROOT.SE_SE_1_States = 58 }
+		add_to_array = { ROOT.SE_SE_1_States = 188 }
+		add_to_array = { ROOT.SE_SE_1_States = 59 }
+		add_to_array = { ROOT.SE_SE_1_States = 1815 }
+		add_to_array = { ROOT.SE_SE_1_States = 55 }
+		add_to_array = { ROOT.SE_SE_1_States = 56 }
+		add_to_array = { ROOT.SE_SE_1_States = 57 }
+		add_to_array = { ROOT.SE_SE_1_States = 51 }
+		add_to_array = { ROOT.SE_SE_1_States = 1810 }
+		add_to_array = { ROOT.SE_SE_1_States = 1809 }
+		add_to_array = { ROOT.SE_SE_1_States = 775 }
+		add_to_array = { ROOT.SE_SE_1_States = 1813 }
+		add_to_array = { ROOT.SE_SE_1_States = 1373 }
+		add_to_array = { ROOT.SE_SE_1_States = 2526 }
+		add_to_array = { ROOT.SE_SE_1_States = 61 }
+		add_to_array = { ROOT.SE_SE_1_States = 63 }
+		add_to_array = { ROOT.SE_SE_1_States = 64 }
+		add_to_array = { ROOT.SE_SE_1_States = 65 }
+		add_to_array = { ROOT.SE_SE_1_States = 1814}
+		add_to_array = { ROOT.SE_SE_1_States = 2528}
+	    set_cosmetic_tag = cosmeticTagHRR
+	    for_each_loop = {
+		    array = ROOT.SE_SE_1_States
+			value = v
+			every_possible_country = { 
+			    limit = { 
+				    v = { is_core_of = THIS }
+					NOT = { tag = ROOT }
+				}
+				remove_state_core = v
+			}
+			ROOT = { add_state_core = v transfer_state = v }
+		}
+		clear_array = ROOT.SE_SE_1_States
+	}
+}
