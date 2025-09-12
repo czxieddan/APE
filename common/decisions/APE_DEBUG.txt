@@ -11,6 +11,18 @@ DEBUG_EVENT_decisions = {
 }
 DEBUG_SE_decisions = {
 
+    APE_SE_T_clr = {
+		icon = GFX_DEBUG_thumbnail
+		available = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			clear_array = ROOT.APE_SE_ID
+		}
+	}
+
 	APE_SE_T_1 = {
 		icon = GFX_DEBUG_thumbnail
 		available = {
@@ -20,6 +32,18 @@ DEBUG_SE_decisions = {
 		fire_only_once = no
 		complete_effect = {
 			set_variable = { global.SE_ID = 1 } APE_SE_SE = yes
+		}
+	}
+	
+	APE_SE_T_2 = {
+		icon = GFX_DEBUG_thumbnail
+		available = {
+			is_debug = yes
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			set_variable = { global.SE_ID = 2 } APE_SE_SE = yes
 		}
 	}
 }

@@ -1,7 +1,7 @@
 APE_SE_SE = {
     hidden_effect = {
    		every_possible_country = { 
-	 	    add_to_array = { THIS.APE_SE_ID = global.SE_ID } 
+	 	    add_to_array = { array = THIS.APE_SE_ID value = global.SE_ID index = 0 } 
 			set_variable = { var_SE_ID = global.SE_ID }
 			meta_effect = {
 			    text = {
@@ -12,6 +12,7 @@ APE_SE_SE = {
 			clear_variable = var_SE_ID
 		}
 		set_variable = { SE_ID = global.SE_ID }
+		clr_country_flag = minimize_SE
 		meta_effect = {
 		    text = {
 			    SE_SE_[GetSEID] = yes
@@ -19,7 +20,7 @@ APE_SE_SE = {
 			GetSEID = "[?SE_ID]"
 		}
 		clear_variable = SE_ID
-		clear_variable = global.SE_ID
+		clear_variable = global.SE_ID 
 	}
 }
 

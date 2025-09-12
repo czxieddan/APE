@@ -1,0 +1,18 @@
+defined_text = {
+	name = APE_SE_TT
+	text = {
+		localization_key = "APE_SE_TT_[?APE_SE_ID^SE_index]"
+	}
+}
+defined_text = {
+	name = APE_SE_DE
+	text = {
+		localization_key = "APE_SE_DE_[?APE_SE_ID^SE_index]"
+	}
+}
+defined_text = {
+	name = APE_SE_MX
+	text = {
+		localization_key = "APE_SE_MX_[?APE_SE_ID^SE_index]"
+	}
+}

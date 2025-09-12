@@ -1,0 +1,42 @@
+scripted_gui = {
+	SE_view = {
+		context_type = player_context
+		window_name = "SE_view"
+		visible = {
+			check_variable = {
+				ROOT.APE_SE_ID^0 > 0
+			}
+			NOT = {
+				has_country_flag = minimize_SE
+			}
+			NOT = {
+				has_country_flag = minimize_SE_forever
+			}
+		}
+		effects = {
+		    SE_btn_minimize_click = {
+				set_country_flag = minimize_SE 
+			}
+			SE_btn_close_click = {
+				remove_from_array = {
+                    array = ROOT.APE_SE_ID
+                    index = 0
+                }
+			}
+		}
+		properties = {
+			SE_image = {
+				image = "GFX_SE_image_[?ROOT.APE_SE_ID^SE_index]"
+			}
+		}
+		dynamic_lists = {
+			SE_grid = {
+				array = ROOT.APE_SE_ID
+				entry_container = SE_window
+				value = SE_value
+				index = SE_index
+			}
+		}
+	}
+}
+
