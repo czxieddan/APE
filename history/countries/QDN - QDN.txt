@@ -1,12 +1,12 @@
 capital = 2383
 set_politics = {
-	ruling_party = IdeologyGroup001
+	ruling_party = IdeologyGroup1
 	last_election = "2049.12.8"
     #election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	IdeologyGroup001 = 100
+	IdeologyGroup1 = 100
 }
 recruit_character = QDN_WangYaocheng
 #fuck

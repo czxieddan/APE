@@ -9,17 +9,15 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # YUN
-		# add_core_of = YUN
+		owner = YUN
+		add_core_of = YUN
 		victory_points = {
 			7446 31
 		}
 		victory_points = {
 			19533 2
 		}
-		victory_points = {
-			19558 1
-		}
+		
 		buildings = {
 			air_base = 2
 			barracks = 1
@@ -36,7 +34,7 @@ state = {
 	}
 
 	provinces = {
-		5756 7446 19533 19558
+		5756 7446 19533
 	}
 	manpower = 2542453
 	buildings_max_level_factor = 1.000

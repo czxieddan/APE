@@ -91,7 +91,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4450;9377;sea;2887;-1;-1;-1;-1;;Guadeloupe-Antigua
 9377;19993;sea;2887;-1;-1;-1;-1;;Guadeloupe-Montserrat
 12140;13029;impassable;-1;3325;2559;3326;2559;;Guam-Carolines
-1070;4160;sea;5244;-1;-1;-1;-1;;Hainan-Strait
 13052;20001;sea;5261;-1;-1;-1;-1;;Hawaii
 13051;13052;sea;5932;-1;-1;-1;-1;;Hawaii
 7195;10048;sea;5958;-1;-1;-1;-1;;Hawaii-Maui

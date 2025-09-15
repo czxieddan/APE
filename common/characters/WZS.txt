@@ -1,0 +1,17 @@
+characters = {
+	WZS_MoLisi = {
+		name = WZS_MoLisi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_WZS_MoLisi
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup4_IdelogySubtype1
+			desc = WZS_MoLisi_desc
+			traits = { 
+		    }
+			expire = "2099.12.31.23"
+		}     
+	}
+}

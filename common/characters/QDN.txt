@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = IdeologyGroup001_IdelogySubtype001
+			ideology = IdeologyGroup1_IdelogySubtype1
 			desc = QDN_WangYaocheng_desc
 			traits = { 
 		    }

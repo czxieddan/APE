@@ -1,0 +1,24 @@
+state = {
+	id = 2541
+	name = "STATE_2541"
+
+	history = {
+		owner = YUN
+		# add_core_of = YUN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4407 2
+		}
+	}
+
+	provinces = {
+		4407 19719 10856 4964 12899
+	}
+	manpower = 938101
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+	#impassable = yes
+}

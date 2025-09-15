@@ -1,16 +1,16 @@
 ideologies = {
-    IdeologyGroup000 = { # 没注册意识形态的用这个或作为占位符
+    IdeologyGroup0 = { # 没注册意识形态的用这个或作为占位符
 
 		types = {
-		    IdeologyGroup000_IdelogySubtype000 = {}
+		    IdeologyGroup0_IdelogySubtype0 = {}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_IdeologyGroup000_1"
-			"FACTION_NAME_IdeologyGroup000_2"
-			"FACTION_NAME_IdeologyGroup000_3"
-			"FACTION_NAME_IdeologyGroup000_4"
-			"FACTION_NAME_IdeologyGroup000_5"
+			"FACTION_NAME_IdeologyGroup0_1"
+			"FACTION_NAME_IdeologyGroup0_2"
+			"FACTION_NAME_IdeologyGroup0_3"
+			"FACTION_NAME_IdeologyGroup0_4"
+			"FACTION_NAME_IdeologyGroup0_5"
 		}
 
 		color = { 0 0 0 }
@@ -35,19 +35,19 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	IdeologyGroup001 = { 
+	IdeologyGroup1 = { 
 
 		types = {
-		    IdeologyGroup001_IdelogySubtype000 = {}
-			IdeologyGroup001_IdelogySubtype001 = {}
+		    IdeologyGroup1_IdelogySubtype0 = {}
+			IdeologyGroup1_IdelogySubtype1 = {}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_IdeologyGroup001_1"
-			"FACTION_NAME_IdeologyGroup001_2"
-			"FACTION_NAME_IdeologyGroup001_3"
-			"FACTION_NAME_IdeologyGroup001_4"
-			"FACTION_NAME_IdeologyGroup001_5"
+			"FACTION_NAME_IdeologyGroup1_1"
+			"FACTION_NAME_IdeologyGroup1_2"
+			"FACTION_NAME_IdeologyGroup1_3"
+			"FACTION_NAME_IdeologyGroup1_4"
+			"FACTION_NAME_IdeologyGroup1_5"
 		}
 
 		color = { 225 60 50 }
@@ -72,22 +72,96 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	IdeologyGroup002 = { 
+	IdeologyGroup2 = { 
 
 		types = {
-		    IdeologyGroup002_IdelogySubtype000 = {}
-			IdeologyGroup002_IdelogySubtype001 = {}
+		    IdeologyGroup2_IdelogySubtype0 = {}
+			IdeologyGroup2_IdelogySubtype1 = {}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_IdeologyGroup002_1"
-			"FACTION_NAME_IdeologyGroup002_2"
-			"FACTION_NAME_IdeologyGroup002_3"
-			"FACTION_NAME_IdeologyGroup002_4"
-			"FACTION_NAME_IdeologyGroup002_5"
+			"FACTION_NAME_IdeologyGroup2_1"
+			"FACTION_NAME_IdeologyGroup2_2"
+			"FACTION_NAME_IdeologyGroup2_3"
+			"FACTION_NAME_IdeologyGroup2_4"
+			"FACTION_NAME_IdeologyGroup2_5"
 		}
 
 		color = { 0 55 90 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup3 = { 
+
+		types = {
+		    IdeologyGroup3_IdelogySubtype0 = {}
+			IdeologyGroup3_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup3_1"
+			"FACTION_NAME_IdeologyGroup3_2"
+			"FACTION_NAME_IdeologyGroup3_3"
+			"FACTION_NAME_IdeologyGroup3_4"
+			"FACTION_NAME_IdeologyGroup3_5"
+		}
+
+		color = { 165 255 225 }
+
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	IdeologyGroup4 = { 
+
+		types = {
+		    IdeologyGroup4_IdelogySubtype0 = {}
+			IdeologyGroup4_IdelogySubtype1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_IdeologyGroup4_1"
+			"FACTION_NAME_IdeologyGroup4_2"
+			"FACTION_NAME_IdeologyGroup4_3"
+			"FACTION_NAME_IdeologyGroup4_4"
+			"FACTION_NAME_IdeologyGroup4_5"
+		}
+
+		color = { 119 153 119 }
 
 		rules = {
 			can_force_government = no

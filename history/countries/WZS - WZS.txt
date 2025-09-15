@@ -1,0 +1,12 @@
+capital = 591
+set_politics = {
+	ruling_party = IdeologyGroup4
+	last_election = "2049.9.11"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup4 = 100
+}
+recruit_character = WZS_MoLisi
+#fuck

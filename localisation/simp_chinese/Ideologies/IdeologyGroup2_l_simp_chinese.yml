@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ 
+ IdeologyGroup2: "自由意志社会主义"
+ IdeologyGroup2_noun: "$IdeologyGroup2$"
+ IdeologyGroup2_desc: "$IdeologyGroup2$政体"
+ IdeologyGroup2_drift: "意识形态向$IdeologyGroup2$变化力度"
+ IdeologyGroup2_IdelogySubtype0: ""
+ IdeologyGroup2_IdelogySubtype0_desc: ""
+ IdeologyGroup2_IdelogySubtype1: "学生议会联邦派"
+ IdeologyGroup2_IdelogySubtype1_desc: "妈的没文案不会写"
+ 
+ GUZ_IdeologyGroup2_party: "学生议会"
+ GUZ_IdeologyGroup2_party_long: "$GUZ$$GUZ_IdeologyGroup2_party$"

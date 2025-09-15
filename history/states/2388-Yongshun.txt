@@ -5,7 +5,6 @@ state = {
 	history = {
 		owner = QDN
 		add_core_of = QDN
-		add_core_of = GUZ
 		buildings = {
 			infrastructure = 2
 		}
