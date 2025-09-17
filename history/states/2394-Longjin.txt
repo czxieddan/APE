@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # GUX
-		# add_core_of = GUX
+		owner = GUX
+		add_core_of = GUX
 		buildings = {
 			infrastructure = 2
 		}
@@ -22,7 +22,7 @@ state = {
 	}
 
 	provinces = {
-		4121 4656 1469 19497 19544
+		4656 1469 19497 19544 19064 19476
 	}
 	manpower = 1445817
 	buildings_max_level_factor = 1.000

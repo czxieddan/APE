@@ -5,8 +5,8 @@ state = {
 
 	state_category = large_town
 	history = {
-		owner = ZZZ # GNG
-		# add_core_of = GNG
+		owner = AOM
+		add_core_of = AOM
 		# set_variable = { china_state_ref = 32 }
 		# set_variable = { china_region_ref = 4 }
 		# set_state_flag = state_renamings

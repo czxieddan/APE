@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
 			infrastructure = 3
 			offices = 1
@@ -20,12 +20,6 @@ state = {
 			4183 1
 		}
 		victory_points = {
-			7199 4
-		}
-		victory_points = {
-			19531 3
-		}
-		victory_points = {
 			19594 3
 		}
 		add_extra_state_shared_building_slots = 2
@@ -36,7 +30,7 @@ state = {
 	}
 
 	provinces = {
-		4183 9942 1053 11945 4081 10112 19594 12030 19531 7199
+		4183 9942 1053 11945 4081 10112 19594 12030
 	}
 	manpower = 3811780
 	buildings_max_level_factor = 1.000

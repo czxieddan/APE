@@ -8,7 +8,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # GNG
+		owner = NAL
+		add_core_of = NAL
 		# add_core_of = GNG
 		# set_state_flag = state_renamings
 

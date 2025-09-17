@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
 			infrastructure = 3
 			11986 = {
@@ -38,7 +38,7 @@ state = {
 	}
 
 	provinces = {
-		11986 7131 19782 19642 7027
+		11986 7131 19782 19642 7027 19759 12057 
 	}
 	manpower = 4401094
 	buildings_max_level_factor = 1.000

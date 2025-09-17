@@ -3,8 +3,9 @@ state = {
 	name = "STATE_599"
 
 	history = {
-		owner = ZZZ # GUX
-		# add_core_of = GUX
+		owner = NAL
+		add_core_of = NAL
+		add_core_of = GUX
 		buildings = {
 			infrastructure = 3
 			thermoelectric_plant = 1
@@ -29,7 +30,7 @@ state = {
 	}
 
 	provinces = {
-		1023 7168 10404 12407 17000
+		1023 7168 10404 12407 17000 10039 7095
 	}
 	manpower = 2890569
 	buildings_max_level_factor = 1.000

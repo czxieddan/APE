@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1737"
 
 	history = {
-		owner = ZZZ # VIN
+		owner = GUX
 		# add_core_of = VIN
 		# add_core_of = VIC
 		# set_demilitarized_zone = yes
@@ -12,11 +12,11 @@ state = {
 			barracks = 1
 		}
 		victory_points = { 19021 1 }
-		victory_points = { 19048 1 }
+		
 	}
 
 	provinces = {
-		19018 19021 19048 19074 19161
+		19021 19161
 	}
 	manpower = 1052834
 	buildings_max_level_factor = 1.000

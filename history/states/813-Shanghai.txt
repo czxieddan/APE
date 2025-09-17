@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
 			schools = 1
 			offices = 1

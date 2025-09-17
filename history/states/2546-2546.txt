@@ -1,0 +1,39 @@
+state = {
+	id = 2546
+	name = "STATE_2546"
+
+	history = {
+		owner = NAL
+		add_core_of = NAL
+		buildings = {
+			infrastructure = 3
+			schools = 1
+			prisons = 1
+			offices = 1
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+		
+        victory_points = {
+            7199 4
+        }
+        victory_points = {
+            19531 3
+        }
+        victory_points = {
+            4083 2
+        }
+        victory_points = {
+            19460 2
+        }
+	}
+
+	provinces = {
+		7199 7172 19531 4083 19460 19470
+	}
+	manpower = 938101
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+	#impassable = yes
+}

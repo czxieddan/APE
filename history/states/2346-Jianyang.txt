@@ -3,8 +3,8 @@ state = {
 	name = "STATE_2346"
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
 			infrastructure = 1
 		}
@@ -18,7 +18,7 @@ state = {
 			10042 2
 		}
 		victory_points = {
-			19577 1
+			4113 1
 		}
 		# set_state_flag = GDP_regions_fujian
 		# set_variable = { china_state_ref = 33 }
@@ -26,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		4070 10012 10042 11961 19577 19715
+		4070 10012 10042 11961 19715 4113
 	}
 	manpower = 1071761
 	buildings_max_level_factor = 1.000

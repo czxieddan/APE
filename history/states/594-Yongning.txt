@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # GUX
-		# add_core_of = GUX
+		owner = GUX
+		add_core_of = GUX
 		add_extra_state_shared_building_slots = 1
 		# set_variable = { china_state_ref = 19 }
 		# set_variable = { china_region_ref = 2 }
@@ -22,16 +22,19 @@ state = {
 			thermoelectric_plant = 2
 		}
 		victory_points = {
-			7137 14
+			7137 20
 		}
 		victory_points = {
 			10050 5
 		}
+		victory_points = {
+            4028 5
+        }
 		# set_state_flag = GDP_category_rural
 	}
 
 	provinces = {
-		4134 4177 7137 7650 10050 19451 19464 19476 19486
+		7137 7650 10050 19451 4028 19545
 	}
 	manpower = 3966905
 	buildings_max_level_factor = 1.000

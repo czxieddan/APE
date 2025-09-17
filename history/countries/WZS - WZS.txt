@@ -8,5 +8,14 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup4 = 100
 }
+set_autonomy = {
+	target = AOM
+	autonomy_state = autonomy_WZS_WZSZA
+}
+AOM = {
+    set_popularities = {
+	    IdeologyGroup4 = 100
+    }
+}
 recruit_character = WZS_MoLisi
 #fuck

@@ -1,4 +1,7 @@
+AOM = "countries/AOM.txt"
+GUX = "countries/GUX.txt"
 GUZ = "countries/GUZ.txt"
+NAL = "countries/NAL.txt"
 QDN = "countries/QDN.txt"
 WZS = "countries/WZS.txt"
 YUN = "countries/YUN.txt"

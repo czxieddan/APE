@@ -6,7 +6,8 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = ZZZ # GNG
+		owner = NAL
+		add_core_of = NAL
 		# add_core_of = GNG
 		# set_variable = { china_state_ref = 35 }
 		# set_variable = { china_region_ref = 4 }
@@ -28,9 +29,12 @@ state = {
 		victory_points = {
 			11941 5
 		}
+		victory_points = {
+			19598 3
+		}
 	}
 
 	provinces = {
-		4092 11941 10080 12014 9997 10121
+		4092 11941 10080 12014 9997 10121 19598
 	}
 }

@@ -1,0 +1,16 @@
+bitmapfonts = {
+    bitmapfont = {
+		name = "Mingmei22bls"
+		fontfiles = {
+            "gfx/fonts/Mingmei/Mingmei22bls_0"
+		}
+		color = 0xffffffff
+	}
+    bitmapfont = {
+		name = "Mingmei32bls"
+		fontfiles = {
+            "gfx/fonts/Mingmei/Mingmei32bls_0"
+		}
+		color = 0xffffffff
+	}
+}

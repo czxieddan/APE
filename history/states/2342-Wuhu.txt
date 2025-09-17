@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = NAL
+		add_core_of = NAL
 		buildings = {
 			infrastructure = 3
 		}
@@ -19,10 +19,10 @@ state = {
 			4105 2
 		}
 		victory_points = {
-			11994 5
+			11937 2
 		}
 		victory_points = {
-			12061 2
+			19494 4
 		}
 		add_extra_state_shared_building_slots = 2
 		# set_state_flag = GDP_regions_anhui
@@ -32,7 +32,7 @@ state = {
 	}
 
 	provinces = {
-		12061 11994 1099 1171 4105
+		1099 1171 4105 19494 11937 10044 19454
 	}
 	manpower = 6502101
 	buildings_max_level_factor = 1.000

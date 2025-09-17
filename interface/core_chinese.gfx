@@ -292,7 +292,7 @@ bitmapfonts = {
 			"gfx/fonts/chinese/hoi_24header_1of4"	
 			"gfx/fonts/chinese/hoi_24header_2of4"	
 			"gfx/fonts/chinese/hoi_24header_3of4"	
-			"gfx/fonts/chinese/hoi_24header_4of4"	
+			"gfx/fonts/chinese/hoi_24header_4of4"
 		}
 	languages = { "l_simp_chinese" } 
 	}
@@ -325,7 +325,7 @@ bitmapfonts = {
 			"gfx/fonts/chinese/hoi_36header_1of4"	
 			"gfx/fonts/chinese/hoi_36header_2of4"	
 			"gfx/fonts/chinese/hoi_36header_3of4"	
-			"gfx/fonts/chinese/hoi_36header_4of4"	
+			"gfx/fonts/chinese/hoi_36header_4of4"
 		}
 	languages = { "l_simp_chinese" } 
 	}

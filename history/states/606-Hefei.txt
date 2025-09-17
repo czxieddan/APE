@@ -33,13 +33,19 @@ state = {
 		victory_points = {
 			12036 16
 		}
+		victory_points = {
+			11994 5
+		}
+		victory_points = {
+			12061 2
+		}
 		# set_state_flag = GDP_regions_anhui
 		# set_variable = { china_state_ref = 6 }
 		# set_variable = { china_region_ref = 0 }
 	}
 
 	provinces = {
-		1146 4203 7094 7222 10008 10017 10064 12036 19866
+		12061 11994 1146 4203 7094 7222 10008 10017 10064 12036 19866 19892 19853
 	}
 	manpower = 7862042
 	buildings_max_level_factor = 1.000

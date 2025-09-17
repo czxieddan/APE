@@ -1,7 +1,19 @@
 #reload countrycolors
+AOM = {
+	color = rgb { 15 117 98 }
+	color_ui = rgb { 15 117 98 }
+}
+GUX = {
+	color = rgb { 255 120 0 }
+	color_ui = rgb { 255 120 0 }
+}
 GUZ = {
 	color = rgb { 15 90 5 }
 	color_ui = rgb { 15 90 5 }
+}
+NAL = {
+	color = rgb { 150 40 25 }
+	color_ui = rgb { 150 40 25 }
 }
 QDN = {
 	color = rgb { 225 60 50 }

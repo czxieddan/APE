@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ 
+ AOM: "澳门"
+ AOM_DEF: "$AOM$"
+ AOM_ADJ: "$AOM$"
+ AOM_autonomy_WZS_WZSZA: "$AOM$联合邦"
+ AOM_autonomy_WZS_WZSZA_DEF: "$AOM_autonomy_WZS_WZSZA$"
+ AOM_autonomy_WZS_WZSZA_ADJ: "五指山协定$AOM_autonomy_WZS_WZSZA$"

@@ -1,0 +1,10 @@
+capital = 729
+set_politics = {
+	ruling_party = IdeologyGroup4
+	last_election = "2049.11.11"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup4 = 100
+}
