@@ -30,6 +30,9 @@ state = {
 		victory_points = {
 			19782 4
 		}
+		victory_points = {
+			4196 5
+		}
 		add_extra_state_shared_building_slots = 2
 		# set_state_flag = GDP_regions_fujian
 		# set_variable = { china_state_ref = 34 }
@@ -38,7 +41,7 @@ state = {
 	}
 
 	provinces = {
-		11986 7131 19782 19642 7027 19759 12057 
+		11986 7131 19782 19642 7027 19759 12057 4196
 	}
 	manpower = 4401094
 	buildings_max_level_factor = 1.000

@@ -1,0 +1,21 @@
+state = {
+	id = 2556
+	name = "STATE_2556"
+	history = {
+		owner = NAL
+		add_core_of = NAL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			19594 3
+		}
+	}
+	provinces = {
+		1053 11945 4081 10112 19594 12030
+	}
+	manpower = 2466811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -20,7 +20,7 @@ state = {
 			4183 1
 		}
 		victory_points = {
-			19594 3
+			19526 2
 		}
 		add_extra_state_shared_building_slots = 2
 		# set_state_flag = GDP_regions_jiangxi_ganjiang
@@ -30,7 +30,7 @@ state = {
 	}
 
 	provinces = {
-		4183 9942 1053 11945 4081 10112 19594 12030
+		4183 9942 7004 9970 19526
 	}
 	manpower = 3811780
 	buildings_max_level_factor = 1.000

@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = NAL
+		owner = QDN
 		add_core_of = NAL
 		buildings = {
 			infrastructure = 3

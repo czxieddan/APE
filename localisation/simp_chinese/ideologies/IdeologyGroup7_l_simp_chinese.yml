@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ 
+ IdeologyGroup7: "军事独裁专制主义"
+ IdeologyGroup7_noun: "$IdeologyGroup7$"
+ IdeologyGroup7_desc: "$IdeologyGroup7$政体"
+ IdeologyGroup7_drift: "意识形态向$IdeologyGroup7$变化力度"
+ IdeologyGroup7_IdelogySubtype0: ""
+ IdeologyGroup7_IdelogySubtype0_desc: ""
+ IdeologyGroup7_IdelogySubtype1: "护国主义"
+ IdeologyGroup7_IdelogySubtype1_desc: "妈的没文案不会写"
+ 
+ XIK_IdeologyGroup7_party: "护国军政府"
+ XIK_IdeologyGroup7_party_long: "川西$NAL_IdeologyGroup7_party$"

@@ -18,9 +18,6 @@ state = {
 			17000 17
 		}
 		victory_points = {
-			12407 4
-		}
-		victory_points = {
 			7168 3
 		}
 		add_extra_state_shared_building_slots = 2
@@ -30,7 +27,7 @@ state = {
 	}
 
 	provinces = {
-		1023 7168 10404 12407 17000 10039 7095
+		7168 10404 17000 10039 7095
 	}
 	manpower = 2890569
 	buildings_max_level_factor = 1.000
