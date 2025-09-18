@@ -8,3 +8,12 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup6 = 100
 }
+set_autonomy = {
+	target = HOK
+	autonomy_state = autonomy_NAL_HOKA
+}
+HOK = {
+    set_popularities = {
+	    IdeologyGroup6= 100
+    }
+}

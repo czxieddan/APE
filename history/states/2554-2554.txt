@@ -1,0 +1,17 @@
+state = {
+	id = 2554
+	name = "STATE_2554"
+	history = {
+		owner = ZZZ
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		19442 4914 7940
+	}
+	manpower = 246681
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

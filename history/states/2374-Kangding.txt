@@ -3,8 +3,8 @@ state = {
 	name = "STATE_2374"
 
 	history = {
-		owner = ZZZ # XIK
-		# add_core_of = XIK
+		owner = XIK
+		add_core_of = XIK
 		buildings = {
 			infrastructure = 2
 			barracks = 1
@@ -15,9 +15,6 @@ state = {
 		victory_points = {
 			7988 1
 		}
-		victory_points = {
-			12724 1
-		}
 		add_extra_state_shared_building_slots = 1
 		# set_variable = { china_state_ref = 21 }
 		# set_variable = { china_region_ref = 2 }
@@ -25,7 +22,7 @@ state = {
 	}
 
 	provinces = {
-		10726 19695 1918 1999 4999 7988 8104 8532 8629 12724 12837 13227 15705 15706 19776
+		1918 4999 7988 8629 15706 14676 19726
 	}
 	manpower = 595451
 	buildings_max_level_factor = 2.000

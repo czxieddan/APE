@@ -3,8 +3,8 @@ state = {
 	name = "STATE_961"
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = SIC
+		add_core_of = SIC
 		buildings = {
 			infrastructure = 3
 		}
@@ -14,6 +14,12 @@ state = {
 		victory_points = {
 			7434 5
 		}
+        victory_points = {
+            19591 3
+        }
+        victory_points = {
+            12086 5
+        }
 		add_extra_state_shared_building_slots = 1
 		# set_state_flag = GDP_regions_hunan
 		# set_variable = { china_state_ref = 27 }
@@ -22,7 +28,7 @@ state = {
 	}
 
 	provinces = {
-		7101 7279 7434 13140 19810 19875
+		7101 7279 7434 13140 19810 19875 19591 19637 10757 12086 19837
 	}
 	manpower = 4868970
 	buildings_max_level_factor = 1.000

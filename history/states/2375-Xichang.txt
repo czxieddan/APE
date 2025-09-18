@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # XIK
-		# add_core_of = XIK
+		owner = XIK
+		add_core_of = XIK
 		buildings = {
 			barracks = 1
 			offices = 1
@@ -22,6 +22,9 @@ state = {
 		victory_points = {
 			7294 3
 		}
+        victory_points = {
+            19729 13
+        }
 		add_extra_state_shared_building_slots = 2
 		# set_variable = { china_state_ref = 21 }
 		# set_variable = { china_region_ref = 2 }
@@ -29,7 +32,7 @@ state = {
 	}
 
 	provinces = {
-		2067 7294 19710 19653
+		2067 7294 19710 19653 12819 19729 19774
 	}
 	manpower = 2508497
 	buildings_max_level_factor = 1.000

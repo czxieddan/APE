@@ -1,0 +1,32 @@
+state = {
+	id = 2550
+	name = "STATE_2550"
+
+	history = {
+		owner = SIC
+		add_core_of = SIC
+		buildings = {
+			infrastructure = 3
+			schools = 1
+			prisons = 1
+			offices = 1
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+        victory_points = {
+            4431 5
+        }
+        victory_points = {
+            19785 3
+        }
+	}
+
+	provinces = {
+		4431 19785 11972 19629
+	}
+	manpower = 938101
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+	#impassable = yes
+}

@@ -3,26 +3,14 @@ state = {
 	name = "STATE_2359"
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = SIC
+		add_core_of = SIC
 		buildings = {
 			infrastructure = 2
 			offices = 1
 		}
 		victory_points = {
-			7948 5
-		}
-		victory_points = {
 			4041 15
-		}
-		victory_points = {
-			11865 5
-		}
-		victory_points = {
-			19535 5
-		}
-		victory_points = {
-			19649 5
 		}
 		add_extra_state_shared_building_slots = 2
 		# set_state_flag = GDP_regions_chuandong
@@ -32,7 +20,7 @@ state = {
 	}
 
 	provinces = {
-		10144 7948 19649 11865 19535 19651 4041 19764
+		19651 4041 19764
 	}
 	manpower = 5471174
 	buildings_max_level_factor = 1.000

@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ 
+ HOK: "香港"
+ HOK_DEF: "$HOK$"
+ HOK_ADJ: "$HOK$"
+ HOK_autonomy_NAL_HOKA: "香港特区"
+ HOK_autonomy_NAL_HOKA_DEF: "$HOK_autonomy_NAL_HOKA$"
+ HOK_autonomy_NAL_HOKA_ADJ: "$OVERLORDADJ$香港特区"

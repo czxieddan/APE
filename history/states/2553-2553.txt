@@ -1,0 +1,21 @@
+state = {
+	id = 2553
+	name = "STATE_2553"
+	history = {
+		owner = ZZZ # TIB
+		# add_core_of = TIB
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13225 1
+		}
+	}
+	provinces = {
+		8037 13231 19436 19789 5080 13225 
+	}
+	manpower = 246681
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

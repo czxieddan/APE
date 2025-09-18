@@ -470,7 +470,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3368;6349;sea;3499;-1;-1;-1;-1;;hamburg river thing
 9458;16327;sea;2895;-1;-1;-1;-1;;hampshire
 1096;19822;sea;8396;-1;-1;-1;-1;;hangzhou bay
-4189;10062;sea;5269;-1;-1;-1;-1;;hong kong macau ferry
 962;7114;impassable;-1;3325;2559;3326;2559;;iberia balearic name placement
 3868;14661;sea;3401;-1;-1;-1;-1;;in croatia
 16263;16264;sea;7226;-1;-1;-1;-1;;inter cyclades

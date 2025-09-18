@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = XIK
+		add_core_of = XIK
 		buildings = {
 			air_base = 3
 			infrastructure = 5
@@ -34,7 +34,7 @@ state = {
 	}
 
 	provinces = {
-		4925 8734 12141 19843 19922
+		4925 12141 19922 19700
 	}
 	manpower = 7782374
 	buildings_max_level_factor = 2.000

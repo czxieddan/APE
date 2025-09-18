@@ -6,17 +6,15 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
-		victory_points = {
-			19714 5
-		}
-		victory_points = {
-			19557 3
-		}
+		owner = SIC
+		add_core_of = SIC
+		
 		victory_points = {
 			7019 4
 		}
+        victory_points = {
+            7609 3
+        }
 		buildings = {
 			infrastructure = 2
 		}
@@ -26,7 +24,7 @@ state = {
 	}
 
 	provinces = {
-		19714 19557 7019 8072 19741 19763
+		7019 8072 19741 19763 7609 10474 19699
 	}
 	manpower = 2246817
 	buildings_max_level_factor = 1.000

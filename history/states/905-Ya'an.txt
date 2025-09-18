@@ -3,8 +3,8 @@ state = {
 	name = "STATE_905"
 
 	history = {
-		owner = ZZZ # XIK
-		# add_core_of = XIK
+		owner = XIK
+		add_core_of = XIK
 		buildings = {
 			barracks = 1
 			infrastructure = 2
@@ -19,7 +19,7 @@ state = {
 	}
 
 	provinces = {
-		8503 10841 19646 19726
+		8503 10841 19646 8532
 	}
 	manpower = 867170
 	buildings_max_level_factor = 1.000
