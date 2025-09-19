@@ -1,0 +1,23 @@
+state = {
+	id = 2560
+	name = "STATE_2560"
+	history = {
+		owner = ZZZ
+		buildings = {
+			infrastructure = 1
+		}
+        victory_points = {
+            19798 3
+        }
+        victory_points = {
+            1084 5
+        }
+	}
+	provinces = {
+		1084 19798 19818 12093
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

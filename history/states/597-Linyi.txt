@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = SHD
+		add_core_of = SHD
 		add_extra_state_shared_building_slots = 1
 		buildings = {
 			infrastructure = 2
@@ -17,13 +17,7 @@ state = {
 			1124 5
 		}
 		victory_points = {
-			4157 5
-		}
-		victory_points = {
 			7055 5
-		}
-		victory_points = {
-			9971 5
 		}
 		victory_points = {
 			19797 5
@@ -34,7 +28,7 @@ state = {
 	}
 
 	provinces = {
-		1124 1154 4157 4181 7055 9971 19797 19886 19903
+		1124 4181 7055 19797 
 	}
 	manpower = 7964999
 	buildings_max_level_factor = 1.000

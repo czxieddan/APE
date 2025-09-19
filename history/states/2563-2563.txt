@@ -1,0 +1,22 @@
+state = {
+	id = 2563
+	name = "STATE_2563"
+	history = {
+		owner = QFK
+		add_core_of = QFK
+		add_core_of = SHD
+		buildings = {
+			infrastructure = 3
+		}
+        victory_points = {
+            10043 34
+        }
+	}
+	provinces = {
+		10043
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

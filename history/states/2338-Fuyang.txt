@@ -7,24 +7,27 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = AUH
+		add_core_of = AUH
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = {
 			9937 5
 		}
-		victory_points = {
-			9995 5
-		}
+        victory_points = {
+            10434 5
+        }
+        victory_points = {
+            19824 5
+        }
 		# set_state_flag = GDP_regions_anhui
 		# set_variable = { china_state_ref = 3 }
 		# set_variable = { china_region_ref = 0 }
 	}
 
 	provinces = {
-		9995 10079 19817 4079 9937
+		9937 7126 7540 19824 10446 10434
 	}
 	manpower = 9085496
 	buildings_max_level_factor = 1.000

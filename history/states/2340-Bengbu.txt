@@ -3,8 +3,8 @@ state = {
 	name = "STATE_2340"
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = AUH
+		add_core_of = AUH
 		add_extra_state_shared_building_slots = 1
 		buildings = {
 			infrastructure = 3
@@ -13,13 +13,7 @@ state = {
 			19882 15
 		}
 		victory_points = {
-			10040 5
-		}
-		victory_points = {
 			1001 4
-		}
-		victory_points = {
-			1161 5
 		}
 		add_extra_state_shared_building_slots = 2
 		# set_state_flag = GDP_regions_anhui
@@ -29,7 +23,7 @@ state = {
 	}
 
 	provinces = {
-		10040 19889 11916 19882 19839 1001 1161 13144
+		19882 1001
 	}
 	manpower = 5959440
 	buildings_max_level_factor = 1.000

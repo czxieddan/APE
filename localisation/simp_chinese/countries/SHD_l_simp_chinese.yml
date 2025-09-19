@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ 
+ SHD: "山东"
+ SHD_DEF: "$SHD$"
+ SHD_ADJ: "$SHD$"
+ SHD_IdeologyGroup10: "拯救阵线"
+ SHD_IdeologyGroup10_DEF: "$SHD_IdeologyGroup10$"
+ SHD_IdeologyGroup10_ADJ: "世界拯救阵线"

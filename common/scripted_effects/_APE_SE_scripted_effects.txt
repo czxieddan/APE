@@ -83,7 +83,6 @@ SE_SE_1 = {
 		add_to_array = { ROOT.SE_SE_1_States = 65 }
 		add_to_array = { ROOT.SE_SE_1_States = 1814}
 		add_to_array = { ROOT.SE_SE_1_States = 2528}
-	    set_cosmetic_tag = cosmeticTagHRR
 	    for_each_loop = {
 		    array = ROOT.SE_SE_1_States
 			value = v
@@ -94,8 +93,27 @@ SE_SE_1 = {
 				}
 				remove_state_core = v
 			}
+			every_possible_country = {
+			    limit = {
+				    NOT = { tag = ROOT }
+				    has_cosmetic_tag = cosmeticTagHRR
+			    }
+			    add_state_claim = v
+				create_wargoal = {
+                    type = recoverClaimedile_cosmeticTagHRR_wargoal_focus
+                    target = ROOT
+                }
+		    }
 			ROOT = { add_state_core = v transfer_state = v }
 		}
+		every_possible_country = {
+			limit = {
+				NOT = { tag = ROOT }
+				has_cosmetic_tag = cosmeticTagHRR
+			}
+			drop_cosmetic_tag = yes
+		}
+	    set_cosmetic_tag = cosmeticTagHRR
 		clear_array = ROOT.SE_SE_1_States
 	}
 }

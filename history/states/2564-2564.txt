@@ -1,0 +1,21 @@
+state = {
+	id = 2564
+	name = "STATE_2564"
+	history = {
+		owner = SHD
+		add_core_of = SHD
+		buildings = {
+			infrastructure = 3
+		}
+        victory_points = {
+            9995 5
+        }
+	}
+	provinces = {
+		9995 10079 19817 4079 19862
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

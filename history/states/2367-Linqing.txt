@@ -15,9 +15,6 @@ state = {
 			7160 3
 		}
 		victory_points = {
-			19852 4
-		}
-		victory_points = {
 			19917 5
 		}
 		# set_state_flag = GDP_regions_shandong_taiyue
@@ -26,7 +23,7 @@ state = {
 	}
 
 	provinces = {
-		7189 11962 19929 19917 7160 19852
+		7189 11962 19929 19917 7160 19927 9987 
 	}
 	manpower = 7060926
 	buildings_max_level_factor = 1.000

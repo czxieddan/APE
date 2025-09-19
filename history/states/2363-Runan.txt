@@ -7,20 +7,14 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = AUH
+		add_core_of = AUH
 		buildings = {
 			infrastructure = 2
 			prisons = 1
 		}
 		victory_points = {
-			19824 5
-		}
-		victory_points = {
 			4158 5
-		}
-		victory_points = {
-			10434 5
 		}
 		victory_points = {
 			12426 4
@@ -36,7 +30,7 @@ state = {
 	}
 
 	provinces = {
-		19862 7126 7540 19824 10446 10434 19471 12426 4158
+		19471 12426 4158
 	}
 	manpower = 9559819
 	buildings_max_level_factor = 1.000

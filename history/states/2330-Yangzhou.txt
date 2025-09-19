@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = AUH
+		add_core_of = AUH
 		buildings = {
 			infrastructure = 3
 			thermoelectric_plant = 1
@@ -16,15 +16,6 @@ state = {
 		}
 		victory_points = {
 			19876 13
-		}
-		victory_points = {
-			1089 5
-		}
-		victory_points = {
-			4001 12
-		}
-		victory_points = {
-			7181 5
 		}
 		add_extra_state_shared_building_slots = 2
 		# set_state_flag = GDP_regions_jiangsu_huaihai
@@ -34,7 +25,7 @@ state = {
 	}
 
 	provinces = {
-		19876 4148 4001 7181 1089
+		19876 4148
 	}
 	manpower = 5236955
 	buildings_max_level_factor = 1.000

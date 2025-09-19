@@ -3,6 +3,10 @@ AOM = {
 	color = rgb { 15 117 98 }
 	color_ui = rgb { 15 117 98 }
 }
+AUH = {
+	color = rgb { 100 200 130 }
+	color_ui = rgb { 100 200 130 }
+}
 GUX = {
 	color = rgb { 255 120 0 }
 	color_ui = rgb { 255 120 0 }
@@ -22,6 +26,14 @@ NAL = {
 QDN = {
 	color = rgb { 225 60 50 }
 	color_ui = rgb { 225 60 50 }
+}
+QFK = {
+	color = rgb { 200 150 60 }
+	color_ui = rgb { 200 150 60 }
+}
+SHD = {
+	color = rgb { 180 0 0 }
+	color_ui = rgb { 180 0 0 }
 }
 SIC = {
 	color = rgb { 150 30 230 }

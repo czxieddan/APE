@@ -3,8 +3,8 @@ state = {
 	name = "STATE_1015"
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = AUH
+		add_core_of = AUH
 		buildings = {
 			offices = 1
 			infrastructure = 2
@@ -29,7 +29,7 @@ state = {
 	}
 
 	provinces = {
-		4519 4547 7459 7568 12012 19753 19820 19870 19881
+		4519 4547 7459 7568 12012 19753 19820 19881
 	}
 	manpower = 7861413
 	buildings_max_level_factor = 1.000

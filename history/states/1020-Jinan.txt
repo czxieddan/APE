@@ -8,8 +8,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
-		# add_core_of = CHI
+		owner = SHD
+		add_core_of = SHD
 		buildings = {
 			offices = 1
 			thermoelectric_plant = 1
@@ -32,7 +32,7 @@ state = {
 	}
 
 	provinces = {
-		1069 4037 10072 12045 19927
+		1069 4037 10072 12045 19852
 	}
 	manpower = 6277937
 	buildings_max_level_factor = 1.000

@@ -19223,7 +19223,7 @@
 19222;215;254;238;land;false;jungle;6
 19223;110;119;226;land;true;jungle;6
 19224;120;250;28;land;true;jungle;6
-19225;248;173;178;land;false;jungle;6
+19225;248;173;178;land;true;jungle;6
 19226;255;228;221;land;true;jungle;6
 19227;99;141;234;land;false;jungle;6
 19228;247;154;107;land;false;jungle;6
@@ -19800,7 +19800,7 @@
 19799;122;208;235;land;false;plains;6
 19800;91;206;251;land;false;plains;6
 19801;205;68;148;land;false;plains;6
-19802;198;246;130;land;false;plains;6
+19802;198;246;130;land;true;plains;6
 19803;83;223;160;land;false;plains;6
 19804;197;254;153;land;false;plains;6
 19805;248;215;253;land;false;plains;6
