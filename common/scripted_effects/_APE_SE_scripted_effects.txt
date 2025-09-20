@@ -83,6 +83,9 @@ SE_SE_1 = {
 		add_to_array = { ROOT.SE_SE_1_States = 65 }
 		add_to_array = { ROOT.SE_SE_1_States = 1814}
 		add_to_array = { ROOT.SE_SE_1_States = 2528}
+		add_to_array = { ROOT.SE_SE_1_States = 2575}
+		add_to_array = { ROOT.SE_SE_1_States = 2576}
+		add_to_array = { ROOT.SE_SE_1_States = 2577}
 	    for_each_loop = {
 		    array = ROOT.SE_SE_1_States
 			value = v

@@ -1,0 +1,17 @@
+characters = {
+	BAD_Kase = {
+		name = BAD_Kase
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_BAD_Kase
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup12_IdelogySubtype1
+			desc = BAD_Kase_desc
+			traits = { 
+		    }
+			expire = "2099.12.31.23"
+		}     
+	}
+}

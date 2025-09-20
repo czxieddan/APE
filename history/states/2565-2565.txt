@@ -1,0 +1,33 @@
+state = {
+	id = 2565
+	name = "STATE_2565"
+	history = {
+		owner = ZZZ
+		# add_core_of = ZZZ
+		buildings = {
+			infrastructure = 1
+		}
+        victory_points = {
+            19507 3
+        }
+        victory_points = {
+            19610 1
+        }
+        victory_points = {
+            10733 2
+        }
+        victory_points = {
+            9005 9
+        }
+		victory_points = {
+			1647 7
+		}
+	}
+	provinces = {
+		1647 19507 10733 19610 19565 9005
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -3,7 +3,8 @@ state = {
 	name = "STATE_2395"
 
 	history = {
-		owner = ZZZ # TIB
+		owner = TIB
+		add_core_of = TIB
 		buildings = {
 			infrastructure = 1
 		}

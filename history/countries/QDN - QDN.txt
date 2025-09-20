@@ -9,4 +9,4 @@ set_popularities = {
 	IdeologyGroup1 = 100
 }
 recruit_character = QDN_WangYaocheng
-#fuck
+#fuckParadox

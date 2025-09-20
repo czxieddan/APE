@@ -1,0 +1,12 @@
+capital = 72
+set_politics = {
+	ruling_party = IdeologyGroup12
+	last_election = "2049.2.25"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup12 = 100
+}
+recruit_character = BAD_Kase
+#fuckParadox

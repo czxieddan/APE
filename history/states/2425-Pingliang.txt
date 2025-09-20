@@ -9,10 +9,10 @@ state = {
 		owner = ZZZ # GAN
 		# add_core_of = GAN
 		victory_points = {
-			1647 7
+			5025 1
 		}
 		victory_points = {
-			5025 1
+			19490 3
 		}
 		buildings = {
 			infrastructure = 2
@@ -22,7 +22,7 @@ state = {
 	}
 
 	provinces = {
-		1647 5025 11735 16840 19518 19520
+		5025 11735 16840 19518 19520 19490
 	}
 	manpower = 1884596
 	buildings_max_level_factor = 1.000

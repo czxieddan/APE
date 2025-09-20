@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # TIB
-		# add_core_of = TIB
+		owner = TIB
+		add_core_of = TIB
 		buildings = {
 			infrastructure = 3
 			prisons = 1
@@ -22,7 +22,7 @@ state = {
 	}
 
 	provinces = {
-		5033 13224 17026 17034 17045 19437
+		5033 13224 17026 17034 17045 19437 16679  
 	}
 	manpower = 382197
 	buildings_max_level_factor = 1.000

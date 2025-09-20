@@ -3,8 +3,8 @@ state = {
 	name = "STATE_1962"
 
 	history = {
-		owner = ZZZ # TIB
-		# add_core_of = TIB
+		owner = TIB
+		add_core_of = TIB
 		victory_points = {
 			19749 1
 		}
@@ -19,7 +19,7 @@ state = {
 	}
 
 	provinces = {
-		5018 5102 8041 10741 17020 19696 19721 19733 19749
+		16859 10741 17020 19721 19733 19749
 	}
 	manpower = 309090
 	buildings_max_level_factor = 1.000

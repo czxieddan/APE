@@ -3,11 +3,8 @@ state = {
 	name = "STATE_283"
 
 	history = {
-		owner = ZZZ # GAN
-		# add_core_of = GAN
-		victory_points = {
-			1933 4
-		}
+		owner = SHX
+		add_core_of = SHX
 		victory_points = {
 			19513 7
 		}
@@ -21,7 +18,7 @@ state = {
 	}
 
 	provinces = {
-		556 1933 7911 19513 19534 19703
+		 7911 19513 19534 19658
 	}
 	manpower = 2666408
 	buildings_max_level_factor = 1.000

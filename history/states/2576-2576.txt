@@ -1,0 +1,24 @@
+state = {
+	id = 2576
+	name = "STATE_2576"
+	history = {
+		owner = BAD
+		add_core_of = BAD
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+            6542 4
+        }
+		victory_points = {
+            6542 4
+        }
+	}
+	provinces = {
+		6542 3692
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -18,4 +18,4 @@ AOM = {
     }
 }
 recruit_character = WZS_MoLisi
-#fuck
+#fuckParadox

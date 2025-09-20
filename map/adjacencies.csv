@@ -658,8 +658,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10660;18643;impassable;-1;-1;-1;-1;-1;;uzbek-kyrgyz mountains
 10660;18622;impassable;-1;-1;-1;-1;-1;;uzbek-kyrgyz mountains
 4109;15578;sea;6801;-1;-1;-1;-1;;western cyclades
-7014;11928;sea;8396;-1;-1;-1;-1;;yangtze delta
-12052;19890;sea;8396;-1;-1;-1;-1;;yangtze delta
 2196;13879;sea;5394;-1;-1;-1;-1;;zanzibar
 13888;13891;sea;5369;-1;-1;-1;-1;;zanzibar
 13879;13888;sea;5394;-1;-1;-1;-1;;zanzibar

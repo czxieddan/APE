@@ -7,6 +7,10 @@ AUH = {
 	color = rgb { 100 200 130 }
 	color_ui = rgb { 100 200 130 }
 }
+BAD = {
+	color = rgb { 240 50 30 }
+	color_ui = rgb { 240 50 30 }
+}
 GUX = {
 	color = rgb { 255 120 0 }
 	color_ui = rgb { 255 120 0 }
@@ -35,9 +39,17 @@ SHD = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }
 }
+SHX = {
+	color = rgb { 80 30 30 }
+	color_ui = rgb { 80 30 30 }
+}
 SIC = {
 	color = rgb { 150 30 230 }
 	color_ui = rgb { 150 30 230 }
+}
+TIB = {
+	color = rgb { 230 235 245 }
+	color_ui = rgb { 230 235 245 }
 }
 WZS = {
 	color = rgb { 119 153 119 }

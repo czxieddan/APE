@@ -9,7 +9,6 @@ state = { #Population Done
 		owner = ZZZ # GER
 		# add_core_of = GER
 		victory_points = { 9557 10 }
-		victory_points = { 6421 5 }
 
 		buildings = {
 			hospitals = 2

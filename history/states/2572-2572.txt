@@ -1,0 +1,18 @@
+state = {
+	id = 2572
+	name = "STATE_2572"
+	history = {
+		owner = ZZZ
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		10810 16138 16985 5018
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
