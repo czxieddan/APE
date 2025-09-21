@@ -1,0 +1,21 @@
+state = {
+	id = 2594
+	name = "STATE_2594"
+	history = {
+		owner = CHI
+		# add_core_of = SHT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4137 4
+		}
+	}
+	provinces = {
+		4137 9969 19884
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

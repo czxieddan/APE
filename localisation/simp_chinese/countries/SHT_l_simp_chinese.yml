@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ 
+ SHT: "汕头"
+ SHT_DEF: "$SHT$"
+ SHT_ADJ: "$SHT$"
+ SHT_autonomy_NAL_SHTA: "汕头特区"
+ SHT_autonomy_NAL_SHTA_DEF: "$SHT_autonomy_NAL_SHTA$"
+ SHT_autonomy_NAL_SHTA_ADJ: "$OVERLORDADJ$汕头特区"

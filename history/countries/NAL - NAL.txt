@@ -17,3 +17,12 @@ HOK = {
 	    IdeologyGroup6= 100
     }
 }
+set_autonomy = {
+	target = SHT
+	autonomy_state = autonomy_NAL_SHTA
+}
+SHT = {
+    set_popularities = {
+	    IdeologyGroup6= 100
+    }
+}

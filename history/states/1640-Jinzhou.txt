@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # MAN
+		owner = MAN
 		victory_points = {
 			9835 22
 		}
@@ -39,7 +39,7 @@ state = {
 	}
 
 	provinces = {
-		934 3934 6837 6898 9788 9835 9927 11815 14625 14627 16913 19459 19461 19491 19514
+		14625 19461 6837 6898 934 9835 
 	}
 	manpower = 7735971
 	buildings_max_level_factor = 1.000

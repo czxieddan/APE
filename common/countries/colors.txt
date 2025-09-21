@@ -11,6 +11,10 @@ BAD = {
 	color = rgb { 240 50 30 }
 	color_ui = rgb { 240 50 30 }
 }
+CHI = {
+	color = rgb { 160 10 30 }
+	color_ui = rgb { 160 10 30 }
+}
 GUX = {
 	color = rgb { 255 120 0 }
 	color_ui = rgb { 255 120 0 }
@@ -22,6 +26,10 @@ GUZ = {
 HOK = {
 	color = rgb { 66 65 84 }
 	color_ui = rgb { 66 65 84 }
+}
+MAN = {
+	color = rgb { 255 205 33 }
+	color_ui = rgb { 255 205 33 }
 }
 NAL = {
 	color = rgb { 150 40 25 }
@@ -38,6 +46,10 @@ QFK = {
 SHD = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }
+}
+SHT = {
+	color = rgb { 131 3 139 }
+	color_ui = rgb { 131 3 139 }
 }
 SHX = {
 	color = rgb { 80 30 30 }

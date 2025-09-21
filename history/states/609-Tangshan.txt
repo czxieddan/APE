@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CHI
+		owner = CHI
 		# add_core_of = CHI
 		buildings = {
 			offices = 1
@@ -18,7 +18,7 @@ state = {
 			schools = 1
 			barracks = 1
 			infrastructure = 4
-			19474 = {
+			12043 = {
 				naval_base = 2
 			}
 		}
@@ -27,12 +27,6 @@ state = {
 		}
 		victory_points = {
 			900 5
-		}
-		victory_points = {
-			3900 4
-		}
-		victory_points = {
-			19474 13
 		}
 		victory_points = {
 			19528 4
@@ -45,7 +39,7 @@ state = {
 	}
 
 	provinces = {
-		900 1052 3830 3900 12043 19474 19528 19913
+		900 1052 12043 19528 19913
 	}
 	manpower = 5825630
 	buildings_max_level_factor = 1.000

@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ 
+ XIN: "新疆"
+ XIN_DEF: "$XIN$"
+ XIN_ADJ: "$XIN$"
+ XIN_autonomy_CHI_XINMR: "大西北军管区"
+ XIN_autonomy_CHI_XINMR_DEF: "$XIN_autonomy_CHI_XINMR$"
+ XIN_autonomy_CHI_XINMR_ADJ: "$OVERLORDADJ$$XIN_autonomy_CHI_XINMR$"

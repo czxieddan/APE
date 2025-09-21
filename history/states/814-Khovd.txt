@@ -8,7 +8,6 @@ state = {
 			infrastructure = 2
 		}
 		owner = ZZZ # MEN
-		# add_core_of = MEN
 		victory_points = {
 			10539 5
 		}

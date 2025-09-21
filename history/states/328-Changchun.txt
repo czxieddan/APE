@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # MAN
+		owner = MAN
 		# add_core_of = MAN
 		victory_points = { 14633 37 }
 		# set_variable = { china_state_ref = 45 }

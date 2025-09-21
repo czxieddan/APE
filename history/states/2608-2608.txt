@@ -1,0 +1,18 @@
+state = {
+	id = 2608
+	name = "STATE_2608"
+	history = {
+		owner = MAN
+		# add_core_of = SHT
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		10675 19543 19487 19548 12537 19561 7848 14622 10541 
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

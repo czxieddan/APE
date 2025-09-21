@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1645"
 
 	history = {
-		owner = ZZZ # MAN
+		owner = MAN
 		# add_core_of = MAN
 		buildings = {
 			infrastructure = 4
@@ -24,7 +24,7 @@ state = {
 	}
 
 	provinces = {
-		783 3791 6811 9766 10376 11893 11906 19551
+		3791 9766 10376 11893 11906 19551
 	}
 	manpower = 1622829
 

@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # MAN
+		owner = MAN
 		# add_core_of = MAN
 
 		buildings = {

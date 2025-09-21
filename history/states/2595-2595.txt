@@ -1,0 +1,24 @@
+state = {
+	id = 2595
+	name = "STATE_2595"
+	history = {
+		owner = MAN
+		# add_core_of = SHT
+		buildings = {
+			infrastructure = 1
+		}
+        victory_points = {
+            3900 4
+        }
+        victory_points = {
+            19474 13
+        }
+	}
+	provinces = {
+		19474 3900 3830
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

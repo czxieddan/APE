@@ -10,7 +10,7 @@ state = {
 		1150 6851
 	}
 	history = {
-		owner = ZZZ # JAP
+		owner = MAN
 		# add_core_of = MAN
 		# add_core_of = JAP
 		buildings = {

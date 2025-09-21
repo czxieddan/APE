@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # MAN
+		owner = MAN
 		# add_claim_by = MAN
 		# add_core_of = SOR
 		# set_state_flag = has_offshore_island
@@ -27,7 +27,7 @@ state = {
 	}
 
 	provinces = {
-		675 3664 4290 4701 4805 4844 7871 9659 10571 10577 12192 12261 12263 12559 12569 12638 13287 19485 19748
+		675 3664 4290 4701 4805 9659 10571 12192 12261 12263 12638 13287
 	}
 	manpower = 306440
 	buildings_max_level_factor = 1.000

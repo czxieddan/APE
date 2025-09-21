@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ 
+ MAN: "满洲"
+ MAN_DEF: "$MAN$"
+ MAN_ADJ: "$MAN$"
+ MAN_autonomy_CHI_MANMR: "大东北军管区"
+ MAN_autonomy_CHI_MANMR_DEF: "$MAN_autonomy_CHI_MANMR$"
+ MAN_autonomy_CHI_MANMR_ADJ: "$OVERLORDADJ$$MAN_autonomy_CHI_MANMR$"

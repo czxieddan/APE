@@ -3,7 +3,7 @@ state = {
 	name = "STATE_610"
 
 	history = {
-		owner = ZZZ # MAN
+		owner = MAN
 		# add_core_of = MAN
 		add_extra_state_shared_building_slots = 1
 		buildings = {
@@ -29,7 +29,7 @@ state = {
 	}
 
 	provinces = {
-		814 881 952 972 3814 3828 3881 3955 4495 6937 6988 7575 7633 9768 9776 9873 9905 10331 10426 11801 11855 11886 19501 19538 19600
+		972 3828 3881 6937 6988 7575 7633 9873 10331 10426 11801 11855 13272 
 	}
 	manpower = 8801958
 	buildings_max_level_factor = 1.000

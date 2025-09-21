@@ -1,0 +1,28 @@
+capital = 608
+set_politics = {
+	ruling_party = IdeologyGroup13
+	last_election = "1949.10.1"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup13 = 100
+}
+set_autonomy = {
+	target = MAN
+	autonomy_state = autonomy_CHI_MANMR
+}
+MAN = {
+    set_popularities = {
+	    IdeologyGroup13= 100
+    }
+}
+set_autonomy = {
+	target = XIN
+	autonomy_state = autonomy_CHI_XINMR
+}
+XIN = {
+    set_popularities = {
+	    IdeologyGroup13= 100
+    }
+}

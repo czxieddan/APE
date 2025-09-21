@@ -5,7 +5,7 @@ state = { #Population Done
 		957
 	}
 	history = {
-		owner = ZZZ # JAP
+		owner = MAN
 		# add_core_of = SOV
 		# add_core_of = MAN
 		# add_core_of = JAP

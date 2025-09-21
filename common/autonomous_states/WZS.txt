@@ -46,7 +46,7 @@ autonomy_state = {
 
 	allowed = {
 		OVERLORD = { tag = WZS }   
-		}
+		
 		OR = {
 			original_tag = AOM
 		}

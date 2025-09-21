@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # MAN
+		owner = MAN
 		# add_core_of = MAN
 		buildings = {
 			infrastructure = 5
@@ -40,7 +40,7 @@ state = {
 	}
 
 	provinces = {
-		946 1567 3932 3947 4572 4633 6947 7523 7652 7663 8970 9883 9913 9928 11744 11850 11864 14634 19805 19918 19921
+		930 4503 1567 3932 4572 4633 6947 1499 19896 19921 19918 11744 7663 11864 19805 14634
 	}
 	manpower = 8452110
 	buildings_max_level_factor = 1.000

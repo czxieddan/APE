@@ -3,7 +3,7 @@ state = {
 	name = "STATE_2436"
 
 	history = {
-		owner = ZZZ # CHI
+		owner = CHI
 		# add_core_of = CHI
 		#add_extra_state_shared_building_slots = 1
 		buildings = {
@@ -17,18 +17,18 @@ state = {
 			13251 6
 		}
 		victory_points = {
-			4137 4
-		}
-		victory_points = {
 			10068 5
 		}
 		victory_points = {
 			19799 4
 		}
+		victory_points = {
+			11822 4
+		}
 	}
 
 	provinces = {
-		4137 9969 10068 13251 19799 19884
+		10068 13251 19799 11822
 	}
 	manpower = 3245037
 	buildings_max_level_factor = 1.000

@@ -46,9 +46,72 @@ autonomy_state = {
 
 	allowed = {
 		OVERLORD = { tag = NAL }   
-		}
+		
 		OR = {
 			original_tag = HOK
+		}
+	}
+	
+	can_take_level = {
+		always = no
+	}
+
+	can_lose_level = {
+		always = no
+	}
+}
+
+autonomy_state = {
+	id = autonomy_NAL_SHTA
+	
+	is_puppet = yes
+	
+	min_freedom_level = 0.0
+	
+	manpower_influence = 1.0
+	
+	use_overlord_color = yes
+	
+	rule = {
+		desc = "RULE_DESC_IS_A_SUBJECT"
+		can_access_market = no
+		can_be_spymaster = no
+		can_decline_call_to_war = yes
+		can_join_factions = no
+		can_not_declare_war = yes
+		can_only_justify_war_on_threat_country = no
+		can_puppet = no
+		units_deployed_to_overlord = yes
+	}
+	
+	modifier = {
+		hidden_modifier = {
+		cic_to_overlord_factor = 0
+		mic_to_overlord_factor = 0
+		extra_trade_to_overlord_factor = 0.3
+		overlord_trade_cost_factor = 0.3
+		
+		}
+		
+	}
+	
+	ai_subject_wants_higher = {
+		factor = 0
+	}
+	
+	ai_overlord_wants_lower = {
+		factor = 0
+	}
+
+	ai_overlord_wants_garrison = {
+		always = yes
+	}
+
+	allowed = {
+		OVERLORD = { tag = NAL }   
+		
+		OR = {
+			original_tag = SHT
 		}
 	}
 	
