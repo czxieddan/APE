@@ -3,8 +3,8 @@ state = {
 	name = "STATE_619"
 
 	history = {
-		owner = ZZZ # XIN
-		# add_core_of = XIN
+		owner = XIN
+		add_core_of = XIN
 		buildings = {
 			infrastructure = 2
 		}
@@ -34,7 +34,7 @@ state = {
 	}
 
 	provinces = {
-		1766 2015 5087 7949 12119 19389 19399 19408 19412 19624 19744 19781 19792
+		1766 2015 5087 7949 12119 19399 19408 19779 19744 19781 19792 4828 19400
 	}
 	manpower = 1850572
 	buildings_max_level_factor = 1.000

@@ -3,7 +3,7 @@ state = {
 	name = "STATE_604"
 
 	history = {
-		owner = ZZZ # QIN
+		owner = XIN
 		# add_core_of = QIN
 		buildings = {
 			infrastructure = 1

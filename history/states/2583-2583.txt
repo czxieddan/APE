@@ -1,0 +1,18 @@
+state = {
+	id = 2583
+	name = "STATE_2583"
+	history = {
+		owner = XIN
+		add_core_of = XIN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		7693 4823 4751
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

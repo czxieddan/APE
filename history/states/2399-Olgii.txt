@@ -6,8 +6,8 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
-		owner = ZZZ # XIN
-		# add_core_of = XIN
+		owner = XIN
+		add_core_of = XIN
 		# add_claim_by = MEN
 
 		# set_variable = { china_state_ref = 43 }
@@ -15,7 +15,7 @@ state = {
 	}
 
 	provinces = {
-		4751 19752 19697 1774
+		19697 1774
 	}
 	manpower = 14259
 	buildings_max_level_factor = 1.000

@@ -8,8 +8,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # XIN
-		# add_core_of = XIN
+		owner = XIN
+		add_core_of = XIN
 		buildings = {
 			infrastructure = 3
 			offices = 1
@@ -19,9 +19,6 @@ state = {
 		}
 		victory_points = {
 			17208 17
-		}
-		victory_points = {
-			10614 1
 		}
 		victory_points = {
 			19425 1
@@ -40,7 +37,7 @@ state = {
 	}
 
 	provinces = {
-		5016 8042 8086 9914 10614 10674 10885 12656 19398 19407 19414 19417 19424 19425 19644 17208 17216
+		10674 12656 19414 19424 19425 17208 17216 19644 9914
 	}
 	manpower = 702502
 	buildings_max_level_factor = 1.000

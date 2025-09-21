@@ -59,6 +59,10 @@ XIK = {
 	color = rgb { 200 200 150 }
 	color_ui = rgb { 200 200 150 }
 }
+XIN = {
+	color = rgb { 130 100 0 }
+	color_ui = rgb { 130 100 0 }
+}
 YUN = {
 	color = rgb { 165 255 225 }
 	color_ui = rgb { 165 255 225 }
