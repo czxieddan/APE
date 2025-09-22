@@ -6,14 +6,17 @@ state = {
 	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = TAW
+		add_core_of = TAW
 		# set_state_flag = state_renamings
 		buildings = {
 			infrastructure = 2
 			air_base = 3
 			barracks = 1
 			radar_station = 4
+			15897 = {
+				naval_base = 1
+			}
 		}
 		victory_points = { 15897 1 }
 		# set_variable = { china_state_ref = 37 }

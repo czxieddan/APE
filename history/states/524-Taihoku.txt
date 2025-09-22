@@ -9,8 +9,8 @@ state = {
 
 	state_category = city
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = TAW
+		add_core_of = TAW
 		# set_state_flag = state_renamings
 
 		buildings = {

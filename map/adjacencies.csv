@@ -1,4 +1,8 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+6873;3962;sea;5946;-1;-1;-1;-1;;papua-biak
+1025;11985;sea;7932;-1;-1;-1;-1;;papua-biak
+15874;7072;sea;8791;-1;-1;-1;-1;;papua-biak
+15874;9965;sea;8791;-1;-1;-1;-1;;papua-biak
 7567;12910;sea;5771;-1;-1;-1;-1;;Adelaide-Kangaroo Island
 6550;8435;sea;7452;-1;-1;-1;-1;;Aegan Isle-Strait
 3314;6336;sea;2752;-1;-1;-1;-1;;Afsluitdijk
@@ -123,16 +127,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10825;16981;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;12807;impassable;-1;-1;-1;-1;-1;;Himalayas
 4180;7112;sea;5958;-1;-1;-1;-1;;Honolulu-Kauai
-1025;11985;sea;7932;-1;-1;-1;-1;;Japan-Kyushu
 12265;13031;impassable;-1;3325;2559;3326;2559;;Japanese Pacific
-1177;11948;sea;2708;-1;-1;-1;-1;;Jeju-Korea
-4198;12032;sea;8472;-1;-1;-1;-1;;Kanoya-Yokushima
 6741;9680;sea;8282;-1;-1;-1;-1;;Kerch Strait
 7884;12661;sea;8538;-1;-1;-1;-1;;Kodiak-Alaska
-1399;1515;sea;220;-1;-1;-1;-1;;Kurils 1
-1515;13037;sea;5614;-1;-1;-1;-1;;Kurils 2
-1512;13037;sea;5922;-1;-1;-1;-1;;Kurils 3
-7046;10092;sea;8791;-1;-1;-1;-1;;Kyushu-Shikoku
 1106;12001;sea;5913;-1;-1;-1;-1;;Lefkada
 13048;13049;impassable;-1;3325;2559;3326;2559;;Line Islands 1
 13049;13053;impassable;-1;3325;2559;3326;2559;;Line Islands 2
@@ -163,7 +160,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4360;7304;sea;8614;-1;-1;-1;-1;;New Foundland-Strait
 10231;10248;sea;430;-1;-1;-1;-1;;New Guinea-Fergusson
 373;12680;sea;2361;-1;-1;-1;-1;;Newfoundland-Labrador
-1117;9952;sea;2658;-1;-1;-1;-1;;Niigata-Sado
 13023;13024;sea;2901;-1;-1;-1;-1;;North Marianas
 12140;13023;sea;2901;-1;-1;-1;-1;;North Marianas-Guam
 1814;12632;sea;5637;-1;-1;-1;-1;;North-South NZ Islands
@@ -184,8 +180,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6038;18416;sea;2554;-1;-1;-1;-1;;Norwegian Fjords
 13055;13056;sea;8547;-1;-1;-1;-1;;Nukufetau-Funafuti
 13054;13055;sea;8547;-1;-1;-1;-1;;Nukufetau-Funafuti
-1123;10124;sea;8499;-1;-1;-1;-1;;Okinawa 1
-1123;7115;sea;8318;-1;-1;-1;-1;;Okinawa 2
 11932;19614;impassable;-1;3325;2559;3326;2559;;Okinawa thing
 4357;12103;sea;3805;-1;-1;-1;-1;;Palau
 4357;13028;impassable;-1;3325;2559;3326;2559;;Palau-Caroline
@@ -219,11 +213,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7290;10188;impassable;-1;3325;2559;3326;2559;;Samoa-Society thing
 7290;13080;sea;2549;-1;-1;-1;-1;;Samoan Islands
 1311;4228;sea;2856;-1;-1;-1;-1;;San Bernardino Strait
-4094;7212;sea;8791;-1;-1;-1;-1;;Shikoku-Chugoku
-15873;15874;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
-7072;15874;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
-9965;15874;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
-1092;4179;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
 13420;19994;sea;2887;-1;-1;-1;-1;;Sint Maarten-St. Kitts
 3305;8335;sea;2408;-1;-1;-1;-1;;Sjaelland
 5621;6345;sea;2431;-1;-1;-1;-1;;Sjaelland
@@ -250,9 +239,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 19978;19966;impassable;-1;3325;2559;3326;2559;;South Tokyo islands
 19966;13025;impassable;-1;3325;2559;3326;2559;;South Tokyo islands
 2489;13033;sea;7918;-1;-1;-1;-1;;Truk-Hall Islands
-3962;9859;sea;5946;-1;-1;-1;-1;;Tsugaru Strait
-10011;12060;sea;7932;-1;-1;-1;-1;;Tsushima-Korea
-1158;10011;sea;2708;-1;-1;-1;-1;;Tsushima-Kyushu
 13028;13029;sea;2735;-1;-1;-1;-1;;Ulithi-Yap
 10694;13090;sea;6064;-1;-1;-1;-1;;Unalaska-Unimak
 2134;4155;sea;5507;-1;-1;-1;-1;;Us-BritishVirgin Islands
@@ -565,7 +551,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12511;19725;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4624;14790;impassable;-1;3325;2559;3326;2559;;panama name placement
 4509;7542;sea;2585;-1;-1;-1;-1;;papua-biak
-1091;15897;sea;5345;-1;-1;-1;-1;;penghu island crossing
 4998;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 10826;16000;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 7519;16006;impassable;-1;-1;-1;-1;-1;;peshawar mountains

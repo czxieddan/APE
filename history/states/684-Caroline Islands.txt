@@ -5,8 +5,8 @@ state = {
 	state_category = tiny_island
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = ZZZ
+		#add_core_of = JAP
 		buildings = {
 			barracks = 1
 			infrastructure = 2

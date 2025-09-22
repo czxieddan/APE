@@ -8,8 +8,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = KOR
+		owner = ROK
+		add_core_of = ROK
 		# add_core_of = JAP
 		buildings = {
 			infrastructure = 3
@@ -25,7 +25,7 @@ state = {
 	}
 
 	provinces = {
-		1148 4004 7021 9936 10036 11912 11958 12011 9981
+		1148 4004 7021 9936 10036 11912 11958 12011
 	}
 	manpower = 2518382
 	buildings_max_level_factor = 1.000

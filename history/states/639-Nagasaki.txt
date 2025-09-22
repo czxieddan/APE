@@ -5,8 +5,8 @@ state = {
 	state_category = city
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = JAP
+		add_core_of = JAP
 		# set_state_flag = has_offshore_island
 		buildings = {
 			infrastructure = 6
@@ -19,10 +19,9 @@ state = {
 		}
 		victory_points = { 9950 15 }
 		victory_points = { 1158 15 }
-		victory_points = { 10011 5 }
 	}
 
 	provinces = {
-		1158 9950 10011
+		1158 9950 
 	}
 }

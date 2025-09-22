@@ -1,0 +1,18 @@
+state = {
+	id = 2619
+	name = "STATE_2619"
+	history = {
+		owner = ROK
+		add_core_of = ROK
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+	    15858
+	}
+	manpower = 1026811
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

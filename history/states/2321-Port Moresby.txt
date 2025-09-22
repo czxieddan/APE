@@ -3,8 +3,8 @@ state = {
 	name = "STATE_2321"
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = ZZZ
+		#add_core_of = JAP
 		# set_state_flag = has_offshore_island
 		buildings = {
 			infrastructure = 2

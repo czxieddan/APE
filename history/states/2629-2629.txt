@@ -1,0 +1,22 @@
+state = {
+	id = 2629
+	name = "STATE_2629"
+	history = {
+		owner = ROK
+		add_core_of = ROK
+		buildings = {
+			infrastructure = 2
+			1177 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 1177 5 }
+	}
+	provinces = {
+	    1177
+	}
+	manpower = 1828771
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
+}

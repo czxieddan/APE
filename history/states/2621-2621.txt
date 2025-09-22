@@ -1,0 +1,18 @@
+state = {
+	id = 2621
+	name = "STATE_2621"
+	history = {
+		owner = DPK
+		add_core_of = DPK
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+	    9981
+	}
+	manpower = 1119981
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

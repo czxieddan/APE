@@ -1,0 +1,28 @@
+state = {
+	id = 2632
+	name = "STATE_2632"
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 2
+			4189 = {
+				naval_base = 1
+			}
+			7115 = {
+				naval_base = 1
+			}
+			1123 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 7115 5 }
+	}
+	provinces = {
+	    4198 7115 1123
+	}
+	manpower = 1828771
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
+}

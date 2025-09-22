@@ -11,8 +11,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = JAP
+		add_core_of = JAP
 		# set_state_flag = has_offshore_island
 		buildings = {
 			infrastructure = 5
@@ -32,6 +32,6 @@ state = {
 	}
 
 	provinces = {
-		12007 11989 1117 11930 9952
+		12007 11989 1117 11930 
 	}
 }

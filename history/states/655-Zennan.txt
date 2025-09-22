@@ -5,8 +5,9 @@ state = {
 
 	state_category = large_town
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = KOR
+		owner = ROK
+		add_core_of = ROK
+		# add_core_of = ROK
 		# add_core_of = JAP
 		# set_state_flag = has_offshore_island
 		buildings = {
@@ -15,21 +16,18 @@ state = {
 			11948 = {
 				naval_base = 1
 			}
-			1177 = {
-				naval_base = 1
-			}
 			schools = 1
 			radar_station = 1
 			offices = 1
 			barracks = 1
 		}
 		victory_points = { 10110 15 }
-		victory_points = { 1177 5 }
+		
 		# set_state_flag = state_renamings
 		# set_state_flag = GDP_regions_korea
 	}
 
 	provinces = {
-		10110 12085 11948 1177
+		10110 12085 11948 
 	}
 }

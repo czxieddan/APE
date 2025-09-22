@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = ZZZ
+		#add_core_of = JAP
 		# set_state_flag = GDP_category_town
 		# set_state_flag = GDP_regions_new_guinea
 	}

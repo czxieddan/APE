@@ -14,7 +14,7 @@ state = { #Population Done
 		owner = ZZZ # GER
 		# add_core_of = GER
 
-		victory_points = { 11372 5 }
+		#victory_points = { 11372 5 }
 		victory_points = { 11260 3 }
 		victory_points = { 9388 6 }
 		victory_points = { 3340 4 }
@@ -28,8 +28,8 @@ state = { #Population Done
 			prisons = 2
 			infrastructure = 5
 			thermoelectric_plant = 3
-			11372 = { naval_base = 2 }
-			6282 = { naval_base = 4 }
+			
+			
 		}
 	}
 

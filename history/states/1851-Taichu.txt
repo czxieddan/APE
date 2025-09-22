@@ -6,8 +6,8 @@ state = {
 	state_category = large_town
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = TAW
+		add_core_of = TAW
 		# set_state_flag = state_renamings
 		buildings = {
 			infrastructure = 5

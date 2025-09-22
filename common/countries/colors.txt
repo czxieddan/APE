@@ -15,6 +15,10 @@ CHI = {
 	color = rgb { 160 10 30 }
 	color_ui = rgb { 160 10 30 }
 }
+DPK = {
+	color = rgb { 190 5 50 }
+	color_ui = rgb { 190 5 50 }
+}
 GUX = {
 	color = rgb { 255 120 0 }
 	color_ui = rgb { 255 120 0 }
@@ -26,6 +30,10 @@ GUZ = {
 HOK = {
 	color = rgb { 66 65 84 }
 	color_ui = rgb { 66 65 84 }
+}
+JAP = {
+	color = rgb { 0 60 200 }
+	color_ui = rgb { 0 60 200 }
 }
 MAN = {
 	color = rgb { 255 205 33 }
@@ -43,6 +51,10 @@ QFK = {
 	color = rgb { 200 150 60 }
 	color_ui = rgb { 200 150 60 }
 }
+ROK = {
+	color = rgb { 0 90 140 }
+	color_ui = rgb { 0 90 140 }
+}
 SHD = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }
@@ -58,6 +70,10 @@ SHX = {
 SIC = {
 	color = rgb { 150 30 230 }
 	color_ui = rgb { 150 30 230 }
+}
+TAW = {
+	color = rgb { 0 200 200 }
+	color_ui = rgb { 0 200 200 }
 }
 TIB = {
 	color = rgb { 230 235 245 }

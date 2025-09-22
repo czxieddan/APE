@@ -6,8 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = MAN
 		buildings = {
 			infrastructure = 4
 			radar_station = 3

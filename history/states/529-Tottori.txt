@@ -9,8 +9,8 @@ state = {
 	#}
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = JAP
+		add_core_of = JAP
 		# set_state_flag = has_offshore_island
 		buildings = {
 			infrastructure = 4

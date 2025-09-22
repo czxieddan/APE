@@ -3,8 +3,8 @@ state = {
 	name = "STATE_1828"
 
 	history = {
-		owner = ZZZ # JAP
-		# add_core_of = JAP
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 6
 			air_base = 1

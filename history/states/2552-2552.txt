@@ -7,11 +7,6 @@ state = {
 		add_core_of = XIK
 		buildings = {
 			infrastructure = 3
-			schools = 1
-			prisons = 1
-			offices = 1
-			barracks = 1
-			thermoelectric_plant = 1
 		}
 	}
 

@@ -12,11 +12,6 @@ state = {
 		add_core_of = NAL
 		buildings = {
 			infrastructure = 3
-			schools = 1
-			prisons = 1
-			offices = 1
-			barracks = 1
-			thermoelectric_plant = 1
 		}
 		victory_points = {
 			7502 20
