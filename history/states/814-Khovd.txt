@@ -7,7 +7,7 @@ state = {
 			barracks = 1
 			infrastructure = 2
 		}
-		owner = ZZZ # MEN
+		owner = MEN
 		victory_points = {
 			10539 5
 		}

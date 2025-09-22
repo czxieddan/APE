@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # MEN
+		owner = MEN
 		buildings = {
 			infrastructure = 2
 		}
@@ -25,7 +25,7 @@ state = {
 	}
 
 	provinces = {
-		1743 1868 4792 5566 5812 7823 7885 9909 10578 10647 10708 12533 12557 12665 13283 16861 16882 19447 16850 16854
+		14671 12533 5566 7885 16861 7823 19447 5141 12665 10708 4792
 	}
 	manpower = 209702
 	buildings_max_level_factor = 1.000

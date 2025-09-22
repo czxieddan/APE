@@ -39,6 +39,10 @@ MAN = {
 	color = rgb { 255 205 33 }
 	color_ui = rgb { 255 205 33 }
 }
+MEN = {
+	color = rgb { 100 100 30 }
+	color_ui = rgb { 100 100 30 }
+}
 NAL = {
 	color = rgb { 150 40 25 }
 	color_ui = rgb { 150 40 25 }
