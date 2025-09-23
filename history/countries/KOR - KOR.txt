@@ -1,0 +1,34 @@
+capital = 962
+set_politics = {
+	ruling_party = IdeologyGroup18
+	last_election = "2049.3.25"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup18 = 100
+}
+set_capital = { state = 2620 }
+set_capital = { state = 962 }
+DPK = {
+    declare_war_on = {
+        target = KOR
+        type = unifyMotherland_KoreanPeninsula_wargoal_focus
+    }
+	set_province_controller = 19914
+	set_province_controller = 15855
+	set_province_controller = 19832
+	set_province_controller = 4004
+	set_province_controller = 11958
+	set_province_controller = 1148
+	set_province_controller = 10036
+	set_province_controller = 9936
+	set_province_controller = 7021
+	set_province_controller = 12011
+	set_province_controller = 11912
+	set_province_controller = 7121
+	set_province_controller = 12089
+	set_province_controller = 4056
+	set_province_controller = 4086
+	set_province_controller = 19512
+}

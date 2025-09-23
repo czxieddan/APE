@@ -2,12 +2,12 @@ state = {
 	id = 2620
 	name = "STATE_2620"
 	history = {
-		owner = ZZZ
-		## add_core_of = KOR
+		owner = KOR
+		add_core_of = KOR
 		buildings = {
 			infrastructure = 3
             12060 = {
-                ## naval_base = 5
+                naval_base = 5
             }
 		}
         victory_points = {

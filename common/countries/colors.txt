@@ -35,6 +35,10 @@ JAP = {
 	color = rgb { 0 60 200 }
 	color_ui = rgb { 0 60 200 }
 }
+KOR = {
+	color = rgb { 0 90 140 }
+	color_ui = rgb { 0 90 140 }
+}
 MAN = {
 	color = rgb { 255 205 33 }
 	color_ui = rgb { 255 205 33 }

@@ -1,8 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-6873;3962;sea;5946;-1;-1;-1;-1;;papua-biak
-1025;11985;sea;7932;-1;-1;-1;-1;;papua-biak
-15874;7072;sea;8791;-1;-1;-1;-1;;papua-biak
-15874;9965;sea;8791;-1;-1;-1;-1;;papua-biak
+15874;15873;sea;8791;-1;-1;-1;-1;;papua-biak
 7567;12910;sea;5771;-1;-1;-1;-1;;Adelaide-Kangaroo Island
 6550;8435;sea;7452;-1;-1;-1;-1;;Aegan Isle-Strait
 3314;6336;sea;2752;-1;-1;-1;-1;;Afsluitdijk
