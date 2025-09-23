@@ -4,7 +4,34 @@ bookmarks = {
 		desc = "BLITZKRIEG_DESC"
 		date = 2050.1.1.12
 		picture = "GFX_select_date_2050"
-		default_country = "RPC"
+		default_country = "QDN"
+		
+		"QDN"={
+			history = "2050_QDN_DESC"
+			ideology = IdeologyGroup001
+			available = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		
+		
+
+		"---"={
+			history = "2050_OTHER_DESC"
+		}
+
+
+		# minors from DLC ####
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
 	
 	}
 }
