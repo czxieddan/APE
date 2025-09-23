@@ -55,10 +55,6 @@ QFK = {
 	color = rgb { 200 150 60 }
 	color_ui = rgb { 200 150 60 }
 }
-ROK = {
-	color = rgb { 0 90 140 }
-	color_ui = rgb { 0 90 140 }
-}
 SHD = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }
@@ -74,10 +70,6 @@ SHX = {
 SIC = {
 	color = rgb { 150 30 230 }
 	color_ui = rgb { 150 30 230 }
-}
-TAW = {
-	color = rgb { 0 200 200 }
-	color_ui = rgb { 0 200 200 }
 }
 TIB = {
 	color = rgb { 230 235 245 }

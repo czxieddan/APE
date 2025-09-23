@@ -5,7 +5,7 @@ state = {
 	history = {
 		owner = DPK
 		add_core_of = DPK
-		# add_core_of = ROK
+		# add_core_of = KOR
 		# add_core_of = JAP
 		victory_points = {
 			11835 5
