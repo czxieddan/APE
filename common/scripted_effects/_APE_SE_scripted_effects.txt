@@ -120,3 +120,96 @@ SE_SE_1 = {
 		clear_array = ROOT.SE_SE_1_States
 	}
 }
+
+SE_SE_2 = {
+	ROOT = {
+		add_to_array = { ROOT.SE_SE_2_Countries = TIB }
+		add_to_array = { ROOT.SE_SE_2_Countries = XIN }
+		add_to_array = { ROOT.SE_SE_2_Countries = CHI }
+		add_to_array = { ROOT.SE_SE_2_Countries = SHX }
+		add_to_array = { ROOT.SE_SE_2_Countries = YUN }
+		add_to_array = { ROOT.SE_SE_2_Countries = XIK }
+		add_to_array = { ROOT.SE_SE_2_Countries = SIC }
+		add_to_array = { ROOT.SE_SE_2_Countries = GUZ }
+		add_to_array = { ROOT.SE_SE_2_Countries = QDN }
+		add_to_array = { ROOT.SE_SE_2_Countries = GUX }
+		add_to_array = { ROOT.SE_SE_2_Countries = NAL }
+		add_to_array = { ROOT.SE_SE_2_Countries = WZS }
+		add_to_array = { ROOT.SE_SE_2_Countries = TAW }
+		add_to_array = { ROOT.SE_SE_2_Countries = QFK }
+		add_to_array = { ROOT.SE_SE_2_Countries = AUH }
+		add_to_array = { ROOT.SE_SE_2_Countries = SHD }
+		add_to_array = { ROOT.SE_SE_2_Countries = MAN }
+		add_to_array = { ROOT.SE_SE_2_Countries = SHT }
+		add_to_array = { ROOT.SE_SE_2_Countries = AOM }
+		add_to_array = { ROOT.SE_SE_2_Countries = HOK }
+		for_each_loop = {
+			array = ROOT.SE_SE_2_Countries
+			value = v
+			every_state = {
+				limit = {
+					is_core_of = v
+					THIS = {
+						NOT = {
+							is_in_array = {
+								array = ROOT.SE_SE_2_CoreStates
+								value = THIS
+							}
+						}
+					}
+				}
+				add_to_array = {
+					array = ROOT.SE_SE_2_CoreStates
+					value = THIS
+				}
+			}
+		}
+		for_each_loop = {
+			array = ROOT.SE_SE_2_Countries
+			value = v
+			every_state = {
+				limit = {
+					is_owned_by = v
+					THIS = {
+						NOT = {
+							is_in_array = {
+								array = ROOT.SE_SE_2_States
+								value = THIS
+							}
+						}
+						is_in_array = {
+							array = ROOT.SE_SE_2_CoreStates
+							value = THIS
+						}
+					}
+				}
+				add_to_array = {
+					array = ROOT.SE_SE_2_States
+					value = THIS
+				}
+			}
+		}
+		for_each_loop = {
+			array = ROOT.SE_SE_2_States
+			value = v
+			ROOT = {
+				transfer_state = v
+				add_state_core = v
+			}
+			every_possible_country = {
+				limit = {
+					is_in_array = {
+						array = ROOT.SE_SE_2_Countries
+						value = THIS
+					}
+					NOT = { tag = ROOT }
+				}
+				remove_state_core = v
+			}
+		}
+		set_cosmetic_tag = cosmeticTagGUX_0
+		clear_array = ROOT.SE_SE_2_Countries
+		clear_array = ROOT.SE_SE_2_CoreStates
+        clear_array = ROOT.SE_SE_2_States
+	}
+}
