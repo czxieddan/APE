@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ unifyMotherland_KoreanPeninsula_wargoal_focus: "统一朝鲜半岛"
+ unifyMotherland_KoreanPeninsula_wargoal_focus_desc: "从$TARGET|Y$手里收复朝鲜半岛领土。"
+ unifyMotherland_KoreanPeninsula_wargoal_focus_short_desc: "设定此战争目标可以在战胜后收复属于$TARGET|Y$的朝鲜半岛领土。"
+ unifyMotherland_KoreanPeninsula_war: "朝鲜统一之战"

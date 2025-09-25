@@ -19,6 +19,10 @@ DPK = {
 	color = rgb { 190 5 50 }
 	color_ui = rgb { 190 5 50 }
 }
+DRV = {
+	color = rgb { 230 60 50 }
+	color_ui = rgb { 230 60 50 }
+}
 GUX = {
 	color = rgb { 255 120 0 }
 	color_ui = rgb { 255 120 0 }
@@ -75,13 +79,17 @@ SIC = {
 	color = rgb { 150 30 230 }
 	color_ui = rgb { 150 30 230 }
 }
+TAW = {
+	color = rgb { 5 195 195 }
+	color_ui = rgb { 5 195 195 }
+}
 TIB = {
 	color = rgb { 230 235 245 }
 	color_ui = rgb { 230 235 245 }
 }
 WZS = {
-	color = rgb { 119 153 119 }
-	color_ui = rgb { 119 153 119 }
+	color = rgb { 32 9 169 }
+	color_ui = rgb { 32 9 169 }
 }
 XIK = {
 	color = rgb { 200 200 150 }

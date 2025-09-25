@@ -7,7 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # VIN
+		owner = DRV
+		add_core_of = DRV
 		# add_core_of = VIN
 		# add_core_of = VIC
 		victory_points = {
@@ -25,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		4397 9988 10016 10129 11909 11936 19052 19142
+		4397 10016 10129 11909 11936 19142
 	}
 	manpower = 2510697
 	buildings_max_level_factor = 1.000

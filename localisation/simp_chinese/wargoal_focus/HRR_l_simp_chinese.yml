@@ -1,4 +1,5 @@
 ﻿l_simp_chinese:
- recoverClaimedile_cosmeticTagHRR_wargoal_focus: "宣称$cosmeticTagHRR$"
- recoverClaimedile_cosmeticTagHRR_wargoal_focus_desc: "$recoverClaimedile_cosmeticTagHRR_wargoal_focus$"
- recoverClaimedile_cosmeticTagHRR_war: "$ORDER$$FIRST$宣称$cosmeticTagHRR$之战"
+ recoverClaimedile_cosmeticTagHRR_wargoal_focus: "夺取$cosmeticTagHRR$"
+ recoverClaimedile_cosmeticTagHRR_wargoal_focus_desc: "从$TARGET|Y$手中夺取§Y$cosmeticTagHRR$§!头衔。"
+ recoverClaimedile_cosmeticTagHRR_wargoal_focus_short_desc: "设定此战争目标可以在战争胜利后剥夺已选择国家的§Y$cosmeticTagHRR$§!头衔。"
+ recoverClaimedile_cosmeticTagHRR_war: "$ORDER$$FIRST$夺取$cosmeticTagHRR$之战"

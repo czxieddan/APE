@@ -3,7 +3,8 @@ state = {
 	name = "STATE_287"
 
 	history = {
-		owner = ZZZ # VIN
+		owner = DRV
+		add_core_of = DRV
 		# add_core_of = VIN
 		# add_core_of = VIC
 		# set_demilitarized_zone = yes
