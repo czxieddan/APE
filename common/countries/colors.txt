@@ -39,6 +39,14 @@ JAP = {
 	color = rgb { 0 60 200 }
 	color_ui = rgb { 0 60 200 }
 }
+KCD = {
+	color = rgb { 3 46 162 }
+	color_ui = rgb { 3 46 162 }
+}
+KCJ = {
+	color = rgb { 218 18 26 }
+	color_ui = rgb { 218 18 26 }
+}
 KOR = {
 	color = rgb { 0 90 140 }
 	color_ui = rgb { 0 90 140 }
@@ -62,6 +70,10 @@ QDN = {
 QFK = {
 	color = rgb { 200 150 60 }
 	color_ui = rgb { 200 150 60 }
+}
+ROV = {
+	color = rgb { 250 200 10 }
+	color_ui = rgb { 250 200 10 }
 }
 SHD = {
 	color = rgb { 180 0 0 }

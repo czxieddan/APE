@@ -1,0 +1,18 @@
+state = {
+	id = 2651
+	name = "STATE_2651"
+	history = {
+		owner = KCD
+		add_core_of = KCD
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+	    19034
+	}
+	manpower = 1087721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

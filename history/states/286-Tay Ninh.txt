@@ -7,9 +7,8 @@ state = {
 	}
 
 	history = {
-		# add_core_of = VIN
-		# add_core_of = VIC
-		owner = ZZZ # VIN
+		owner = ROV
+		add_core_of = ROV
 		buildings = {
 			infrastructure = 2
 		}
@@ -17,7 +16,7 @@ state = {
 	}
 
 	provinces = {
-		7238 7347 10261
+		10261
 	}
 	manpower = 776849
 	buildings_max_level_factor = 1.000

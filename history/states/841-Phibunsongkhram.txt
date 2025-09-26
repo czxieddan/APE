@@ -7,9 +7,10 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # THA
+		owner = KCJ
+		add_core_of = KCJ
 		# add_core_of = THA
-		# add_core_of = CAM
+		# add_core_of = KCD
 		buildings = {
 			infrastructure = 2
 		}
@@ -20,7 +21,7 @@ state = {
 	}
 
 	provinces = {
-		4251 4302 10467 19096
+		4251 10467
 	}
 	manpower = 577948
 	buildings_max_level_factor = 1.000

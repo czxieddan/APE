@@ -6,9 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # VIN
-		# add_core_of = VIN
-		# add_core_of = VIC
+		owner = ROV
+		add_core_of = ROV
 		victory_points = {
 			10309 1
 		}

@@ -1,0 +1,18 @@
+state = {
+	id = 2656
+	name = "STATE_2656"
+	history = {
+		owner = KCJ
+		add_core_of = KCJ
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+	    19096
+	}
+	manpower = 1087721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -3,9 +3,8 @@ state = {
 	name = "STATE_611"
 
 	history = {
-		owner = ZZZ # VIN
-		# add_core_of = VIN
-		# add_core_of = VIC
+		owner = ROV
+		add_core_of = ROV
 		buildings = {
 			infrastructure = 3
 			4223 = {

@@ -1,0 +1,19 @@
+state = {
+	id = 2643
+	name = "STATE_2643"
+	history = {
+		owner = ROV
+		add_core_of = ROV
+		buildings = {
+			infrastructure = 3
+		}
+        victory_points = { 7280 1 }
+	}
+	provinces = {
+	    1302 7280
+	}
+	manpower = 1087721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

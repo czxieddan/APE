@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # CAM
-		# add_core_of = CAM
+		owner = KCD
+		add_core_of = KCD
 		buildings = {
 			infrastructure = 2
 		}
@@ -16,7 +16,7 @@ state = {
 	}
 
 	provinces = {
-		4359 19131 12191 7319
+		12191 7319
 	}
 	manpower = 580719
 	buildings_max_level_factor = 1.000

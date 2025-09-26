@@ -3,9 +3,8 @@ state = {
 	name = "STATE_1749"
 
 	history = {
-		owner = ZZZ # VIN
-		# add_core_of = VIN
-		# add_core_of = VIC
+		owner = ROV
+		add_core_of = ROV
 		buildings = {
 			infrastructure = 3
 			schools = 1
@@ -14,7 +13,7 @@ state = {
 	}
 
 	provinces = {
-		1423 19089 19128
+		1423 19128
 	}
 	manpower = 1275837
 	buildings_max_level_factor = 1.000

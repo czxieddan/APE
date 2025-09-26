@@ -6,16 +6,17 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # LAO
+		owner = KCJ
+		add_core_of = KCJ
 		# add_core_of = LAO
-		# add_claim_by = CAM
+		# add_claim_by = KCD
 		buildings = {
 			infrastructure = 2
 		}
 	}
 
 	provinces = {
-		1577 4596 10453 12167 19014
+		1577 4596 12167 19014
 	}
 	manpower = 89198
 	buildings_max_level_factor = 1.000
