@@ -23,6 +23,14 @@ DRV = {
 	color = rgb { 230 60 50 }
 	color_ui = rgb { 230 60 50 }
 }
+ELO = {
+	color = rgb { 250 150 15 }
+	color_ui = rgb { 250 150 15 }
+}
+ERV = {
+	color = rgb { 30 130 130 }
+	color_ui = rgb { 30 130 130 }
+}
 GUX = {
 	color = rgb { 255 120 0 }
 	color_ui = rgb { 255 120 0 }
@@ -63,6 +71,10 @@ NAL = {
 	color = rgb { 150 40 25 }
 	color_ui = rgb { 150 40 25 }
 }
+NLO = {
+	color = rgb { 130 110 150 }
+	color_ui = rgb { 130 110 150 }
+}
 QDN = {
 	color = rgb { 225 60 50 }
 	color_ui = rgb { 225 60 50 }
@@ -98,6 +110,10 @@ TAW = {
 TIB = {
 	color = rgb { 230 235 245 }
 	color_ui = rgb { 230 235 245 }
+}
+WLO = {
+	color = rgb { 205 17 37 }
+	color_ui = rgb { 205 17 37 }
 }
 WZS = {
 	color = rgb { 32 9 169 }

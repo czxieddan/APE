@@ -1,0 +1,18 @@
+state = {
+	id = 2660
+	name = "STATE_2660"
+	history = {
+		owner = DRV
+		add_core_of = DRV
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+	    20003 20004
+	}
+	manpower = 1087721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

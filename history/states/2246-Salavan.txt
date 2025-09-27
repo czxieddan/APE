@@ -7,15 +7,15 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # LAO
-		# add_core_of = LAO
+		owner = ELO
+		add_core_of = ELO
 		buildings = {
 			infrastructure = 2
 		}
 	}
 
 	provinces = {
-		12210 19044 4554 13211 7426
+		4554 13211 7426
 	}
 	manpower = 199432
 	buildings_max_level_factor = 1.000

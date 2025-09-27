@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # LAO
-		# add_core_of = LAO
+		owner = ELO
+		add_core_of = ELO
 		buildings = {
 			infrastructure = 3
 			hospitals = 1

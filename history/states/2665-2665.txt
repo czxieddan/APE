@@ -1,0 +1,21 @@
+state = {
+	id = 2665
+	name = "STATE_2665"
+	history = {
+		owner = NLO
+		add_core_of = NLO
+		buildings = {
+			infrastructure = 1
+		}
+        victory_points = {
+            19106 5
+        }
+	}
+	provinces = {
+	    12373 19106
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -11,8 +11,8 @@ state = { #Population Done
 	state_category = large_town
 
 	history = {
-		owner = ROV
-		add_core_of = ROV
+		owner = ERV
+		add_core_of = ERV
 		victory_points = { 4379 10 }
 		buildings = {
 			infrastructure = 3

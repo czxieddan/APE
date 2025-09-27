@@ -2,8 +2,8 @@ state = {
 	id = 2647
 	name = "STATE_2647"
 	history = {
-		owner = ROV
-		add_core_of = ROV
+		owner = ERV
+		add_core_of = ERV
 		buildings = {
 			infrastructure = 1
 		}

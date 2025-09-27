@@ -1300,7 +1300,7 @@
 1299;6;72;20;land;false;forest;2
 1300;6;72;65;land;true;mountain;6
 1301;6;72;170;land;true;jungle;4
-1302;6;75;30;land;true;valleys;6
+1302;6;75;30;land;false;valleys;6
 1303;6;75;85;land;false;steppe;6
 1304;6;75;135;land;false;jungle;6
 1305;6;78;50;land;false;plains;1
@@ -20001,3 +20001,6 @@
 20000;169;55;96;land;true;savanna;5
 20001;133;43;42;land;true;plains;4
 20002;61;95;224;land;true;steppe;1
+20003;175;211;0;land;false;savanna;6
+20004;175;211;1;land;false;mountain;6
+20005;175;211;2;land;false;valleys;6
