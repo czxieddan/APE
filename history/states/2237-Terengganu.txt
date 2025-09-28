@@ -6,8 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # THA
-		# add_core_of = THA
+		owner = ZZZ
 		# add_claim_by = MLY
 		buildings = {
 			infrastructure = 3

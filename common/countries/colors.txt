@@ -59,6 +59,10 @@ KOR = {
 	color = rgb { 0 90 140 }
 	color_ui = rgb { 0 90 140 }
 }
+KTL = {
+	color = rgb { 150 70 220 }
+	color_ui = rgb { 150 70 220 }
+}
 MAN = {
 	color = rgb { 255 205 33 }
 	color_ui = rgb { 255 205 33 }
