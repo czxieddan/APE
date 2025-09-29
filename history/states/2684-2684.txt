@@ -1,0 +1,21 @@
+state = {
+	id = 2684
+	name = "STATE_2684"
+	history = {
+		owner = ZZZ # BUR
+		# add_core_of = BUR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4336 1
+		}
+	}
+	provinces = {
+	    4336
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

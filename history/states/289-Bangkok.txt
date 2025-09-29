@@ -18,16 +18,13 @@ state = {
 			7408 35
 		}
 		victory_points = {
-			19153 5
-		}
-		victory_points = {
 			19136 1
 		}
 		# add_core_of = THA
 	}
 
 	provinces = {
-		1427 7408 19090 19111 19136 19153 19154
+		7408 19090 19136
 	}
 	manpower = 4259795
 	buildings_max_level_factor = 1.000

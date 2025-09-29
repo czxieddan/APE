@@ -1,0 +1,18 @@
+state = {
+	id = 2672
+	name = "STATE_2672"
+	history = {
+		owner = KTL
+		add_core_of = KTL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+	    7587 19114 4392 12122
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
