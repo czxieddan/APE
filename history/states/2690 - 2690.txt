@@ -1,0 +1,21 @@
+state = {
+	id = 2690
+	name = "STATE_2690"
+	history = {
+		owner = YUN
+		add_core_of = YUN
+		buildings = {
+			infrastructure = 3
+		}
+        victory_points = {
+            19558 1
+        }
+	}
+	provinces = {
+	    7606 19493 12282 19558
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

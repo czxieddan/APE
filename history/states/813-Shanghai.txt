@@ -25,9 +25,6 @@ state = {
 		victory_points = {
 			7014 60
 		}
-		victory_points = {
-			19809 4
-		}
 		# set_state_flag = GDP_category_large_city
 		# set_variable = { china_state_ref = 1 }
 		# set_variable = { china_region_ref = 0 }
@@ -35,7 +32,7 @@ state = {
 	}
 
 	provinces = {
-		7014 12076 19858 19809 19802 19925
+		7014
 	}
 	manpower = 10306547
 	buildings_max_level_factor = 1.000
