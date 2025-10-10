@@ -1,0 +1,438 @@
+#!gfx:interface\APE\icons\goals\QFK\01_goals.gfx
+focus_tree = {
+	id = QFK_01
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = QFK
+		}
+	}
+	shared_focus = QFK_01_FS_00_A
+	shared_focus = QFK_01_FS_00_B
+	shared_focus = QFK_01_FS_00_C
+	default = no
+    continuous_focus_position = { x = 2000 y = 1300 }
+}
+    shared_focus = {
+		id = QFK_01_FS_00_A
+		icon = GFX_focus_goals_QFK_01_FS_00_A
+		cost = 2.86
+		x = -16
+		y = 0
+		relative_position_id = QFK_01_FS_00_B
+		allow_branch = {
+			NOT = {
+				has_completed_focus = QFK_01_FS_05
+			}
+		}
+	}
+	shared_focus = {
+		id = QFK_01_FS_00_B
+		icon = GFX_focus_goals_QFK_01_FS_00_B
+		cost = 2.86
+		x = 21
+		y = 2
+		available = {
+			has_completed_focus = QFK_01_FS_00_A
+		}
+		allow_branch = {
+			NOT = {
+				has_completed_focus = QFK_01_FS_05
+			}
+		}
+	}
+	shared_focus = {
+		id = QFK_01_FS_00_C
+		icon = GFX_focus_goals_QFK_01_FS_00_C
+		cost = 2.86
+		x = 16
+		y = 0
+		relative_position_id = QFK_01_FS_00_B
+		available = {
+			has_completed_focus = QFK_01_FS_01_A_I
+		}
+		allow_branch = {
+			NOT = {
+				has_completed_focus = QFK_01_FS_05
+			}
+		}
+	}
+	shared_focus = {
+		id = QFK_01_FS_01_A_O
+		icon = GFX_focus_goals_QFK_01_FS_01_A_O
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_00_A
+		}
+		x = -3
+		y = 2
+		relative_position_id = QFK_01_FS_00_A
+	}
+	shared_focus = {
+		id = QFK_01_FS_02_A_O_L
+		icon = GFX_focus_goals_QFK_01_FS_02_A_O_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_01_A_O
+		}
+		x = -2
+		y = 2
+		relative_position_id = QFK_01_FS_01_A_O
+	}
+	shared_focus = {
+		id = QFK_01_FS_02_A_O_R
+		icon = GFX_focus_goals_QFK_01_FS_02_A_O_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_01_A_O
+		}
+		x = 2
+		y = 2
+		relative_position_id = QFK_01_FS_01_A_O
+	}
+	shared_focus = {
+		id = QFK_01_FS_03_A_O_L
+		icon = GFX_focus_goals_QFK_01_FS_03_A_O_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_02_A_O_L
+		}
+		x = 0
+		y = 2
+		relative_position_id = QFK_01_FS_02_A_O_L
+	}
+	shared_focus = {
+		id = QFK_01_FS_03_A_O_R
+		icon = GFX_focus_goals_QFK_01_FS_03_A_O_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_02_A_O_R
+		}
+		x = 0
+		y = 2
+		relative_position_id = QFK_01_FS_02_A_O_R
+	}
+	shared_focus = {
+		id = QFK_01_FS_04_A_O
+		icon = GFX_focus_goals_QFK_01_FS_04_A_O
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_03_A_O_L
+		}
+		prerequisite = {
+			focus = QFK_01_FS_03_A_O_R
+		}
+		x = 0
+		y = 6
+		relative_position_id = QFK_01_FS_01_A_O
+	}
+	shared_focus = {
+		id = QFK_01_FS_01_A_I
+		icon = GFX_focus_goals_QFK_01_FS_01_A_I
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_00_A
+		}
+		x = 3
+		y = 2
+		relative_position_id = QFK_01_FS_00_A
+	}
+	shared_focus = {
+		id = QFK_01_FS_01_C_O
+		icon = GFX_focus_goals_QFK_01_FS_01_C_O
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_00_C
+		}
+		mutually_exclusive = {
+			focus = QFK_01_FS_01_C_I
+		}
+		x = 3
+		y = 2
+		relative_position_id = QFK_01_FS_00_C
+	}
+	shared_focus = {
+		id = QFK_01_FS_02_C_O_L
+		icon = GFX_focus_goals_QFK_01_FS_02_C_O_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_01_C_I
+			focus = QFK_01_FS_01_C_O
+		}
+		x = -2
+		y = 2
+		relative_position_id = QFK_01_FS_01_C_O
+	}
+	shared_focus = {
+		id = QFK_01_FS_02_C_O_R
+		icon = GFX_focus_goals_QFK_01_FS_02_C_O_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_01_C_O
+		}
+		x = 2
+		y = 2
+		relative_position_id = QFK_01_FS_01_C_O
+	}
+	shared_focus = {
+		id = QFK_01_FS_03_C_O_L
+		icon = GFX_focus_goals_QFK_01_FS_03_C_O_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_02_C_O_L
+		}
+		x = 0
+		y = 2
+		relative_position_id = QFK_01_FS_02_C_O_L
+	}
+	shared_focus = {
+		id = QFK_01_FS_03_C_O_R
+		icon = GFX_focus_goals_QFK_01_FS_03_C_O_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_02_C_O_R
+		}
+		x = 0
+		y = 2
+		relative_position_id = QFK_01_FS_02_C_O_R
+	}
+	shared_focus = {
+		id = QFK_01_FS_04_C_O
+		icon = GFX_focus_goals_QFK_01_FS_04_C_O
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_03_C_O_L
+			focus = QFK_01_FS_03_C_O_R
+		}
+		mutually_exclusive = {
+			focus = QFK_01_FS_04_B_O_R
+		}
+		x = 0
+		y = 6
+		relative_position_id = QFK_01_FS_01_C_O
+	}
+	shared_focus = {
+		id = QFK_01_FS_01_C_I
+		icon = GFX_focus_goals_QFK_01_FS_01_C_I
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_00_C
+		}
+		mutually_exclusive = {
+			focus = QFK_01_FS_01_C_O
+		}
+		x = -3
+		y = 2
+		relative_position_id = QFK_01_FS_00_C
+	}
+	shared_focus = {
+		id = QFK_01_FS_01_B_L
+		icon = GFX_focus_goals_QFK_01_FS_01_B_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_00_B
+		}
+		x = -3
+		y = 2
+		relative_position_id = QFK_01_FS_00_B
+	}
+	shared_focus = {
+		id = QFK_01_FS_01_B_R
+		icon = GFX_focus_goals_QFK_01_FS_01_B_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_00_B
+		}
+		x = 3
+		y = 2
+		relative_position_id = QFK_01_FS_00_B
+	}
+	shared_focus = {
+		id = QFK_01_FS_02_B_L
+		icon = GFX_focus_goals_QFK_01_FS_02_B_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_01_B_L
+		}
+		x = -1
+		y = 2
+		relative_position_id = QFK_01_FS_01_B_L
+	}
+	shared_focus = {
+		id = QFK_01_FS_02_B_R
+		icon = GFX_focus_goals_QFK_01_FS_02_B_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_01_B_R
+		}
+		x = 1
+		y = 2
+		relative_position_id = QFK_01_FS_01_B_R
+	}
+	shared_focus = {
+		id = QFK_01_FS_02_B_C
+		icon = GFX_focus_goals_QFK_01_FS_02_B_C
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_00_B
+		}
+		x = 0
+		y = 4
+		relative_position_id = QFK_01_FS_00_B
+	}
+	shared_focus = {
+		id = QFK_01_FS_03_B_L
+		icon = GFX_focus_goals_QFK_01_FS_03_B_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_02_B_L
+		}
+		x = 2
+		y = 2
+		relative_position_id = QFK_01_FS_02_B_L
+	}
+	shared_focus = {
+		id = QFK_01_FS_03_B_R
+		icon = GFX_focus_goals_QFK_01_FS_03_B_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_02_B_R
+		}
+		x = -2
+		y = 2
+		relative_position_id = QFK_01_FS_02_B_R
+	}
+	shared_focus = {
+		id = QFK_01_FS_04_B_C
+		icon = GFX_focus_goals_QFK_01_FS_04_B_C
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_03_B_L
+			focus = QFK_01_FS_03_B_R
+		}
+		x = 0
+		y = 8
+		relative_position_id = QFK_01_FS_00_B
+	}
+	shared_focus = {
+		id = QFK_01_FS_02_B_O_L
+		icon = GFX_focus_goals_QFK_01_FS_02_B_O_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_01_B_L
+		}
+		prerequisite = {
+			focus = QFK_01_FS_01_A_I
+		}
+		x = -8
+		y = 4
+		relative_position_id = QFK_01_FS_00_B
+	}
+	shared_focus = {
+		id = QFK_01_FS_03_B_O_L_L
+		icon = GFX_focus_goals_QFK_01_FS_03_B_O_L_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_02_A_O_R
+		}
+		x = -2
+		y = 2
+		relative_position_id = QFK_01_FS_02_B_O_L
+	}
+	shared_focus = {
+		id = QFK_01_FS_03_B_O_L_R
+		icon = GFX_focus_goals_QFK_01_FS_03_B_O_L_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_02_B_O_L
+		}
+		x = 2
+		y = 2
+		relative_position_id = QFK_01_FS_02_B_O_L
+	}
+	shared_focus = {
+		id = QFK_01_FS_04_B_O_L
+		icon = GFX_focus_goals_QFK_01_FS_04_B_O_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_03_B_O_L_L
+		}
+		prerequisite = {
+			focus = QFK_01_FS_03_B_O_L_R
+		}
+		x = 0
+		y = 4
+		relative_position_id = QFK_01_FS_02_B_O_L
+	}
+	shared_focus = {
+		id = QFK_01_FS_02_B_O_R
+		icon = GFX_focus_goals_QFK_01_FS_02_B_O_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_01_C_I
+		}
+		x = 8
+		y = 4
+		relative_position_id = QFK_01_FS_00_B
+	}
+	shared_focus = {
+		id = QFK_01_FS_03_B_O_R_L
+		icon = GFX_focus_goals_QFK_01_FS_03_B_O_R_L
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_02_B_R
+		}
+		x = -2
+		y = 2
+		relative_position_id = QFK_01_FS_02_B_O_R
+	}
+	shared_focus = {
+		id = QFK_01_FS_03_B_O_R_R
+		icon = GFX_focus_goals_QFK_01_FS_03_B_O_R_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_02_B_O_R
+		}
+		x = 2
+		y = 2
+		relative_position_id = QFK_01_FS_02_B_O_R
+	}
+	shared_focus = {
+		id = QFK_01_FS_04_B_O_R
+		icon = GFX_focus_goals_QFK_01_FS_04_B_O_R
+		cost = 2.86
+		prerequisite = {
+			focus = QFK_01_FS_03_B_O_R_L
+		}
+		prerequisite = {
+			focus = QFK_01_FS_03_B_O_R_R
+		}
+		mutually_exclusive = {
+			focus = QFK_01_FS_04_C_O
+		}
+		x = 0
+		y = 4
+		relative_position_id = QFK_01_FS_02_B_O_R
+	}
+	shared_focus = {
+		id = QFK_01_FS_05
+		icon = GFX_focus_goals_QFK_01_FS_05
+		cost = 2.86
+		x = 0
+		y = 10
+		prerequisite = {
+			focus = QFK_01_FS_04_A_O
+		}
+		prerequisite = {
+			focus = QFK_01_FS_04_B_C
+		}
+		prerequisite = {
+			focus = QFK_01_FS_04_B_O_R
+			focus = QFK_01_FS_04_C_O
+		}
+		relative_position_id = QFK_01_FS_00_B
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
+	}

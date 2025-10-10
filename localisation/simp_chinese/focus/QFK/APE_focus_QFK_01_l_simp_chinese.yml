@@ -1,0 +1,109 @@
+﻿l_simp_chinese: 
+ # 注意此为QFK_01国策本地化 请勿在此填写无关内容 
+ # 国策的ID为 TAG_FOCUSTREEID_PROJECT_ID 
+ 
+ 
+ 
+ # QFK 01
+ QFK_01_FS_00_A: "手把木铎"
+ QFK_01_FS_00_A_desc: ""
+
+ QFK_01_FS_00_B: "手把金铎"
+ QFK_01_FS_00_B_desc: ""
+
+ QFK_01_FS_00_C: "手把命运"
+ QFK_01_FS_00_C_desc: ""
+
+ QFK_01_FS_01_A_O: "中庸为德"
+ QFK_01_FS_01_A_O_desc: ""
+
+ QFK_01_FS_02_A_O_L: "施膳恩养"
+ QFK_01_FS_02_A_O_L_desc: ""
+
+ QFK_01_FS_02_A_O_R: "施教于民"
+ QFK_01_FS_02_A_O_R_desc: ""
+
+ QFK_01_FS_03_A_O_L: "人道精神"
+ QFK_01_FS_03_A_O_L_desc: ""
+
+ QFK_01_FS_03_A_O_R: "教训正俗"
+ QFK_01_FS_03_A_O_R_desc: ""
+
+ QFK_01_FS_04_A_O: "强化信仰"
+ QFK_01_FS_04_A_O_desc: ""
+
+ QFK_01_FS_01_A_I: "大祭百神"
+ QFK_01_FS_01_A_I_desc: ""
+
+ QFK_01_FS_01_C_O: "寻求合作"
+ QFK_01_FS_01_C_O_desc: ""
+
+ QFK_01_FS_02_C_O_L: "庙堂儒教"
+ QFK_01_FS_02_C_O_L_desc: ""
+
+ QFK_01_FS_02_C_O_R: "大众儒学"
+ QFK_01_FS_02_C_O_R_desc: ""
+
+ QFK_01_FS_03_C_O_L: "发展理学"
+ QFK_01_FS_03_C_O_L_desc: ""
+
+ QFK_01_FS_03_C_O_R: "道法结合"
+ QFK_01_FS_03_C_O_R_desc: ""
+
+ QFK_01_FS_04_C_O: "战略同盟"
+ QFK_01_FS_04_C_O_desc: ""
+
+ QFK_01_FS_01_C_I: "踽踽独行"
+ QFK_01_FS_01_C_I_desc: ""
+
+ QFK_01_FS_01_B_L: "狂热之军"
+ QFK_01_FS_01_B_L_desc: ""
+
+ QFK_01_FS_01_B_R: "渗透齐军"
+ QFK_01_FS_01_B_R_desc: ""
+
+ QFK_01_FS_02_B_L: "信仰力量"
+ QFK_01_FS_02_B_L_desc: ""
+
+ QFK_01_FS_02_B_R: "战前准备"
+ QFK_01_FS_02_B_R_desc: ""
+
+ QFK_01_FS_02_B_C: "近卫儒军"
+ QFK_01_FS_02_B_C_desc: ""
+
+ QFK_01_FS_03_B_L: "因信而行"
+ QFK_01_FS_03_B_L_desc: ""
+
+ QFK_01_FS_03_B_R: "举起枪杆"
+ QFK_01_FS_03_B_R_desc: ""
+
+ QFK_01_FS_04_B_C: "动员信徒"
+ QFK_01_FS_04_B_C_desc: ""
+
+ QFK_01_FS_02_B_O_L: "护卫儒庙"
+ QFK_01_FS_02_B_O_L_desc: ""
+
+ QFK_01_FS_03_B_O_L_L: "任人唯贤"
+ QFK_01_FS_03_B_O_L_L_desc: ""
+
+ QFK_01_FS_03_B_O_L_R: "钻研圣经"
+ QFK_01_FS_03_B_O_L_R_desc: ""
+
+ QFK_01_FS_04_B_O_L: "巨儒传承"
+ QFK_01_FS_04_B_O_L_desc: ""
+
+ QFK_01_FS_02_B_O_R: "儒学灯塔"
+ QFK_01_FS_02_B_O_R_desc: ""
+
+ QFK_01_FS_03_B_O_R_L: "非常手段"
+ QFK_01_FS_03_B_O_R_L_desc: ""
+
+ QFK_01_FS_03_B_O_R_R: "信徒力量"
+ QFK_01_FS_03_B_O_R_R_desc: ""
+
+ QFK_01_FS_04_B_O_R: "自立自强"
+ QFK_01_FS_04_B_O_R_desc: ""
+
+ QFK_01_FS_05: "信仰之战"
+ QFK_01_FS_05_desc: ""
+
