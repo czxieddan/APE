@@ -8,3 +8,5 @@ set_politics = {
 set_popularities = {
 	IdeologyGroup9 = 100
 }
+recruit_character = QFK_KongYouren
+#fuckParadox

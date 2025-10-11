@@ -1,0 +1,17 @@
+characters = {
+	QFK_KongYouren = {
+		name = QFK_KongYouren
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_QFK_KongYouren
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup9_IdelogySubtype1
+			desc = QFK_KongYouren_desc
+			traits = { 
+		    }
+			expire = "2099.12.31.23"
+		}     
+	}
+}

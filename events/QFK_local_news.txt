@@ -1,0 +1,19 @@
+add_namespace = QFK_local_news
+
+
+
+news_event = {
+	id = QFK_local_news.1
+	title = QFK_local_news.1.title
+	desc = QFK_local_news.1.desc
+	picture = GFX_event_report_QFK_local_news_1
+	is_triggered_only = yes
+	fire_only_once = no
+    hidden = no
+	major = no
+    immediate = {
+    }
+	option = {
+		name = "QFK_local_news.1.a"
+	}
+}

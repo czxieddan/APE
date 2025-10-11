@@ -176,6 +176,7 @@ NDefines.NSupply.VP_TO_SUPPLY_BONUS_CONVERSION = 0.07
 -- AVAILABLE_MANPOWER_STATE_SUPPLY = 0.18,	--Factor for state supply from max manpower (population)
 NDefines.NSupply.AVAILABLE_MANPOWER_STATE_SUPPLY = 0.3
 
-NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 10				-- This much progress can be saved while not having a focus selected
+NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 5				-- This much progress can be saved while not having a focus selected
+NDefines.NFocus.FOCUS_POINT_DAYS = 1
 
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 6.8977

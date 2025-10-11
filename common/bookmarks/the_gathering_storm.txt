@@ -9,7 +9,18 @@ bookmarks = {
 		
 		"QDN"={
 			history = "2050_QDN_DESC"
-			ideology = IdeologyGroup001
+			ideology = IdeologyGroup1
+			available = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"QFK"={
+			history = "2050_QFK_DESC"
+			ideology = IdeologyGroup9
 			available = yes
 			ideas = {
 				

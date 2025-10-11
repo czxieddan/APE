@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ 
+ IdeologyGroup9: "儒学唯心主义"
+ IdeologyGroup9_noun: "$IdeologyGroup9$"
+ IdeologyGroup9_desc: "$IdeologyGroup9$政体"
+ IdeologyGroup9_drift: "意识形态向$IdeologyGroup9$变化力度"
+ IdeologyGroup9_IdelogySubtype0: ""
+ IdeologyGroup9_IdelogySubtype0_desc: ""
+ IdeologyGroup9_IdelogySubtype1: "孔子思想"
+ IdeologyGroup9_IdelogySubtype1_desc: "妈的没文案不会写"
+ 
+ QFK_IdeologyGroup9_party: "孔府"
+ QFK_IdeologyGroup9_party_long: "孔府"
