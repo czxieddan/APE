@@ -23,7 +23,7 @@ bookmarks = {
 			ideology = IdeologyGroup9
 			available = yes
 			ideas = {
-				
+				QFK_idea_TheDoctrineOfTheMean_show
 			}
 			focuses = {
 				

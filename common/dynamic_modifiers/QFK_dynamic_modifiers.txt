@@ -1,0 +1,7 @@
+QFK_TheDoctrineOfTheMean_dynamic_modifiers = {
+    enable = { always = yes }
+    remove_trigger = { always = no }
+	stability_factor = QFK.TheDoctrineOfTheMean_stabilityFactor
+	opinion_gain_monthly_factor = QFK.TheDoctrineOfTheMean_opinionGainMonthlyFactor
+	political_power_cost = QFK.TheDoctrineOfTheMean_pp
+}

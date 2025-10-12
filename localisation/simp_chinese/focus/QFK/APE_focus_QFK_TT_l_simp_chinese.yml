@@ -1,4 +1,7 @@
 ﻿l_simp_chinese: 
  
  # QFK 01
- QFK_01_FS_05_TT: "§R我们向（§!§Y[SHD.GetFlag][SHD.GetAdjectiveCap]§!§R）发起§!§Y信仰之战§!§R。§!\n解锁新的§Y国策内容§!。"
+ QFK_01_FS_03_A_O_L_TT: "获得修正：§Y$QFK_01_FS_03_A_O_L$§!，其效果为：\n每日异信仰者改信：§G+4.00K§! 每州"
+ QFK_01_FS_03_A_O_R_TT: "获得修正：§Y$QFK_01_FS_03_A_O_R$§!，其效果为：\n每日异信仰者改信：§G+4.00K§! 每州\n§Y$QFK_idea_TheDoctrineOfTheMean$§!新增效果：[GetQFK_idea_TheDoctrineOfTheMean_tt_2_QFK_01_FS_03_A_O_R_TT]"
+ QFK_01_FS_04_B_O_L_TT: "获得修正：§Y$QFK_01_FS_04_B_O_L$§!，其效果为：\n§Y$QFK_01_FS_03_A_O_R$§!花费：§G-50%§!"
+ QFK_01_FS_05_TT: "§R向（§!§Y[SHD.GetFlag][SHD.GetAdjectiveCap]§!§R）发起§!§Y信仰之战§!§R。§!\n解锁新的§Y国策内容§!。"

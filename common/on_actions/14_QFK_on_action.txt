@@ -1,0 +1,78 @@
+on_actions = {
+    on_startup = {
+		effect = {
+			QFK = {
+				swap_ideas = {
+				    remove_idea = QFK_idea_TheDoctrineOfTheMean_show
+				    add_idea = QFK_idea_TheDoctrineOfTheMean
+			    }
+			}
+		}
+	}
+	on_daily_QFK = {
+		effect = {
+			QFK = {
+				set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganM = 0 }
+				every_controlled_state = {
+	                set_variable = {
+	                	THIS.state_population_M = THIS.state_population_k
+	                }
+	                divide_variable = {
+                		THIS.state_population_M = 1000
+                	}
+                	add_to_variable = {
+                		QFK.TheDoctrineOfTheMean_stabilityFactor_paganM = THIS.state_population_M
+                	}
+                	if = {
+	                	limit = { 
+	                		check_variable = {
+	                			THIS.TheDoctrineOfTheMean_stabilityFactor_paganN < THIS.state_population_M
+	                		}
+	                	}
+	                	add_to_variable = {
+	                	    THIS.TheDoctrineOfTheMean_stabilityFactor_paganN = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD
+	                    }
+	                }
+                	else = {
+	                	set_variable = {
+	                		THIS.TheDoctrineOfTheMean_stabilityFactor_paganN = THIS.state_population_M
+	                	}
+                	}
+                	subtract_from_variable = {
+	                	QFK.TheDoctrineOfTheMean_stabilityFactor_paganM = THIS.TheDoctrineOfTheMean_stabilityFactor_paganN
+	                }
+	                clear_variable = THIS.state_population_M
+                }
+                set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganF = QFK.TheDoctrineOfTheMean_stabilityFactor_paganM }
+                divide_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganF = 1000 }
+                set_variable = { QFK.TheDoctrineOfTheMean_opinionGainMonthlyFactor = 0.5 }
+                set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_base }
+				if = {
+					limit = { 
+						check_variable = {
+							QFK.TheDoctrineOfTheMean_stabilityFactor_paganF < 0
+						}
+					}
+					set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganF = 0 }
+				}
+                subtract_from_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_paganF }
+				set_variable = {
+					QFK.TheDoctrineOfTheMean_pp = 0
+				}
+				set_variable = {
+					QFK.num_controlled_states_SHOW = QFK.num_controlled_states
+				}
+				if = {
+					limit = { 
+						has_country_flag = QFK_completed_QFK_01_FS_03_A_O_R
+					}
+					set_variable = { QFK.TheDoctrineOfTheMean_2_pp = 0.01 }
+			        if = { limit = { QFK = { has_country_flag = QFK_completed_QFK_01_FS_04_B_O_L } } divide_variable = { QFK.TheDoctrineOfTheMean_2_pp = 2 } }
+			        multiply_variable = { QFK.TheDoctrineOfTheMean_2_pp = QFK.num_controlled_states }
+			        add_to_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
+				}
+				force_update_dynamic_modifier = yes
+			}
+		}
+	}
+}

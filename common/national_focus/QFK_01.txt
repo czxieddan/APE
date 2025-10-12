@@ -12,7 +12,8 @@ focus_tree = {
 	shared_focus = QFK_01_FS_00_B
 	shared_focus = QFK_01_FS_00_C
 	default = no
-    continuous_focus_position = { x = 2000 y = 1300 }
+    continuous_focus_position = { x = 1797 y = 1300 }
+	initial_show_position = { x = 2000 y = 0 }
 }
     shared_focus = {
 		id = QFK_01_FS_00_A
@@ -104,6 +105,15 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = QFK_01_FS_02_A_O_L
+		completion_reward = {
+			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.004 }
+			custom_effect_tooltip = "QFK_01_FS_03_A_O_L_TT"
+			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
+            multiply_variable = {
+	            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
+            }
+			set_country_flag = QFK_completed_QFK_01_FS_03_A_O_L
+		}
 	}
 	shared_focus = {
 		id = QFK_01_FS_03_A_O_R
@@ -115,6 +125,20 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = QFK_01_FS_02_A_O_R
+		completion_reward = {
+			set_country_flag = QFK_completed_QFK_01_FS_03_A_O_R
+			set_variable = { QFK.TheDoctrineOfTheMean_2_pp = 0.01 }
+			if = { limit = { QFK = { has_country_flag = QFK_completed_QFK_01_FS_04_B_O_L } } divide_variable = { QFK.TheDoctrineOfTheMean_2_pp = 2 } }
+			multiply_variable = { QFK.TheDoctrineOfTheMean_2_pp = QFK.num_controlled_states }
+			add_to_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
+			force_update_dynamic_modifier = yes
+			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.004 }
+			custom_effect_tooltip = "QFK_01_FS_03_A_O_R_TT"
+			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
+            multiply_variable = {
+	            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
+            }
+		}
 	}
 	shared_focus = {
 		id = QFK_01_FS_04_A_O
@@ -372,6 +396,17 @@ focus_tree = {
 		relative_position_id = QFK_01_FS_02_B_O_L
 		completion_reward = {
 			add_research_slot = 1
+			set_country_flag = QFK_completed_QFK_01_FS_04_B_O_L
+			if = {
+				limit = { has_country_flag = QFK_completed_QFK_01_FS_03_A_O_R }
+				subtract_from_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
+				set_variable = { QFK.TheDoctrineOfTheMean_2_pp = 0.01 }
+			    if = { limit = { QFK = { has_country_flag = QFK_completed_QFK_01_FS_04_B_O_L } } divide_variable = { QFK.TheDoctrineOfTheMean_2_pp = 2 } }
+			    multiply_variable = { QFK.TheDoctrineOfTheMean_2_pp = QFK.num_controlled_states }
+			    add_to_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
+			    force_update_dynamic_modifier = yes
+				custom_effect_tooltip = "QFK_01_FS_04_B_O_L_TT"
+			}
 		}
 	}
 	shared_focus = {
