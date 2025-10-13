@@ -12,27 +12,21 @@ recruit_character = QFK_KongYouren
 #fuckParadox
 add_ideas = QFK_idea_TheDoctrineOfTheMean_show
 set_variable = { QFK.num_controlled_states_SHOW = 1 }
-set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_base = 0.1 }
+set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_base = 0.05 }
 set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganM = 0 }
 set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.002 }
 set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
-multiply_variable = {
-	QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
-}
-every_state = {
-	set_variable = {
-		THIS.TheDoctrineOfTheMean_stabilityFactor_paganN = 0
-	}
-}
-2563 = {
-	set_variable = {
-		THIS.TheDoctrineOfTheMean_stabilityFactor_paganN = 0.02
-	}
-}
+multiply_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000 }
+every_state = { set_variable = { THIS.TheDoctrineOfTheMean_stabilityFactor_paganN = 0 } }
+2563 = { set_variable = { THIS.TheDoctrineOfTheMean_stabilityFactor_paganN = 0.02 } }
 set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganM = 1 }
 set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganF = QFK.TheDoctrineOfTheMean_stabilityFactor_paganM }
 divide_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganF = 1000 }
-set_variable = { QFK.TheDoctrineOfTheMean_opinionGainMonthlyFactor = 0.5 }
+set_variable = { QFK.TheDoctrineOfTheMean_opinionGainMonthlyFactor = 0.3 }
 set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_base }
 subtract_from_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_paganF }
 add_dynamic_modifier = { modifier = QFK_TheDoctrineOfTheMean_dynamic_modifiers }
+add_ideas = QFK_idea_ConfucianClassics_show
+set_variable = { QFK.ConfucianClassics_research_base = -0.3 }
+set_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_research_base }
+add_dynamic_modifier = { modifier = QFK_ConfucianClassics_dynamic_modifiers }

@@ -34,4 +34,38 @@ ideas = {
 			}
 		}
 	}
+	country = {
+		QFK_idea_ConfucianClassics_show = {
+			picture = QFK_idea_ConfucianClassics # 儒教圣经 展示
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			    custom_modifier_tooltip = QFK_idea_ConfucianClassics_show_tt
+			}
+			rule = {
+			}
+		}
+	}
+	country = {
+		QFK_idea_ConfucianClassics = {
+			picture = QFK_idea_ConfucianClassics # 儒教圣经
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			    custom_modifier_tooltip = QFK_idea_ConfucianClassics_tt
+			}
+			rule = {
+			}
+		}
+	}
 }

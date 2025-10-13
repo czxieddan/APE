@@ -72,6 +72,19 @@ focus_tree = {
 		x = -3
 		y = 2
 		relative_position_id = QFK_01_FS_00_A
+		completion_reward = {
+			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_base = 0.05 }
+			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_base }
+            subtract_from_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_paganF }
+			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.003 }
+			custom_effect_tooltip = "QFK_01_FS_01_A_O_TT"
+			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
+            multiply_variable = {
+	            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
+            }
+			set_country_flag = QFK_completed_QFK_01_FS_01_A_O
+			force_update_dynamic_modifier = yes
+		}
 	}
 	shared_focus = {
 		id = QFK_01_FS_02_A_O_L
@@ -94,6 +107,15 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = QFK_01_FS_01_A_O
+		completion_reward = {
+			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.001 }
+			custom_effect_tooltip = "QFK_01_FS_02_A_O_R_TT"
+			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
+            multiply_variable = {
+	            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
+            }
+			set_country_flag = QFK_completed_QFK_01_FS_02_A_O_R
+		}
 	}
 	shared_focus = {
 		id = QFK_01_FS_03_A_O_L
@@ -106,7 +128,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = QFK_01_FS_02_A_O_L
 		completion_reward = {
-			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.004 }
+			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.002 }
 			custom_effect_tooltip = "QFK_01_FS_03_A_O_L_TT"
 			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
             multiply_variable = {
@@ -132,7 +154,7 @@ focus_tree = {
 			multiply_variable = { QFK.TheDoctrineOfTheMean_2_pp = QFK.num_controlled_states }
 			add_to_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
 			force_update_dynamic_modifier = yes
-			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.004 }
+			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.002 }
 			custom_effect_tooltip = "QFK_01_FS_03_A_O_R_TT"
 			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
             multiply_variable = {
@@ -380,6 +402,12 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = QFK_01_FS_02_B_O_L
+		completion_reward = {
+			set_country_flag = QFK_completed_QFK_01_FS_03_B_O_L_R
+			add_to_variable = { QFK.ConfucianClassics_research_base = 0.2 }
+			set_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_research_base }
+			force_update_dynamic_modifier = yes
+		}
 	}
 	shared_focus = {
 		id = QFK_01_FS_04_B_O_L
