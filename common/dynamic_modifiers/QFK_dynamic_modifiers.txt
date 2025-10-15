@@ -9,6 +9,7 @@ QFK_ConfucianClassics_dynamic_modifiers = {
     enable = { always = yes }
     remove_trigger = { always = no }
 	research_speed_factor = QFK.ConfucianClassics_research
+	drift_defence_factor = QFK.ConfucianClassics_defence
 	female_random_scientist_chance = -1
 	female_random_country_leader_chance = -1
 	female_random_operative_chance = -1

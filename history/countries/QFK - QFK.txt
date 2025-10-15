@@ -28,5 +28,7 @@ subtract_from_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoc
 add_dynamic_modifier = { modifier = QFK_TheDoctrineOfTheMean_dynamic_modifiers }
 add_ideas = QFK_idea_ConfucianClassics_show
 set_variable = { QFK.ConfucianClassics_research_base = -0.3 }
+set_variable = { QFK.ConfucianClassics_defence_base = 0.3 }
 set_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_research_base }
+set_variable = { QFK.ConfucianClassics_defence = QFK.ConfucianClassics_defence_base }
 add_dynamic_modifier = { modifier = QFK_ConfucianClassics_dynamic_modifiers }

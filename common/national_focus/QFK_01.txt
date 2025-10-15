@@ -433,8 +433,8 @@ focus_tree = {
 			    multiply_variable = { QFK.TheDoctrineOfTheMean_2_pp = QFK.num_controlled_states }
 			    add_to_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
 			    force_update_dynamic_modifier = yes
-				custom_effect_tooltip = "QFK_01_FS_04_B_O_L_TT"
 			}
+			custom_effect_tooltip = "QFK_01_FS_04_B_O_L_TT"
 		}
 	}
 	shared_focus = {
