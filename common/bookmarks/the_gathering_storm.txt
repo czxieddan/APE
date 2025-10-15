@@ -24,6 +24,7 @@ bookmarks = {
 			available = yes
 			ideas = {
 				QFK_idea_TheDoctrineOfTheMean_show
+				QFK_idea_ConfucianClassics_show
 			}
 			focuses = {
 				

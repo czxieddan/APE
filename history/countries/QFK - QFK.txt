@@ -29,6 +29,9 @@ add_dynamic_modifier = { modifier = QFK_TheDoctrineOfTheMean_dynamic_modifiers }
 add_ideas = QFK_idea_ConfucianClassics_show
 set_variable = { QFK.ConfucianClassics_research_base = -0.3 }
 set_variable = { QFK.ConfucianClassics_defence_base = 0.3 }
+set_variable = { QFK.ConfucianClassics_generalFactor = 1 }
 set_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_research_base }
 set_variable = { QFK.ConfucianClassics_defence = QFK.ConfucianClassics_defence_base }
+multiply_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_generalFactor }
+multiply_variable = { QFK.ConfucianClassics_defence = QFK.ConfucianClassics_generalFactor }
 add_dynamic_modifier = { modifier = QFK_ConfucianClassics_dynamic_modifiers }

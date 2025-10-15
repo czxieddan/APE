@@ -22,7 +22,6 @@ on_actions = {
                 }
                 set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganF = QFK.TheDoctrineOfTheMean_stabilityFactor_paganM }
                 divide_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganF = 1000 }
-                set_variable = { QFK.TheDoctrineOfTheMean_opinionGainMonthlyFactor = 0.5 }
                 set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_base }
 				if = { limit = { check_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganF < 0 } } set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganF = 0 } }
                 subtract_from_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_paganF }

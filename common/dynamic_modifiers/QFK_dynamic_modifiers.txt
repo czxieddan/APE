@@ -16,3 +16,14 @@ QFK_ConfucianClassics_dynamic_modifiers = {
 	female_random_army_leader_chance = -1
 	female_random_admiral_chance = -1
 }
+QFK_ProtectConfuciusMansion2563_dynamic_modifiers = {
+    icon = GFX_idea_unknown
+    enable = { 
+        2563 = { is_controlled_by = QFK }
+	}
+    remove_trigger = {
+	    NOT = { 2563 = { is_owned_by = QFK } }
+	}
+	army_core_defence_factor = 0.5
+	max_dig_in_factor = 0.5
+}

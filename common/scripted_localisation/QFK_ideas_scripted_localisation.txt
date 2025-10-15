@@ -89,3 +89,15 @@ defined_text = {
 		localization_key = "tt_air"
 	}
 }
+defined_text = {
+	name = GetQFK_01_FS_04_B_O_L_ConfucianClassics
+	text = {
+		trigger = {
+			QFK = { has_country_flag = QFK_completed_QFK_01_FS_04_B_O_L }
+		}
+		localization_key = "QFK_01_FS_04_B_O_L_ConfucianClassics"
+	}
+	text = {
+		localization_key = "tt_air"
+	}
+}

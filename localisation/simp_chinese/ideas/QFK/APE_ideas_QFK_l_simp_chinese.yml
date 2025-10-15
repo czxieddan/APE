@@ -19,5 +19,7 @@
  QFK_idea_ConfucianClassics: "儒教圣经"
  QFK_idea_ConfucianClassics_show: "$QFK_idea_ConfucianClassics$"
  QFK_ConfucianClassics_dynamic_modifiers: "$QFK_idea_ConfucianClassics$"
- QFK_idea_ConfucianClassics_tt: "$MODIFIER_DRIFT_DEFENCE_FACTOR$：[?QFK.ConfucianClassics_defence|%2+=]\n$MODIFIER_RESEARCH_SPEED_FACTOR$：[?QFK.ConfucianClassics_research|%2+=]"
  QFK_idea_ConfucianClassics_show_tt: "$MODIFIER_DRIFT_DEFENCE_FACTOR$：§G+30.00%§!\n$MODIFIER_RESEARCH_SPEED_FACTOR$：§R-30.00%§!"
+ QFK_idea_ConfucianClassics_tt: "$MODIFIER_DRIFT_DEFENCE_FACTOR$：[?QFK.ConfucianClassics_defence|%2+=]\n    基础值：[?QFK.ConfucianClassics_defence_base|%2Y=][GetQFK_01_FS_04_B_O_L_ConfucianClassics]\n$MODIFIER_RESEARCH_SPEED_FACTOR$：[?QFK.ConfucianClassics_research|%2+=]\n    基础值：[?QFK.ConfucianClassics_research_base|%2Y=][GetQFK_01_FS_04_B_O_L_ConfucianClassics]"
+ QFK_01_FS_04_B_O_L_ConfucianClassics: "\n    - $QFK_01_FS_04_B_O_L$：系数 §Y100.00%§!"
+ QFK_ProtectConfuciusMansion2563_dynamic_modifiers: "保卫孔府"

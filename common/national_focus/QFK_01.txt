@@ -175,6 +175,13 @@ focus_tree = {
 		x = 0
 		y = 6
 		relative_position_id = QFK_01_FS_01_A_O
+		completion_reward = {
+			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_base = 0.1 }
+			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_base }
+            subtract_from_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_paganF }
+			force_update_dynamic_modifier = yes
+			custom_effect_tooltip = "QFK_01_FS_04_A_O_TT"
+		}
 	}
 	shared_focus = {
 		id = QFK_01_FS_01_A_I
@@ -332,6 +339,13 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = QFK_01_FS_00_B
+		completion_reward = {
+			2563 = {
+				add_dynamic_modifier = {
+					modifier = QFK_ProtectConfuciusMansion2563_dynamic_modifiers
+				}
+			}
+		}
 	}
 	shared_focus = {
 		id = QFK_01_FS_03_B_L
@@ -407,6 +421,7 @@ focus_tree = {
 			add_to_variable = { QFK.ConfucianClassics_research_base = 0.2 }
 			set_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_research_base }
 			force_update_dynamic_modifier = yes
+			custom_effect_tooltip = "QFK_01_FS_03_B_O_L_R_TT"
 		}
 	}
 	shared_focus = {
@@ -432,8 +447,13 @@ focus_tree = {
 			    if = { limit = { QFK = { has_country_flag = QFK_completed_QFK_01_FS_04_B_O_L } } divide_variable = { QFK.TheDoctrineOfTheMean_2_pp = 2 } }
 			    multiply_variable = { QFK.TheDoctrineOfTheMean_2_pp = QFK.num_controlled_states }
 			    add_to_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
-			    force_update_dynamic_modifier = yes
 			}
+			multiply_variable = { QFK.ConfucianClassics_generalFactor = 2 }
+			set_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_research_base }
+			set_variable = { QFK.ConfucianClassics_defence = QFK.ConfucianClassics_defence_base }
+			multiply_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_generalFactor }
+			multiply_variable = { QFK.ConfucianClassics_defence = QFK.ConfucianClassics_generalFactor }
+			force_update_dynamic_modifier = yes
 			custom_effect_tooltip = "QFK_01_FS_04_B_O_L_TT"
 		}
 	}
