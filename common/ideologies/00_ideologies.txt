@@ -161,7 +161,7 @@ ideologies = {
 			"FACTION_NAME_IdeologyGroup4_5"
 		}
 
-		color = { 32 9 169 }
+		color = { 119 153 119 }
 
 		rules = {
 			can_force_government = no

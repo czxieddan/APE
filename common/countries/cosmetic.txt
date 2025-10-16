@@ -1,0 +1,4 @@
+cosmeticTagHRR = {
+    color = rgb { 255 207 23 }
+    color_ui = rgb { 255 207 23 }
+}
