@@ -1,0 +1,10 @@
+bitmapfonts = {
+    bitmapfont = {
+		name = "Biaoyu16"
+		fontfiles = { 
+			"gfx/fonts/Biaoyu/Biaoyu16_0"	
+		}
+	    color = 0xffffffff
+		border_color = 0x00000000
+	}
+}

@@ -136,10 +136,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_unavailable"
 		textureFile = "gfx/interface/focusview/titlebar/focus_unavailable_bg.dds"
+        transparencecheck = yes
 	}
 	spriteType = {
 		name = "GFX_focus_can_start"
 		textureFile = "gfx/interface/focusview/titlebar/focus_can_start_bg.dds"
+        transparencecheck = yes
 	}
 
 	frameAnimatedSpriteType = {
@@ -188,6 +190,7 @@ spriteTypes = {
 		}
 	
 		legacy_lazy_load = no
+        transparencecheck = yes
 	}
 
 	SpriteType = {
@@ -210,6 +213,7 @@ spriteTypes = {
 		}
 	
 		legacy_lazy_load = no
+        transparencecheck = yes
 	}	
 
 

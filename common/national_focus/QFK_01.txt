@@ -12,7 +12,7 @@ focus_tree = {
 	shared_focus = QFK_01_FS_00_B
 	shared_focus = QFK_01_FS_00_C
 	default = no
-    continuous_focus_position = { x = 1797 y = 1300 }
+    continuous_focus_position = { x = 1823 y = 1400 }
 	initial_show_position = { x = 2000 y = 0 }
 }
     shared_focus = {

@@ -1,0 +1,19 @@
+spriteTypes = {   
+	corneredTileSpriteType = {
+		name = "GFX_tiled_1E2A66_bg"
+		size= { x=190 y=190 }
+		textureFile = "gfx/interface/bg/tiled_1E2A66_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_161F4C_bg"
+		size= { x=190 y=190 }
+		textureFile = "gfx/interface/bg/tiled_161F4C_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+}
