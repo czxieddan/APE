@@ -1,0 +1,24 @@
+state = {
+	id = 2695
+	name = "STATE_2695"
+	history = {
+		owner = XIK
+		add_core_of = XIK
+		buildings = {
+			infrastructure = 3
+		}
+        victory_points = {
+            1395 5
+        }
+        victory_points = {
+            8937 5
+        }
+	}
+	provinces = {
+        1395 8937
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

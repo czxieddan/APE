@@ -19,12 +19,6 @@ state = {
 		victory_points = {
 			4925 35
 		}
-		victory_points = {
-			12141 5
-		}
-		victory_points = {
-			19922 5
-		}
 		add_extra_state_shared_building_slots = 3
 		# set_demilitarized_zone = yes
 		# set_state_flag = GDP_regions_chuanxi
@@ -34,7 +28,7 @@ state = {
 	}
 
 	provinces = {
-		4925 12141 19922 19700
+		4925 
 	}
 	manpower = 7782374
 	buildings_max_level_factor = 2.000

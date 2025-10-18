@@ -1,0 +1,18 @@
+state = {
+	id = 2699
+	name = "STATE_2699"
+	history = {
+		owner = AUH
+		add_core_of = AUH
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        19892 19853
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

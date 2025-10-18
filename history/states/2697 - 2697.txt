@@ -1,0 +1,21 @@
+state = {
+	id = 2697
+	name = "STATE_2697"
+	history = {
+		owner = SIC
+		add_core_of = SIC
+		buildings = {
+			infrastructure = 3
+		}
+        victory_points = {
+            19878 4
+        }
+	}
+	provinces = {
+        19878 19843
+	}
+	manpower = 87721
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

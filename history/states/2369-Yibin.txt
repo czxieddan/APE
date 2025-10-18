@@ -12,20 +12,8 @@ state = {
 			schools = 1
 			infrastructure = 3
 		}
-		victory_points = {
-			19898 14
-		}
         victory_points = {
-            19834 17
-        }
-        victory_points = {
-            1395 5
-        }
-        victory_points = {
-            8853 5
-        }
-        victory_points = {
-            8937 5
+            19729 13
         }
 		add_extra_state_shared_building_slots = 2
 		# set_demilitarized_zone = yes
@@ -36,7 +24,7 @@ state = {
 	}
 
 	provinces = {
-		8705 19898 1395 8853 8937 19834 12705
+		19729 
 	}
 	manpower = 4827713
 	buildings_max_level_factor = 2.000
