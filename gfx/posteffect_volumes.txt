@@ -6,7 +6,7 @@ posteffect_values = {
 	name = standard	
 	lut = "gfx/world/colorcorrection.tga"
 
-	BLOOM_WIDTH = 1.5
+	BLOOM_WIDTH = 1.0
 	BLOOM_SCALE = 0.9
 	BRIGHT_THRESHOLD = 0.9
 	tonemap_middlegrey = 0.50
@@ -16,28 +16,28 @@ posteffect_values = {
 	name = default
 	inherit = standard
 	lut = "gfx/world/colorcorrection.tga"
-	tonemap_middlegrey = 0.50
+	tonemap_middlegrey = 0.30
 }
 
 posteffect_values = {
 	name = mid_distance
 	inherit = standard
 	lut = "gfx/world/colorcorrection.tga"
-	tonemap_middlegrey = 0.50
+	tonemap_middlegrey = 0.30
 }
 
 posteffect_values = {
 	name = max_distance
 	inherit = standard
 	lut = "gfx/world/colorcorrection.tga"
-	tonemap_middlegrey = 0.50
+	tonemap_middlegrey = 0.30
 }
 
 posteffect_values = {
 	name = default_night
 	inherit = standard
 	lut = "gfx/world/colorcorrection.tga"
-	tonemap_middlegrey = 0.50
+	tonemap_middlegrey = 0.25
 }
 
 
