@@ -1,5 +1,9 @@
 spriteTypes = {
     spriteType = {
+		name = "GFX_political_goalsBtn0"
+		texturefile = "gfx/interface/political/goalsBtns/0.png"
+	}
+    spriteType = {
 		name = "GFX_political_goalsBtn1"
 		texturefile = "gfx/interface/political/goalsBtns/1.png"
 	}

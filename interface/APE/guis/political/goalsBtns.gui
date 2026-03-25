@@ -8,7 +8,7 @@ guiTypes = {
 		iconType = {
 			name = "political_goalsBtn"
 			position = { x = 0 y = 0 }
-			spriteType = "GFX_political_goalsBtn1"
+			spriteType = "GFX_political_goalsBtn0"
 			alwaystransparent = yes
 		}
 	}
