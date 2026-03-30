@@ -23,9 +23,9 @@ guiTypes = {
 		instantTextboxType = {
 			name = "political_ideas_name"
 			format = center
-			position = { x = 7 y = 162 }
+			position = { x = 0 y = 162 }
 			text = "NameMinisterSlot[?political_ideas_name_value]"
-			maxWidth = 160
+			maxWidth = 176
 			maxHeight = 48
 			vertical_alignment = center
 			format = center
