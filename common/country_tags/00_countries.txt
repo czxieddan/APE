@@ -1,4 +1,4 @@
-﻿ADR = "countries/ADR.txt"
+ADR = "countries/ADR.txt"
 AOM = "countries/AOM.txt"
 AUH = "countries/AUH.txt"
 BAD = "countries/BAD.txt"
