@@ -1,0 +1,18 @@
+state = {
+	id = 3214
+	name = "STATE_3214"
+	history = {
+		owner = UWE
+		add_core_of = UWE
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        4727 12303
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -3,7 +3,8 @@ state = {
 	name = "STATE_1397"
 
 	history = {
-		owner = ZZZ # USA
+		owner = UWR
+		add_core_of = UWR
 		buildings = {
 			schools = 2
 			barracks = 2
@@ -55,7 +56,7 @@ state = {
 	}
 
 	provinces = {
-		1320 1690 4296 4398 4747 7255 7315 7386 7414 7442 10155 10157 10198 10242 10271 10327 10687 10690 10693 12155 12214 12673 17293
+		7386
 	}
 	manpower = 2970800
 	buildings_max_level_factor = 1.000

@@ -5,7 +5,8 @@ state = {
 		13280
 	}
 	history = {
-		owner = ZZZ # JAP #should be USA -morrina and uncountably
+		owner = UWF
+		add_core_of = UWF
 
 		buildings = {
 			infrastructure = 7

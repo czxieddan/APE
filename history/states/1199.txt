@@ -5,7 +5,8 @@ state = {
 		13285
 	}
 	history = {
-		owner = ZZZ # JAP #should be USA -morrina and uncountably
+		owner = UWL
+		add_core_of = UWL
 
 		buildings = {
 			infrastructure = 7
@@ -16,7 +17,7 @@ state = {
 				naval_base = 4
 			}
 		}
-		victory_points = { 13285 15 }
+		victory_points = { 13285 50 }
 		# add_core_of = USA
 	}
 	manpower = 2164 #why the fuck was this 320075 ever

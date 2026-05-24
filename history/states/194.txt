@@ -8,7 +8,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = UWA
+		add_core_of = UWA
 		# add_core_of = USA
 		buildings = {
 			prisons = 1
@@ -41,7 +42,7 @@ state = {
 	}
 
 	provinces = {
-		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 17286
+		4799
 	}
 	manpower = 290352
 	buildings_max_level_factor = 1.000

@@ -1,0 +1,18 @@
+state = {
+	id = 3197
+	name = "STATE_3197"
+	history = {
+		owner = UWK
+		add_core_of = UWK
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        9697 766 11698
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

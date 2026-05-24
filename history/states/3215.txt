@@ -1,0 +1,18 @@
+state = {
+	id = 3215
+	name = "STATE_3215"
+	history = {
+		owner = UWM
+		add_core_of = UWM
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        3644
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

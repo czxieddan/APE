@@ -1,0 +1,18 @@
+state = {
+	id = 3209
+	name = "STATE_3209"
+	history = {
+		owner = UWG
+		add_core_of = UWG
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        7667 1651 4657
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 3180
+	name = "STATE_3180"
+	history = {
+		owner = UWR
+		add_core_of = UWR
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        10271 7442 7255
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

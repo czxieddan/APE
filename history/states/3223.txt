@@ -1,0 +1,18 @@
+state = {
+	id = 3223
+	name = "STATE_3223"
+	history = {
+		owner = UWB
+		add_core_of = UWB
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        7827 7756 10591
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

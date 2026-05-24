@@ -1,0 +1,18 @@
+state = {
+	id = 3189
+	name = "STATE_3189"
+	history = {
+		owner = UWO
+		add_core_of = UWO
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        4347 10305 10625
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 3185
+	name = "STATE_3185"
+	history = {
+		owner = UWN
+		add_core_of = UWN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        11733 528 11495
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

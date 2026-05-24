@@ -1,0 +1,18 @@
+state = {
+	id = 3203
+	name = "STATE_3203"
+	history = {
+		owner = UWF
+		add_core_of = UWF
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        9814
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
