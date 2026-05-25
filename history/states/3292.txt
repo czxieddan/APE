@@ -1,0 +1,18 @@
+state = {
+	id = 3292
+	name = "STATE_3292"
+	history = {
+		owner = UNB
+		add_core_of = UNB
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        10666 9892
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

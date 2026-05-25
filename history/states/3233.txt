@@ -1,0 +1,18 @@
+state = {
+	id = 3233
+	name = "STATE_3233"
+	history = {
+		owner = UNP
+		add_core_of = UNP
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        17307
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

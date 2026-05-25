@@ -3,7 +3,8 @@ state = {
 	name = "STATE_2556"
 
 	history = {
-		owner = ZZZ # USA
+		owner = UNB
+		add_core_of = UNB
 		buildings = {
 			infrastructure = 5
 			thermoelectric_plant = 3
@@ -35,7 +36,7 @@ state = {
 	}
 
 	provinces = {
-		1831 4691 7306 7458 7539 9910 10478 11971 12418 1586 1678 1770 9892 10666 11788 12646
+		1770 1678 1586
 	}
 	manpower = 2759284
 	buildings_max_level_factor = 1.000

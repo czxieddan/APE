@@ -7,7 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = UNJ
+		add_core_of = UNJ
 		buildings = {
 			infrastructure = 3
 			missile_silo = 1
@@ -39,7 +40,7 @@ state = {
 	}
 
 	provinces = {
-		1836 4759 4772 6722 7877 10709 12566 12685 1752 1870 3719 10685
+		1836 4772 
 	}
 	manpower = 628830
 	buildings_max_level_factor = 1.000

@@ -1,0 +1,18 @@
+state = {
+	id = 3230
+	name = "STATE_3230"
+	history = {
+		owner = UNQ
+		add_core_of = UNQ
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        9616 7845 10556
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

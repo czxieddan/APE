@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = UNG
+		add_core_of = UNG
 		buildings = {
 			schools = 1
 			barracks = 1
@@ -44,7 +45,7 @@ state = {
 	}
 
 	provinces = {
-		1719 1734 1866 1867 4664 4807 6752 6767 6827 7536 7896 9880 10618 10719 11667 12550 12577 12588 12597 12693 17285
+		3699
 	}
 	manpower = 3512888
 	buildings_max_level_factor = 1.000

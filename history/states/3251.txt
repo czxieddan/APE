@@ -1,0 +1,18 @@
+state = {
+	id = 3251
+	name = "STATE_3251"
+	history = {
+		owner = UNL
+		add_core_of = UNL
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        7688
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

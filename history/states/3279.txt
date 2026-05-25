@@ -1,0 +1,18 @@
+state = {
+	id = 3279
+	name = "STATE_3279"
+	history = {
+		owner = UNG
+		add_core_of = UNG
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        10526 1760 7829
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

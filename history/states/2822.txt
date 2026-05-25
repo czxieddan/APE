@@ -3,7 +3,8 @@ state = {
 	name = "STATE_2822"
 
 	history = {
-		owner = ZZZ # USA
+		owner = UNH
+		add_core_of = UNH
 		buildings = {
 			infrastructure = 4
 			air_base = 1
@@ -30,7 +31,7 @@ state = {
 	}
 
 	provinces = {
-		1747 1875 3750 4839 7745 7771 4880 7862 10569 10595 12620 12667
+		10595 12667
 	}
 	manpower = 1605063
 	buildings_max_level_factor = 1.000

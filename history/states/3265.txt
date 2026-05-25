@@ -1,0 +1,18 @@
+state = {
+	id = 3265
+	name = "STATE_3265"
+	history = {
+		owner = UNI
+		add_core_of = UNI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        10719 6752 12693 10618
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 3261
+	name = "STATE_3261"
+	history = {
+		owner = UNJ
+		add_core_of = UNJ
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        4880
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

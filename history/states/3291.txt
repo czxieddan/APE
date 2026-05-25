@@ -1,0 +1,18 @@
+state = {
+	id = 3291
+	name = "STATE_3291"
+	history = {
+		owner = UNA
+		add_core_of = UNA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        12418 7458
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
