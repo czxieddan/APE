@@ -1,0 +1,18 @@
+state = {
+	id = 3313
+	name = "STATE_3313"
+	history = {
+		owner = UMI
+		add_core_of = UMI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        7747 4796
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -7,7 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = UMH
+		add_core_of = UMH
 		buildings = {
 			infrastructure = 4
 			barracks = 1
@@ -36,7 +37,7 @@ state = {
 	}
 
 	provinces = {
-		850 1793 8115 10783 11814 12765 853 3834 4796 6897 7747 7821 7920 10573
+		7821 10573 6897
 	}
 	manpower = 1363904
 	buildings_max_level_factor = 1.000

@@ -3,7 +3,8 @@ state = {
 	name = "STATE_2196"
 
 	history = {
-		owner = ZZZ # USA
+		owner = UMC
+		add_core_of = UMC
 		buildings = {
 			infrastructure = 4
 			thermoelectric_plant = 3
@@ -28,7 +29,7 @@ state = {
 	}
 
 	provinces = {
-		4830 10606
+		10606
 	}
 	manpower = 1527890
 	buildings_max_level_factor = 1.000

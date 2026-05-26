@@ -1,0 +1,18 @@
+state = {
+	id = 3335
+	name = "STATE_3335"
+	history = {
+		owner = UMG
+		add_core_of = UMG
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        12624 7762
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

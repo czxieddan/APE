@@ -1,0 +1,18 @@
+state = {
+	id = 3331
+	name = "STATE_3331"
+	history = {
+		owner = UMC
+		add_core_of = UMC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        10532 1753
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

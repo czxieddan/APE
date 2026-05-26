@@ -1,0 +1,18 @@
+state = {
+	id = 3309
+	name = "STATE_3309"
+	history = {
+		owner = UMD
+		add_core_of = UMD
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        850
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

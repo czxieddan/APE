@@ -1,0 +1,18 @@
+state = {
+	id = 3318
+	name = "STATE_3318"
+	history = {
+		owner = UMH
+		add_core_of = UMH
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        10645 12552 1972
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

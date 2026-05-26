@@ -1,0 +1,18 @@
+state = {
+	id = 3345
+	name = "STATE_3345"
+	history = {
+		owner = UMB
+		add_core_of = UMB
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        9822 11743 8025
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

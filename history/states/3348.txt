@@ -1,0 +1,18 @@
+state = {
+	id = 3348
+	name = "STATE_3348"
+	history = {
+		owner = UMA
+		add_core_of = UMA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        1564 1534
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

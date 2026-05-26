@@ -1,0 +1,18 @@
+state = {
+	id = 3361
+	name = "STATE_3361"
+	history = {
+		owner = UMJ
+		add_core_of = UMJ
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        12313 4507
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

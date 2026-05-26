@@ -2,7 +2,8 @@ state = {
 	id = 1177
 	name = "STATE_1177"
 	history = {
-		owner = ZZZ # USA
+		owner = UMB
+		add_core_of = UMB
 		buildings = {
 			prisons = 1
 			offices = 1
@@ -39,7 +40,7 @@ state = {
 	}
 
 	provinces = {
-		1753 4586 4740 4814 4871 10340 10532 12024 1352 4811 7892 9802 
+		10340 4740
 	}
 	manpower = 1357033
 	buildings_max_level_factor = 1.000

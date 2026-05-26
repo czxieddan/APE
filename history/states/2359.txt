@@ -7,7 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = UMK
+		add_core_of = UMK
 		buildings = {
 			infrastructure = 4
 			nuclear_reactor = 1
@@ -43,7 +44,7 @@ state = {
 	}
 
 	provinces = {
-		1972 2102 3867 3883 4975 5044 8070 10642 10645 10867 10914 12552 12684 12720 12791 17300
+		12720 10867
 	}
 	manpower = 974653
 	buildings_max_level_factor = 1.000

@@ -1,0 +1,18 @@
+state = {
+	id = 3375
+	name = "STATE_3375"
+	history = {
+		owner = UMK
+		add_core_of = UMK
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        4955 8064 6798 12728
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

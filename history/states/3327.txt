@@ -1,0 +1,18 @@
+state = {
+	id = 3327
+	name = "STATE_3327"
+	history = {
+		owner = UME
+		add_core_of = UME
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        10588 1809 12570
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

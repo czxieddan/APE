@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = UMA
+		add_core_of = UMA
 		buildings = {
 			infrastructure = 4
 			prisons = 1
@@ -35,7 +36,7 @@ state = {
 	}
 
 	provinces = {
-		1503 1646 4444 4567 4597 4625 7485 7543 7586 10355 10477 12458 12489 12778 15581
+		15581
 	}
 	manpower = 1851063
 	buildings_max_level_factor = 1.000
