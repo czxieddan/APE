@@ -1,0 +1,18 @@
+state = {
+	id = 3419
+	name = "STATE_3419"
+	history = {
+		owner = USB
+		add_core_of = USB
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        10081 7083
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

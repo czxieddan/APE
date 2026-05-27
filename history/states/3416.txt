@@ -1,0 +1,18 @@
+state = {
+	id = 3416
+	name = "STATE_3416"
+	history = {
+		owner = USC
+		add_core_of = USC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        4491 7012 7134
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

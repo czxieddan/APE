@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = USL
+		add_core_of = USL
 		buildings = {
 			schools = 2
 			barracks = 2
@@ -77,7 +78,7 @@ state = {
 	}
 
 	provinces = {
-		866 1556 1572 1584 1843 1913 4272 7388 9834 10352 10380 10407 10489 12353 12381 12439 12752 15277 17288 17289 17299 17301
+		10407
 	}
 	manpower = 5050600
 	buildings_max_level_factor = 1.000

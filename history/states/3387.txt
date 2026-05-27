@@ -1,0 +1,18 @@
+state = {
+	id = 3387
+	name = "STATE_3387"
+	history = {
+		owner = USL
+		add_core_of = USL
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        10352 10380
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

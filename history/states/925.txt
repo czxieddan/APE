@@ -3,7 +3,8 @@ state = {
 	name = "STATE_925"
 
 	history = {
-		owner = ZZZ # USA
+		owner = USF
+		add_core_of = USF
 		buildings = {
 			schools = 2
 			offices = 1
@@ -51,7 +52,7 @@ state = {
 	}
 
 	provinces = {
-		1615 4464 4510 4565 4650 7464 7668 8110 10410 10449 10753 11717 12328 12429 17304
+		17304
 	}
 	manpower = 2221700
 	buildings_max_level_factor = 1.000

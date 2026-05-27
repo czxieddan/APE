@@ -1,0 +1,18 @@
+state = {
+	id = 3403
+	name = "STATE_3403"
+	history = {
+		owner = USF
+		add_core_of = USF
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        968 5090 9996
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

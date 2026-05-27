@@ -1,0 +1,18 @@
+state = {
+	id = 3384
+	name = "STATE_3384"
+	history = {
+		owner = USM
+		add_core_of = USM
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        1584 866 12439
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 3411
+	name = "STATE_3411"
+	history = {
+		owner = USD
+		add_core_of = USD
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        1547
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

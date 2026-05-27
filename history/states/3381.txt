@@ -1,0 +1,18 @@
+state = {
+	id = 3381
+	name = "STATE_3381"
+	history = {
+		owner = USN
+		add_core_of = USN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        1913 12752
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
