@@ -3,7 +3,8 @@ state = {
 	name = "STATE_2468"
 
 	history = {
-		owner = ZZZ # USA
+		owner = UCR
+		add_core_of = UCR
 		buildings = {
 			infrastructure = 5
 			thermoelectric_plant = 3
@@ -41,7 +42,7 @@ state = {
 	}
 
 	provinces = {
-		870 1595 1881 4437 4527 4531 6713 7551 9653 9654 9796 9810 10448 11621 11635 11637 12437
+		4531 12437 11635
 	}
 	manpower = 4922340
 	buildings_max_level_factor = 1.000

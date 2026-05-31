@@ -1,0 +1,18 @@
+state = {
+	id = 3465
+	name = "STATE_3465"
+	history = {
+		owner = UCM
+		add_core_of = UCM
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+       859
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

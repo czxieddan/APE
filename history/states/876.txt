@@ -3,7 +3,8 @@ state = {
 	name = "STATE_876"
 
 	history = {
-		owner = ZZZ # USA
+		owner = UCR
+		add_core_of = UCR
 		buildings = {
 			infrastructure = 5
 			radar_station = 2
@@ -39,7 +40,7 @@ state = {
 	}
 
 	provinces = {
-		1445 1582 4402 4452 4988 6696 6974 7547 9727 10586 10727 12568 12637 12709 17306
+		10727 4402 6974 4988
 	}
 	manpower = 3098908
 	buildings_max_level_factor = 1.000

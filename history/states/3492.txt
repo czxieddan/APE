@@ -1,0 +1,18 @@
+state = {
+	id = 3492
+	name = "STATE_3492"
+	history = {
+		owner = UCQ
+		add_core_of = UCQ
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        7466 7646 7588 10441
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

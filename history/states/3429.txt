@@ -1,0 +1,18 @@
+state = {
+	id = 3429
+	name = "STATE_3429"
+	history = {
+		owner = UCB
+		add_core_of = UCB
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        9746 9724 11669
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

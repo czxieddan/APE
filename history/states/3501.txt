@@ -1,0 +1,18 @@
+state = {
+	id = 3501
+	name = "STATE_3501"
+	history = {
+		owner = UCR
+		add_core_of = UCR
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        4437 9653
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

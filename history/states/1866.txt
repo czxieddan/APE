@@ -3,7 +3,8 @@ state = {
 	name = "STATE_1866"
 
 	history = {
-		owner = ZZZ # USA
+		owner = UCP
+		add_core_of = UCP
 		# add_core_of = USA
 		victory_points = { # Washington D.C.
 			3957 30

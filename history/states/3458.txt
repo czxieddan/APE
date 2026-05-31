@@ -1,0 +1,18 @@
+state = {
+	id = 3458
+	name = "STATE_3458"
+	history = {
+		owner = UCK
+		add_core_of = UCK
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        3702 9708
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

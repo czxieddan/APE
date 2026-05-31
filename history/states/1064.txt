@@ -3,7 +3,8 @@ state = {
 	name = "STATE_1064"
 
 	history = {
-		owner = ZZZ # USA
+		owner = UCG
+		add_core_of = UCG
 		buildings = {
 			schools = 1
 			hospitals = 1
@@ -32,7 +33,7 @@ state = {
 	}
 
 	provinces = {
-		6909 9832 9847 9850
+		9832
 	}
 	manpower = 2585000
 	buildings_max_level_factor = 1.000

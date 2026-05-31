@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = UCC
+		add_core_of = UCC
 		buildings = {
 			hospitals = 1
 			prisons = 1
@@ -57,7 +58,7 @@ state = {
 	}
 
 	provinces = {
-		691 695 3766 6710 6769 6782 7420 9684 9724 9746 9747 10233 10303 11641 11656 11669 11685 11714 11731
+		691 695 9684
 	}
 	manpower = 7873600
 	buildings_max_level_factor = 1.000

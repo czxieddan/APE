@@ -3,8 +3,8 @@ state = { #Population Done
 	name = "STATE_477"
 
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
+		owner = UCF
+		add_core_of = UCF
 		buildings = {
 			schools = 1
 			hospitals = 2
@@ -26,7 +26,7 @@ state = { #Population Done
 	}
 
 	provinces = {
-		4445 7629 9675 13158
+		7629
 	}
 	manpower = 393000
 	buildings_max_level_factor = 1.000

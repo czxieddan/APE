@@ -1,0 +1,18 @@
+state = {
+	id = 3467
+	name = "STATE_3467"
+	history = {
+		owner = UCO
+		add_core_of = UCO
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        891 11799 6845
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 3440
+	name = "STATE_3440"
+	history = {
+		owner = UCE
+		add_core_of = UCE
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        733
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

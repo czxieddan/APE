@@ -1,0 +1,18 @@
+state = {
+	id = 3472
+	name = "STATE_3472"
+	history = {
+		owner = UCN
+		add_core_of = UCN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        880 11789 9789
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 3442
+	name = "STATE_3442"
+	history = {
+		owner = UCF
+		add_core_of = UCF
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        4445 9675
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

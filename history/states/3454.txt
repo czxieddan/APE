@@ -1,0 +1,18 @@
+state = {
+	id = 3454
+	name = "STATE_3454"
+	history = {
+		owner = UCI
+		add_core_of = UCI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        1436
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

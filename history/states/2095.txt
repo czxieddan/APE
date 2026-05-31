@@ -3,8 +3,8 @@ state = {
 	name = "STATE_2095"
 
 	history = {
-		owner = ZZZ # USA
-		# add_core_of = USA
+		owner = UCQ
+		add_core_of = UCQ
 		buildings = {
 			infrastructure = 4
 			thermoelectric_plant = 3
@@ -32,7 +32,7 @@ state = {
 	}
 
 	provinces = {
-		4627 6971 7588 10441 801 3941 3975 6850 6958 7466 7646 9923 11888
+		6850
 	}
 	manpower = 1897600
 	buildings_max_level_factor = 1.000

@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = ZZZ # USA
+		owner = UCR
+		add_core_of = UCR
 		victory_points = { # Knoxville
 			7791 5
 		}
@@ -44,7 +45,7 @@ state = {
 	}
 
 	provinces = {
-		913 1758 7791 8014 8083 10281 10657 10909 12670 1987 7615 10615 10824 12501 7797
+		10909 7791 8014
 	}
 	manpower = 3751000
 	buildings_max_level_factor = 1.000

@@ -5,7 +5,8 @@ state = { #Population Done
 		11830
 	}
 	history = {
-		owner = ZZZ # USA
+		owner = UCG
+		add_core_of = UCG
 		# add_core_of = USA
 		buildings = {
 			schools = 1

@@ -1,0 +1,18 @@
+state = {
+	id = 3479
+	name = "STATE_3479"
+	history = {
+		owner = UCP
+		add_core_of = UCP
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+        3823 6846 865
+	}
+	manpower = 200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}
