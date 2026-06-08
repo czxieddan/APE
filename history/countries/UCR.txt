@@ -1,0 +1,23 @@
+capital = 3496
+set_politics = {
+	ruling_party = IdeologyGroup0
+	last_election = "2000.1.1"
+    #election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	IdeologyGroup0 = 100
+}
+recruit_character = UCR_JohnBlack
+recruit_character = UCR_EliottVentrey
+recruit_character = UCR_DianaHaynes
+recruit_character = UCR_HelenChandler
+recruit_character = UCR_VictorZerro
+recruit_character = UCR_SaraFowler
+recruit_character = UCR_MarcusTillman
+recruit_character = UCR_DanielRios
+recruit_character = UCR_FrankColeman
+recruit_character = UCR_EileenWalsh
+recruit_character = UCR_RachelDunn
+recruit_character = UCR_MarcusBlack
+#fuckParadox

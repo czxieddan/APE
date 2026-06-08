@@ -1,0 +1,32 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_idea_UCR_minister_DianaHaynes"
+        texturefile = "gfx/images/leaders/large_army/UCR/UCR_DianaHaynes.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_UCR_minister_EliottVentrey"
+        texturefile = "gfx/images/leaders/large_army/UCR/UCR_EliottVentrey.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_UCR_minister_HelenChandler"
+        texturefile = "gfx/images/leaders/large_army/UCR/UCR_HelenChandler.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_UCR_minister_MarcusTillman"
+        texturefile = "gfx/images/leaders/large_army/UCR/UCR_MarcusTillman.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_UCR_minister_SaraFowler"
+        texturefile = "gfx/images/leaders/large_army/UCR/UCR_SaraFowler.png"
+        transparencecheck = yes
+    }
+    SpriteType = {
+        name = "GFX_idea_UCR_minister_VictorZerro"
+        texturefile = "gfx/images/leaders/large_army/UCR/UCR_VictorZerro.png"
+        transparencecheck = yes
+    }
+}

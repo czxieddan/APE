@@ -1,0 +1,204 @@
+characters = {
+	UCR_JohnBlack = {
+		name = UCR_JohnBlack
+		portraits = {
+			civilian = {
+				large = GFX_portrait_large_civilian_UCR_JohnBlack
+			}
+		}
+		country_leader = {
+			ideology = IdeologyGroup0_IdelogySubtype0
+			desc = UCR_JohnBlack_desc
+			traits = {
+		    }
+			expire = "2099.12.31.23"
+		}
+	}
+	UCR_EliottVentrey = {
+		name = UCR_EliottVentrey
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_EliottVentrey
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	UCR_DianaHaynes = {
+		name = UCR_DianaHaynes
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_DianaHaynes
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	UCR_HelenChandler = {
+		name = UCR_HelenChandler
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_HelenChandler
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	UCR_VictorZerro = {
+		name = UCR_VictorZerro
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_VictorZerro
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	UCR_SaraFowler = {
+		name = UCR_SaraFowler
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_SaraFowler
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	UCR_MarcusTillman = {
+		name = UCR_MarcusTillman
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_MarcusTillman
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	UCR_DanielRios = {
+		name = UCR_DanielRios
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_DanielRios
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	UCR_FrankColeman = {
+		name = UCR_FrankColeman
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_FrankColeman
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	UCR_EileenWalsh = {
+		name = UCR_EileenWalsh
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_EileenWalsh
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	UCR_RachelDunn = {
+		name = UCR_RachelDunn
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_RachelDunn
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	UCR_MarcusBlack = {
+		name = UCR_MarcusBlack
+		portraits = {
+			army = {
+				large = GFX_portrait_large_army_UCR_MarcusBlack
+			}
+		}
+		corps_commander = {
+			traits = {
+		    }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+}

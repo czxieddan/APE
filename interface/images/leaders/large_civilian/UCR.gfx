@@ -1,0 +1,19 @@
+spriteTypes = {
+    # 示例 # # 人名 按照字母表排序
+	## <TAG> ##
+
+	# spriteType = {
+		# name = GFX_portrait_large_civilian_<TAG>_<NAME>
+		# texturefile = "gfx/images/leaders/large_civilian/<TAG>/<TAG>_<NAME>.png"
+		# legacy_lazy_load = no
+	# }
+
+	## UCR ##
+
+	spriteType = {
+		name = GFX_portrait_large_civilian_UCR_JohnBlack
+		texturefile = "gfx/images/leaders/large_civilian/UCR/UCR_JohnBlack.png"
+		legacy_lazy_load = no
+	}
+
+}

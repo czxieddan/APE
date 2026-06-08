@@ -1,0 +1,79 @@
+spriteTypes = {
+    # 示例 # # 人名 按照字母表排序
+	## <TAG> ##
+
+	# spriteType = {
+		# name = GFX_portrait_large_army_<TAG>_<NAME>
+		# texturefile = "gfx/images/leaders/large_army/<TAG>/<TAG>_<NAME>.png"
+		# legacy_lazy_load = no
+	# }
+
+	## UCR ##
+
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_DanielRios
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_DanielRios.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_DianaHaynes
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_DianaHaynes.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_EileenWalsh
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_EileenWalsh.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_EliottVentrey
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_EliottVentrey.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_FrankColeman
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_FrankColeman.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_HelenChandler
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_HelenChandler.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_MarcusBlack
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_MarcusBlack.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_MarcusTillman
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_MarcusTillman.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_RachelDunn
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_RachelDunn.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_SaraFowler
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_SaraFowler.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = GFX_portrait_large_army_UCR_VictorZerro
+		texturefile = "gfx/images/leaders/large_army/UCR/UCR_VictorZerro.png"
+		legacy_lazy_load = no
+	}
+
+}

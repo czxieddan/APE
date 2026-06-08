@@ -1,0 +1,52 @@
+ideas = {
+	ministerSlot1 = {
+	    UCR_minister_EliottVentrey = {
+		    name = UCR_EliottVentrey
+			picture = UCR_minister_EliottVentrey
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	    UCR_minister_DianaHaynes = {
+		    name = UCR_DianaHaynes
+			picture = UCR_minister_DianaHaynes
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	    UCR_minister_HelenChandler = {
+		    name = UCR_HelenChandler
+			picture = UCR_minister_HelenChandler
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	    UCR_minister_VictorZerro = {
+		    name = UCR_VictorZerro
+			picture = UCR_minister_VictorZerro
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	    UCR_minister_SaraFowler = {
+		    name = UCR_SaraFowler
+			picture = UCR_minister_SaraFowler
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	    UCR_minister_MarcusTillman = {
+		    name = UCR_MarcusTillman
+			picture = UCR_minister_MarcusTillman
+			cancel_if_invalid = no
+			allowed = { always = yes }
+			available = { always = yes }
+			traits = {}
+		}
+	}
+}
