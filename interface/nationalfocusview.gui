@@ -685,7 +685,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "national_focus_detail_view"
 		position = { x=0 y=-640 }
-		size = { width = 730 height = 640 }
+		size = { width = 730 height = 493 }
 		Orientation = lower_left
 		moveable = yes
 		clipping = yes
@@ -805,7 +805,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "statsarea"
 			position = { x=11 y=272 }
-			size = { width = 708 height = 357 }
+			size = { width = 708 height = 210 }
 			horizontalScrollbar = "bottom_horizontal_slider"
 			verticalScrollbar = "right_vertical_slider"
 			clipping = yes

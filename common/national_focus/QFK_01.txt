@@ -17,752 +17,746 @@ focus_tree = {
     continuous_focus_position = { x = 200 y = 200 }
 	initial_show_position = { x = 0 y = 0 }
 }
-    shared_focus = {
-		id = QFK_01_FS_00_A
-		icon = GFX_focus_goals_QFK_01_FS_00_A
-		dynamic = yes 
-		cost = 20
-		x = 5
-		y = 2
-		offset = {
-			trigger = {
-				NOT = { has_country_flag = QFK_01_FS_05_CanView }
+ shared_focus = {
+	id = QFK_01_FS_00_A
+	icon = GFX_focus_goals_QFK_01_FS_00_A
+	dynamic = yes 
+	cost = 20
+	x = 5
+	y = 2
+	offset = {
+		trigger = {
+			NOT = { has_country_flag = QFK_01_FS_05_CanView }
+		}
+		y = 1
+	}
+	allow_branch = {
+		NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }
+	}
+	completion_reward = {
+		add_political_power = 50
+	}
+}
+shared_focus = {
+	id = QFK_01_FS_00_B
+	icon = GFX_focus_goals_QFK_01_FS_00_B
+	dynamic = yes 
+	cost = 20
+	x = 16
+	y = 0
+	relative_position_id = QFK_01_FS_00_A
+	available = {
+		has_completed_focus = QFK_01_FS_00_A
+	}
+	allow_branch = {
+		NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }
+	}
+}
+shared_focus = {
+	id = QFK_01_FS_00_C
+	icon = GFX_focus_goals_QFK_01_FS_00_C
+	dynamic = yes 
+	cost = 20
+	x = 16
+	y = 0
+	relative_position_id = QFK_01_FS_00_B
+	available = {
+		has_completed_focus = QFK_01_FS_01_A_I
+	}
+	allow_branch = {
+		NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }
+	}
+}
+shared_focus = {
+	id = QFK_01_FS_01_A_O
+	icon = {
+		GFX_focus_goals_QFK_01_FS_01_A_O = { anime_focus_icon = no }
+		GFX_focus_goals_anime_QFK_01_FS_01_A_O = yes
+	}
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_00_A
+	}
+	x = -3
+	y = 2
+	relative_position_id = QFK_01_FS_00_A
+	completion_reward = {
+		add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_base = 0.05 }
+		set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_base }
+        subtract_from_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_paganF }
+		add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.003 }
+		custom_effect_tooltip = "QFK_01_FS_01_A_O_TT"
+		set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
+        multiply_variable = {
+            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
+        }
+		set_country_flag = QFK_completed_QFK_01_FS_01_A_O
+		force_update_dynamic_modifier = yes
+	}
+}
+shared_focus = {
+	id = QFK_01_FS_02_A_O_L
+	icon = GFX_focus_goals_QFK_01_FS_02_A_O_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_01_A_O
+	}
+	x = -2
+	y = 2
+	relative_position_id = QFK_01_FS_01_A_O
+}
+shared_focus = {
+	id = QFK_01_FS_02_A_O_R
+	icon = GFX_focus_goals_QFK_01_FS_02_A_O_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_01_A_O
+	}
+	x = 2
+	y = 2
+	relative_position_id = QFK_01_FS_01_A_O
+	completion_reward = {
+		add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.001 }
+		custom_effect_tooltip = "QFK_01_FS_02_A_O_R_TT"
+		set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
+        multiply_variable = {
+            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
+        }
+		set_country_flag = QFK_completed_QFK_01_FS_02_A_O_R
+	}
+}
+shared_focus = {
+	id = QFK_01_FS_03_A_O_L
+	icon = GFX_focus_goals_QFK_01_FS_03_A_O_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_02_A_O_L
+	}
+	x = 0
+	y = 2
+	relative_position_id = QFK_01_FS_02_A_O_L
+	completion_reward = {
+		add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.002 }
+		custom_effect_tooltip = "QFK_01_FS_03_A_O_L_TT"
+		set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
+        multiply_variable = {
+            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
+        }
+		set_country_flag = QFK_completed_QFK_01_FS_03_A_O_L
+	}
+}
+shared_focus = {
+	id = QFK_01_FS_03_A_O_R
+	icon = GFX_focus_goals_QFK_01_FS_03_A_O_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_02_A_O_R
+	}
+	x = 0
+	y = 2
+	relative_position_id = QFK_01_FS_02_A_O_R
+	completion_reward = {
+		set_country_flag = QFK_completed_QFK_01_FS_03_A_O_R
+		set_variable = { QFK.TheDoctrineOfTheMean_2_pp = 0.01 }
+		if = { limit = { QFK = { has_country_flag = QFK_completed_QFK_01_FS_04_B_O_L } } divide_variable = { QFK.TheDoctrineOfTheMean_2_pp = 2 } }
+		multiply_variable = { QFK.TheDoctrineOfTheMean_2_pp = QFK.num_controlled_states }
+		add_to_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
+		force_update_dynamic_modifier = yes
+		add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.002 }
+		custom_effect_tooltip = "QFK_01_FS_03_A_O_R_TT"
+		set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
+        multiply_variable = {
+            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
+        }
+	}
+}
+shared_focus = {
+	id = QFK_01_FS_04_A_O
+	icon = GFX_focus_goals_QFK_01_FS_04_A_O
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_03_A_O_L
+	}
+	prerequisite = {
+		focus = QFK_01_FS_03_A_O_R
+	}
+	x = 0
+	y = 6
+	relative_position_id = QFK_01_FS_01_A_O
+	completion_reward = {
+		add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_base = 0.1 }
+		set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_base }
+        subtract_from_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_paganF }
+		force_update_dynamic_modifier = yes
+		custom_effect_tooltip = "QFK_01_FS_04_A_O_TT"
+	}
+}
+shared_focus = {
+	id = QFK_01_FS_01_A_I
+	icon = GFX_focus_goals_QFK_01_FS_01_A_I
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_00_A
+	}
+	x = 3
+	y = 2
+	relative_position_id = QFK_01_FS_00_A
+	completion_reward = {
+		news_event = QFK_local_news.1
+	}
+}
+shared_focus = {
+	id = QFK_01_FS_01_C_O
+	icon = GFX_focus_goals_QFK_01_FS_01_C_O
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_00_C
+	}
+	mutually_exclusive = {
+		focus = QFK_01_FS_01_C_I
+	}
+	x = 3
+	y = 2
+	relative_position_id = QFK_01_FS_00_C
+}
+shared_focus = {
+	id = QFK_01_FS_02_C_O_L
+	icon = GFX_focus_goals_QFK_01_FS_02_C_O_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_01_C_I
+		focus = QFK_01_FS_01_C_O
+	}
+	x = -2
+	y = 2
+	relative_position_id = QFK_01_FS_01_C_O
+}
+shared_focus = {
+	id = QFK_01_FS_02_C_O_R
+	icon = GFX_focus_goals_QFK_01_FS_02_C_O_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_01_C_O
+	}
+	x = 2
+	y = 2
+	relative_position_id = QFK_01_FS_01_C_O
+}
+shared_focus = {
+	id = QFK_01_FS_03_C_O_L
+	icon = GFX_focus_goals_QFK_01_FS_03_C_O_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_02_C_O_L
+	}
+	x = 0
+	y = 2
+	relative_position_id = QFK_01_FS_02_C_O_L
+}
+shared_focus = {
+	id = QFK_01_FS_03_C_O_R
+	icon = GFX_focus_goals_QFK_01_FS_03_C_O_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_02_C_O_R
+	}
+	x = 0
+	y = 2
+	relative_position_id = QFK_01_FS_02_C_O_R
+}
+shared_focus = {
+	id = QFK_01_FS_04_C_O
+	icon = GFX_focus_goals_QFK_01_FS_04_C_O
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_03_C_O_L
+		focus = QFK_01_FS_03_C_O_R
+	}
+	mutually_exclusive = {
+		focus = QFK_01_FS_04_B_O_R
+	}
+	x = 0
+	y = 6
+	relative_position_id = QFK_01_FS_01_C_O
+}
+shared_focus = {
+	id = QFK_01_FS_01_C_I
+	icon = GFX_focus_goals_QFK_01_FS_01_C_I
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_00_C
+	}
+	mutually_exclusive = {
+		focus = QFK_01_FS_01_C_O
+	}
+	x = -3
+	y = 2
+	relative_position_id = QFK_01_FS_00_C
+}
+shared_focus = {
+	id = QFK_01_FS_01_B_L
+	icon = GFX_focus_goals_QFK_01_FS_01_B_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_00_B
+	}
+	x = -3
+	y = 2
+	relative_position_id = QFK_01_FS_00_B
+}
+shared_focus = {
+	id = QFK_01_FS_01_B_R
+	icon = GFX_focus_goals_QFK_01_FS_01_B_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_00_B
+	}
+	x = 3
+	y = 2
+	relative_position_id = QFK_01_FS_00_B
+}
+shared_focus = {
+	id = QFK_01_FS_02_B_L
+	icon = GFX_focus_goals_QFK_01_FS_02_B_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_01_B_L
+	}
+	x = -1
+	y = 2
+	relative_position_id = QFK_01_FS_01_B_L
+}
+shared_focus = {
+	id = QFK_01_FS_02_B_R
+	icon = GFX_focus_goals_QFK_01_FS_02_B_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_01_B_R
+	}
+	x = 1
+	y = 2
+	relative_position_id = QFK_01_FS_01_B_R
+}
+shared_focus = {
+	id = QFK_01_FS_02_B_C
+	icon = GFX_focus_goals_QFK_01_FS_02_B_C
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_00_B
+	}
+	x = 0
+	y = 4
+	relative_position_id = QFK_01_FS_00_B
+	completion_reward = {
+		1432 = {
+			add_dynamic_modifier = {
+				modifier = QFK_ProtectConfuciusMansion1432_dynamic_modifiers
 			}
-			y = 1
-		}
-		allow_branch = {
-			NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }
-		}
-		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	shared_focus = {
-		id = QFK_01_FS_00_B
-		icon = GFX_focus_goals_QFK_01_FS_00_B
-		dynamic = yes 
-		cost = 20
-		x = 16
-		y = 0
-		relative_position_id = QFK_01_FS_00_A
-		available = {
-			has_completed_focus = QFK_01_FS_00_A
-		}
-		allow_branch = {
-			NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }
-		}
+}
+shared_focus = {
+	id = QFK_01_FS_03_B_L
+	icon = GFX_focus_goals_QFK_01_FS_03_B_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_02_B_L
 	}
-	shared_focus = {
-		id = QFK_01_FS_00_C
-		icon = GFX_focus_goals_QFK_01_FS_00_C
-		dynamic = yes 
-		cost = 20
-		x = 16
-		y = 0
-		relative_position_id = QFK_01_FS_00_B
-		available = {
-			has_completed_focus = QFK_01_FS_01_A_I
-		}
-		allow_branch = {
-			NOT = { has_country_flag = QFK_completed_QFK_01_FS_05 }
-		}
+	x = 2
+	y = 2
+	relative_position_id = QFK_01_FS_02_B_L
+}
+shared_focus = {
+	id = QFK_01_FS_03_B_R
+	icon = GFX_focus_goals_QFK_01_FS_03_B_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_02_B_R
 	}
-	shared_focus = {
-		id = QFK_01_FS_01_A_O
-		icon = {
-			trigger = { anime_focus_icon = no }
-			value = GFX_focus_goals_QFK_01_FS_01_A_O
-		}
-		icon = {
-			value = GFX_focus_goals_anime_QFK_01_FS_01_A_O
-		}
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_00_A
-		}
-		x = -3
-		y = 2
-		relative_position_id = QFK_01_FS_00_A
-		completion_reward = {
-			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_base = 0.05 }
-			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_base }
-            subtract_from_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_paganF }
-			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.003 }
-			custom_effect_tooltip = "QFK_01_FS_01_A_O_TT"
-			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
-            multiply_variable = {
-	            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
-            }
-			set_country_flag = QFK_completed_QFK_01_FS_01_A_O
-			force_update_dynamic_modifier = yes
-		}
+	x = -2
+	y = 2
+	relative_position_id = QFK_01_FS_02_B_R
+}
+shared_focus = {
+	id = QFK_01_FS_04_B_C
+	icon = GFX_focus_goals_QFK_01_FS_04_B_C
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_03_B_L
+		focus = QFK_01_FS_03_B_R
 	}
-	shared_focus = {
-		id = QFK_01_FS_02_A_O_L
-		icon = GFX_focus_goals_QFK_01_FS_02_A_O_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_01_A_O
-		}
-		x = -2
-		y = 2
-		relative_position_id = QFK_01_FS_01_A_O
+	x = 0
+	y = 8
+	relative_position_id = QFK_01_FS_00_B
+}
+shared_focus = {
+	id = QFK_01_FS_02_B_O_L
+	icon = GFX_focus_goals_QFK_01_FS_02_B_O_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_01_B_L
 	}
-	shared_focus = {
-		id = QFK_01_FS_02_A_O_R
-		icon = GFX_focus_goals_QFK_01_FS_02_A_O_R
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_01_A_O
-		}
-		x = 2
-		y = 2
-		relative_position_id = QFK_01_FS_01_A_O
-		completion_reward = {
-			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.001 }
-			custom_effect_tooltip = "QFK_01_FS_02_A_O_R_TT"
-			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
-            multiply_variable = {
-	            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
-            }
-			set_country_flag = QFK_completed_QFK_01_FS_02_A_O_R
-		}
+	prerequisite = {
+		focus = QFK_01_FS_01_A_I
 	}
-	shared_focus = {
-		id = QFK_01_FS_03_A_O_L
-		icon = GFX_focus_goals_QFK_01_FS_03_A_O_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_02_A_O_L
-		}
-		x = 0
-		y = 2
-		relative_position_id = QFK_01_FS_02_A_O_L
-		completion_reward = {
-			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.002 }
-			custom_effect_tooltip = "QFK_01_FS_03_A_O_L_TT"
-			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
-            multiply_variable = {
-	            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
-            }
-			set_country_flag = QFK_completed_QFK_01_FS_03_A_O_L
-		}
+	x = -8
+	y = 4
+	relative_position_id = QFK_01_FS_00_B
+}
+shared_focus = {
+	id = QFK_01_FS_03_B_O_L_L
+	icon = GFX_focus_goals_QFK_01_FS_03_B_O_L_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_02_A_O_R
 	}
-	shared_focus = {
-		id = QFK_01_FS_03_A_O_R
-		icon = GFX_focus_goals_QFK_01_FS_03_A_O_R
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_02_A_O_R
-		}
-		x = 0
-		y = 2
-		relative_position_id = QFK_01_FS_02_A_O_R
-		completion_reward = {
-			set_country_flag = QFK_completed_QFK_01_FS_03_A_O_R
+	x = -2
+	y = 2
+	relative_position_id = QFK_01_FS_02_B_O_L
+}
+shared_focus = {
+	id = QFK_01_FS_03_B_O_L_R
+	icon = {
+		GFX_focus_goals_QFK_01_FS_03_B_O_L_R = { anime_focus_icon = no }
+		GFX_focus_goals_anime_QFK_01_FS_03_B_O_L_R = yes
+	}
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_02_B_O_L
+	}
+	x = 2
+	y = 2
+	relative_position_id = QFK_01_FS_02_B_O_L
+	completion_reward = {
+		set_country_flag = QFK_completed_QFK_01_FS_03_B_O_L_R
+		add_to_variable = { QFK.ConfucianClassics_research_base = 0.2 }
+		set_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_research_base }
+		force_update_dynamic_modifier = yes
+		custom_effect_tooltip = "QFK_01_FS_03_B_O_L_R_TT"
+	}
+}
+shared_focus = {
+	id = QFK_01_FS_04_B_O_L
+	icon = GFX_focus_goals_QFK_01_FS_04_B_O_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_03_B_O_L_L
+	}
+	prerequisite = {
+		focus = QFK_01_FS_03_B_O_L_R
+	}
+	x = 0
+	y = 4
+	relative_position_id = QFK_01_FS_02_B_O_L
+	completion_reward = {
+		add_research_slot = 1
+		set_country_flag = QFK_completed_QFK_01_FS_04_B_O_L
+		if = {
+			limit = { has_country_flag = QFK_completed_QFK_01_FS_03_A_O_R }
+			subtract_from_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
 			set_variable = { QFK.TheDoctrineOfTheMean_2_pp = 0.01 }
-			if = { limit = { QFK = { has_country_flag = QFK_completed_QFK_01_FS_04_B_O_L } } divide_variable = { QFK.TheDoctrineOfTheMean_2_pp = 2 } }
-			multiply_variable = { QFK.TheDoctrineOfTheMean_2_pp = QFK.num_controlled_states }
-			add_to_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
-			force_update_dynamic_modifier = yes
-			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD = 0.002 }
-			custom_effect_tooltip = "QFK_01_FS_03_A_O_R_TT"
-			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = QFK.TheDoctrineOfTheMean_stabilityFactor_paganD }
-            multiply_variable = {
-	            QFK.TheDoctrineOfTheMean_stabilityFactor_paganD_SHOW = 1000
-            }
+		    if = { limit = { QFK = { has_country_flag = QFK_completed_QFK_01_FS_04_B_O_L } } divide_variable = { QFK.TheDoctrineOfTheMean_2_pp = 2 } }
+		    multiply_variable = { QFK.TheDoctrineOfTheMean_2_pp = QFK.num_controlled_states }
+		    add_to_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
 		}
+		multiply_variable = { QFK.ConfucianClassics_generalFactor = 2 }
+		set_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_research_base }
+		set_variable = { QFK.ConfucianClassics_defence = QFK.ConfucianClassics_defence_base }
+		multiply_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_generalFactor }
+		multiply_variable = { QFK.ConfucianClassics_defence = QFK.ConfucianClassics_generalFactor }
+		force_update_dynamic_modifier = yes
+		custom_effect_tooltip = "QFK_01_FS_04_B_O_L_TT"
 	}
-	shared_focus = {
-		id = QFK_01_FS_04_A_O
-		icon = GFX_focus_goals_QFK_01_FS_04_A_O
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_03_A_O_L
-		}
-		prerequisite = {
-			focus = QFK_01_FS_03_A_O_R
-		}
-		x = 0
-		y = 6
-		relative_position_id = QFK_01_FS_01_A_O
-		completion_reward = {
-			add_to_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor_base = 0.1 }
-			set_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_base }
-            subtract_from_variable = { QFK.TheDoctrineOfTheMean_stabilityFactor = QFK.TheDoctrineOfTheMean_stabilityFactor_paganF }
-			force_update_dynamic_modifier = yes
-			custom_effect_tooltip = "QFK_01_FS_04_A_O_TT"
-		}
+}
+shared_focus = {
+	id = QFK_01_FS_02_B_O_R
+	icon = GFX_focus_goals_QFK_01_FS_02_B_O_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_01_C_I
 	}
-	shared_focus = {
-		id = QFK_01_FS_01_A_I
-		icon = GFX_focus_goals_QFK_01_FS_01_A_I
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_00_A
-		}
-		x = 3
-		y = 2
-		relative_position_id = QFK_01_FS_00_A
-		completion_reward = {
-			news_event = QFK_local_news.1
-		}
+	x = 8
+	y = 4
+	relative_position_id = QFK_01_FS_00_B
+}
+shared_focus = {
+	id = QFK_01_FS_03_B_O_R_L
+	icon = GFX_focus_goals_QFK_01_FS_03_B_O_R_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_02_B_R
 	}
-	shared_focus = {
-		id = QFK_01_FS_01_C_O
-		icon = GFX_focus_goals_QFK_01_FS_01_C_O
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_00_C
-		}
-		mutually_exclusive = {
-			focus = QFK_01_FS_01_C_I
-		}
-		x = 3
-		y = 2
-		relative_position_id = QFK_01_FS_00_C
+	x = -2
+	y = 2
+	relative_position_id = QFK_01_FS_02_B_O_R
+}
+shared_focus = {
+	id = QFK_01_FS_03_B_O_R_R
+	icon = GFX_focus_goals_QFK_01_FS_03_B_O_R_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_02_B_O_R
 	}
-	shared_focus = {
-		id = QFK_01_FS_02_C_O_L
-		icon = GFX_focus_goals_QFK_01_FS_02_C_O_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_01_C_I
-			focus = QFK_01_FS_01_C_O
-		}
-		x = -2
-		y = 2
-		relative_position_id = QFK_01_FS_01_C_O
+	x = 2
+	y = 2
+	relative_position_id = QFK_01_FS_02_B_O_R
+}
+shared_focus = {
+	id = QFK_01_FS_04_B_O_R
+	icon = GFX_focus_goals_QFK_01_FS_04_B_O_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FS_03_B_O_R_L
 	}
-	shared_focus = {
-		id = QFK_01_FS_02_C_O_R
-		icon = GFX_focus_goals_QFK_01_FS_02_C_O_R
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_01_C_O
-		}
-		x = 2
-		y = 2
-		relative_position_id = QFK_01_FS_01_C_O
+	prerequisite = {
+		focus = QFK_01_FS_03_B_O_R_R
 	}
-	shared_focus = {
-		id = QFK_01_FS_03_C_O_L
-		icon = GFX_focus_goals_QFK_01_FS_03_C_O_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_02_C_O_L
-		}
-		x = 0
-		y = 2
-		relative_position_id = QFK_01_FS_02_C_O_L
+	mutually_exclusive = {
+		focus = QFK_01_FS_04_C_O
 	}
-	shared_focus = {
-		id = QFK_01_FS_03_C_O_R
-		icon = GFX_focus_goals_QFK_01_FS_03_C_O_R
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_02_C_O_R
-		}
-		x = 0
-		y = 2
-		relative_position_id = QFK_01_FS_02_C_O_R
+	x = 0
+	y = 4
+	relative_position_id = QFK_01_FS_02_B_O_R
+}
+shared_focus = {
+	id = QFK_01_FS_05
+	icon = GFX_focus_goals_QFK_01_FS_05
+	dynamic = yes 
+	cost = 20
+	x = 0
+	y = 10
+	prerequisite = {
+		focus = QFK_01_FS_04_A_O
 	}
-	shared_focus = {
-		id = QFK_01_FS_04_C_O
-		icon = GFX_focus_goals_QFK_01_FS_04_C_O
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_03_C_O_L
-			focus = QFK_01_FS_03_C_O_R
-		}
-		mutually_exclusive = {
-			focus = QFK_01_FS_04_B_O_R
-		}
-		x = 0
-		y = 6
-		relative_position_id = QFK_01_FS_01_C_O
+	prerequisite = {
+		focus = QFK_01_FS_04_B_C
 	}
-	shared_focus = {
-		id = QFK_01_FS_01_C_I
-		icon = GFX_focus_goals_QFK_01_FS_01_C_I
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_00_C
-		}
-		mutually_exclusive = {
-			focus = QFK_01_FS_01_C_O
-		}
-		x = -3
-		y = 2
-		relative_position_id = QFK_01_FS_00_C
+	prerequisite = {
+		focus = QFK_01_FS_04_B_O_R
+		focus = QFK_01_FS_04_C_O
 	}
-	shared_focus = {
-		id = QFK_01_FS_01_B_L
-		icon = GFX_focus_goals_QFK_01_FS_01_B_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_00_B
-		}
-		x = -3
-		y = 2
-		relative_position_id = QFK_01_FS_00_B
-	}
-	shared_focus = {
-		id = QFK_01_FS_01_B_R
-		icon = GFX_focus_goals_QFK_01_FS_01_B_R
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_00_B
-		}
-		x = 3
-		y = 2
-		relative_position_id = QFK_01_FS_00_B
-	}
-	shared_focus = {
-		id = QFK_01_FS_02_B_L
-		icon = GFX_focus_goals_QFK_01_FS_02_B_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_01_B_L
-		}
-		x = -1
-		y = 2
-		relative_position_id = QFK_01_FS_01_B_L
-	}
-	shared_focus = {
-		id = QFK_01_FS_02_B_R
-		icon = GFX_focus_goals_QFK_01_FS_02_B_R
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_01_B_R
-		}
-		x = 1
-		y = 2
-		relative_position_id = QFK_01_FS_01_B_R
-	}
-	shared_focus = {
-		id = QFK_01_FS_02_B_C
-		icon = GFX_focus_goals_QFK_01_FS_02_B_C
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_00_B
-		}
-		x = 0
-		y = 4
-		relative_position_id = QFK_01_FS_00_B
-		completion_reward = {
-			1432 = {
-				add_dynamic_modifier = {
-					modifier = QFK_ProtectConfuciusMansion1432_dynamic_modifiers
-				}
-			}
-		}
-	}
-	shared_focus = {
-		id = QFK_01_FS_03_B_L
-		icon = GFX_focus_goals_QFK_01_FS_03_B_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_02_B_L
-		}
-		x = 2
-		y = 2
-		relative_position_id = QFK_01_FS_02_B_L
-	}
-	shared_focus = {
-		id = QFK_01_FS_03_B_R
-		icon = GFX_focus_goals_QFK_01_FS_03_B_R
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_02_B_R
-		}
-		x = -2
-		y = 2
-		relative_position_id = QFK_01_FS_02_B_R
-	}
-	shared_focus = {
-		id = QFK_01_FS_04_B_C
-		icon = GFX_focus_goals_QFK_01_FS_04_B_C
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_03_B_L
-			focus = QFK_01_FS_03_B_R
-		}
-		x = 0
-		y = 8
-		relative_position_id = QFK_01_FS_00_B
-	}
-	shared_focus = {
-		id = QFK_01_FS_02_B_O_L
-		icon = GFX_focus_goals_QFK_01_FS_02_B_O_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_01_B_L
-		}
-		prerequisite = {
-			focus = QFK_01_FS_01_A_I
-		}
-		x = -8
-		y = 4
-		relative_position_id = QFK_01_FS_00_B
-	}
-	shared_focus = {
-		id = QFK_01_FS_03_B_O_L_L
-		icon = GFX_focus_goals_QFK_01_FS_03_B_O_L_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_02_A_O_R
-		}
-		x = -2
-		y = 2
-		relative_position_id = QFK_01_FS_02_B_O_L
-	}
-	shared_focus = {
-		id = QFK_01_FS_03_B_O_L_R
-		icon = {
-			trigger = { anime_focus_icon = no }
-			value = GFX_focus_goals_QFK_01_FS_03_B_O_L_R
-		}
-		icon = {
-			value = GFX_focus_goals_anime_QFK_01_FS_03_B_O_L_R
-		}
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_02_B_O_L
-		}
-		x = 2
-		y = 2
-		relative_position_id = QFK_01_FS_02_B_O_L
-		completion_reward = {
-			set_country_flag = QFK_completed_QFK_01_FS_03_B_O_L_R
-			add_to_variable = { QFK.ConfucianClassics_research_base = 0.2 }
-			set_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_research_base }
-			force_update_dynamic_modifier = yes
-			custom_effect_tooltip = "QFK_01_FS_03_B_O_L_R_TT"
-		}
-	}
-	shared_focus = {
-		id = QFK_01_FS_04_B_O_L
-		icon = GFX_focus_goals_QFK_01_FS_04_B_O_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_03_B_O_L_L
-		}
-		prerequisite = {
-			focus = QFK_01_FS_03_B_O_L_R
-		}
-		x = 0
-		y = 4
-		relative_position_id = QFK_01_FS_02_B_O_L
-		completion_reward = {
-			add_research_slot = 1
-			set_country_flag = QFK_completed_QFK_01_FS_04_B_O_L
-			if = {
-				limit = { has_country_flag = QFK_completed_QFK_01_FS_03_A_O_R }
-				subtract_from_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
-				set_variable = { QFK.TheDoctrineOfTheMean_2_pp = 0.01 }
-			    if = { limit = { QFK = { has_country_flag = QFK_completed_QFK_01_FS_04_B_O_L } } divide_variable = { QFK.TheDoctrineOfTheMean_2_pp = 2 } }
-			    multiply_variable = { QFK.TheDoctrineOfTheMean_2_pp = QFK.num_controlled_states }
-			    add_to_variable = { QFK.TheDoctrineOfTheMean_pp = QFK.TheDoctrineOfTheMean_2_pp }
-			}
-			multiply_variable = { QFK.ConfucianClassics_generalFactor = 2 }
-			set_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_research_base }
-			set_variable = { QFK.ConfucianClassics_defence = QFK.ConfucianClassics_defence_base }
-			multiply_variable = { QFK.ConfucianClassics_research = QFK.ConfucianClassics_generalFactor }
-			multiply_variable = { QFK.ConfucianClassics_defence = QFK.ConfucianClassics_generalFactor }
-			force_update_dynamic_modifier = yes
-			custom_effect_tooltip = "QFK_01_FS_04_B_O_L_TT"
-		}
-	}
-	shared_focus = {
-		id = QFK_01_FS_02_B_O_R
-		icon = GFX_focus_goals_QFK_01_FS_02_B_O_R
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_01_C_I
-		}
-		x = 8
-		y = 4
-		relative_position_id = QFK_01_FS_00_B
-	}
-	shared_focus = {
-		id = QFK_01_FS_03_B_O_R_L
-		icon = GFX_focus_goals_QFK_01_FS_03_B_O_R_L
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_02_B_R
-		}
-		x = -2
-		y = 2
-		relative_position_id = QFK_01_FS_02_B_O_R
-	}
-	shared_focus = {
-		id = QFK_01_FS_03_B_O_R_R
-		icon = GFX_focus_goals_QFK_01_FS_03_B_O_R_R
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_02_B_O_R
-		}
-		x = 2
-		y = 2
-		relative_position_id = QFK_01_FS_02_B_O_R
-	}
-	shared_focus = {
-		id = QFK_01_FS_04_B_O_R
-		icon = GFX_focus_goals_QFK_01_FS_04_B_O_R
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FS_03_B_O_R_L
-		}
-		prerequisite = {
-			focus = QFK_01_FS_03_B_O_R_R
-		}
-		mutually_exclusive = {
-			focus = QFK_01_FS_04_C_O
-		}
-		x = 0
-		y = 4
-		relative_position_id = QFK_01_FS_02_B_O_R
-	}
-	shared_focus = {
-		id = QFK_01_FS_05
-		icon = GFX_focus_goals_QFK_01_FS_05
-		dynamic = yes 
-		cost = 20
-		x = 0
-		y = 10
-		prerequisite = {
-			focus = QFK_01_FS_04_A_O
-		}
-		prerequisite = {
-			focus = QFK_01_FS_04_B_C
-		}
-		prerequisite = {
-			focus = QFK_01_FS_04_B_O_R
-			focus = QFK_01_FS_04_C_O
-		}
-		relative_position_id = QFK_01_FS_00_B
-		allow_branch = {
-			has_country_flag = QFK_01_FS_05_CanView
-			NOT = {
-				has_country_flag = QFK_completed_QFK_01_FS_05
-			}
-		}
-		completion_reward = {
-			set_country_flag = QFK_completed_QFK_01_FS_05
-			hidden_effect = {
-				declare_war_on = {
-				    target = SHD
-				    type = faithWar_SHDI10_wargoal_focus
-			    }
-				mark_focus_tree_layout_dirty = yes
-				complete_national_focus = {
-                    focus = QFK_01_FW_00
-				    use_side_message = yes
-			    }
-			}
-			custom_effect_tooltip = "QFK_01_FS_05_TT"
-		}
-		will_lead_to_war_with = SHD
-	}
-	shared_focus = {
-		id = QFK_01_FW_00
-		icon = GFX_focus_goals_QFK_01_FW_00
-		dynamic = yes 
-		cost = 20
-		x = 21
-		y = 2
-		allow_branch = {
+	relative_position_id = QFK_01_FS_00_B
+	allow_branch = {
+		has_country_flag = QFK_01_FS_05_CanView
+		NOT = {
 			has_country_flag = QFK_completed_QFK_01_FS_05
 		}
-		completion_reward = {
-			custom_effect_tooltip = "QFK_01_FS_05_TT"
-		}
 	}
-	shared_focus = {
-		id = QFK_01_FW_01_A
-		icon = GFX_focus_goals_QFK_01_FW_01_A
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FW_00
-		}
-		mutually_exclusive = {
-			focus = QFK_01_FW_01_B
-		}
-		x = -2
-		y = 2
-		offset = {
-			trigger = {
-				has_country_flag = QFK_completed_QFK_01_FW_01_A
-			}
-			x = 2
-		}
-		relative_position_id = QFK_01_FW_00
-		allow_branch = {
-			has_country_flag = QFK_completed_QFK_01_FS_05
-			NOT = { has_country_flag = QFK_completed_QFK_01_FW_01_B }
-			NOT = { has_country_flag = QFK_01_FW_01_C_canView }
-		}
-		completion_reward = {
-			set_country_flag = QFK_completed_QFK_01_FW_01_A
+	completion_reward = {
+		set_country_flag = QFK_completed_QFK_01_FS_05
+		hidden_effect = {
+			declare_war_on = {
+			    target = SHD
+			    type = faithWar_SHDI10_wargoal_focus
+		    }
 			mark_focus_tree_layout_dirty = yes
+			complete_national_focus = {
+                 focus = QFK_01_FW_00
+			    use_side_message = yes
+		    }
 		}
+		custom_effect_tooltip = "QFK_01_FS_05_TT"
 	}
-	shared_focus = {
-		id = QFK_01_FW_01_B
-		icon = GFX_focus_goals_QFK_01_FW_01_B
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FW_00
-		}
-		mutually_exclusive = {
-			focus = QFK_01_FW_01_A
-		}
-		x = 2
-		y = 2
-		offset = {
-			trigger = {
-				has_country_flag = QFK_completed_QFK_01_FW_01_B
-			}
-			x = -2
-		}
-		relative_position_id = QFK_01_FW_00
-		allow_branch = {
-			has_country_flag = QFK_completed_QFK_01_FS_05
-			NOT = { has_country_flag = QFK_completed_QFK_01_FW_01_A }
-			NOT = { has_country_flag = QFK_01_FW_01_C_canView }
-		}
-		completion_reward = {
-			set_country_flag = QFK_completed_QFK_01_FW_01_B
-			mark_focus_tree_layout_dirty = yes
-		}
+	will_lead_to_war_with = SHD
+}
+shared_focus = {
+	id = QFK_01_FW_00
+	icon = GFX_focus_goals_QFK_01_FW_00
+	dynamic = yes 
+	cost = 20
+	x = 21
+	y = 2
+	allow_branch = {
+		has_country_flag = QFK_completed_QFK_01_FS_05
 	}
-	shared_focus = {
-		id = QFK_01_FW_02_A
-		icon = GFX_focus_goals_QFK_01_FW_02_A
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FW_01_A
-		}
-		x = 0
-		y = 2
-		relative_position_id = QFK_01_FW_01_A
-		allow_branch = {
-			has_country_flag = QFK_completed_QFK_01_FS_05
+	completion_reward = {
+		custom_effect_tooltip = "QFK_01_FS_05_TT"
+	}
+}
+shared_focus = {
+	id = QFK_01_FW_01_A
+	icon = GFX_focus_goals_QFK_01_FW_01_A
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FW_00
+	}
+	mutually_exclusive = {
+		focus = QFK_01_FW_01_B
+	}
+	x = -2
+	y = 2
+	offset = {
+		trigger = {
 			has_country_flag = QFK_completed_QFK_01_FW_01_A
-			NOT = { has_country_flag = QFK_completed_QFK_01_FW_01_B }
-			NOT = { has_country_flag = QFK_01_FW_01_C_canView }
-		}
-	}
-	shared_focus = {
-		id = QFK_01_FW_03_A_L
-		icon = GFX_focus_goals_QFK_01_FW_03_A_L
-		dynamic = yes 
-		text_icon = noIcon_style
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FW_02_A
-		}
-		x = -2
-		y = 1
-		relative_position_id = QFK_01_FW_02_A
-	}
-	shared_focus = {
-		id = QFK_01_FW_03_A_R
-		icon = GFX_focus_goals_QFK_01_FW_03_A_R
-		dynamic = yes 
-		text_icon = noIcon_style
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FW_02_A
 		}
 		x = 2
-		y = 1
-		relative_position_id = QFK_01_FW_02_A
 	}
-	shared_focus = {
-		id = QFK_01_FW_04_A_L
-		icon = GFX_focus_goals_QFK_01_FW_04_A_L
-		dynamic = yes 
-		text_icon = noIcon_style
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FW_03_A_L
+	relative_position_id = QFK_01_FW_00
+	allow_branch = {
+		has_country_flag = QFK_completed_QFK_01_FS_05
+		NOT = { has_country_flag = QFK_completed_QFK_01_FW_01_B }
+		NOT = { has_country_flag = QFK_01_FW_01_C_canView }
+	}
+	completion_reward = {
+		set_country_flag = QFK_completed_QFK_01_FW_01_A
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+shared_focus = {
+	id = QFK_01_FW_01_B
+	icon = GFX_focus_goals_QFK_01_FW_01_B
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FW_00
+	}
+	mutually_exclusive = {
+		focus = QFK_01_FW_01_A
+	}
+	x = 2
+	y = 2
+	offset = {
+		trigger = {
+			has_country_flag = QFK_completed_QFK_01_FW_01_B
 		}
 		x = -2
-		y = 2
-		relative_position_id = QFK_01_FW_02_A
 	}
-	shared_focus = {
-		id = QFK_01_FW_04_A_R
-		icon = GFX_focus_goals_QFK_01_FW_04_A_R
-		dynamic = yes 
-		text_icon = noIcon_style
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FW_03_A_R
-		}
-		x = 2
-		y = 2
-		relative_position_id = QFK_01_FW_02_A
+	relative_position_id = QFK_01_FW_00
+	allow_branch = {
+		has_country_flag = QFK_completed_QFK_01_FS_05
+		NOT = { has_country_flag = QFK_completed_QFK_01_FW_01_A }
+		NOT = { has_country_flag = QFK_01_FW_01_C_canView }
 	}
-	shared_focus = {
-		id = QFK_01_FW_05_A
-		icon = GFX_focus_goals_QFK_01_FW_05_A
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FW_04_A_L
-		}
-		prerequisite = {
-			focus = QFK_01_FW_04_A_R
-		}
-		x = 0
-		y = 4
-		relative_position_id = QFK_01_FW_02_A
+	completion_reward = {
+		set_country_flag = QFK_completed_QFK_01_FW_01_B
+		mark_focus_tree_layout_dirty = yes
 	}
-	shared_focus = {
-		id = QFK_01_FW_06_A
-		icon = GFX_focus_goals_QFK_01_FW_06_A
-		dynamic = yes 
-		cost = 20
-		prerequisite = {
-			focus = QFK_01_FW_05_A
-		}
-		x = 0
-		y = 2
-		relative_position_id = QFK_01_FW_05_A
+}
+shared_focus = {
+	id = QFK_01_FW_02_A
+	icon = GFX_focus_goals_QFK_01_FW_02_A
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FW_01_A
 	}
+	x = 0
+	y = 2
+	relative_position_id = QFK_01_FW_01_A
+	allow_branch = {
+		has_country_flag = QFK_completed_QFK_01_FS_05
+		has_country_flag = QFK_completed_QFK_01_FW_01_A
+		NOT = { has_country_flag = QFK_completed_QFK_01_FW_01_B }
+		NOT = { has_country_flag = QFK_01_FW_01_C_canView }
+	}
+}
+shared_focus = {
+	id = QFK_01_FW_03_A_L
+	icon = GFX_focus_goals_QFK_01_FW_03_A_L
+	dynamic = yes 
+	text_icon = noIcon_style
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FW_02_A
+	}
+	x = -2
+	y = 1
+	relative_position_id = QFK_01_FW_02_A
+}
+shared_focus = {
+	id = QFK_01_FW_03_A_R
+	icon = GFX_focus_goals_QFK_01_FW_03_A_R
+	dynamic = yes 
+	text_icon = noIcon_style
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FW_02_A
+	}
+	x = 2
+	y = 1
+	relative_position_id = QFK_01_FW_02_A
+}
+shared_focus = {
+	id = QFK_01_FW_04_A_L
+	icon = GFX_focus_goals_QFK_01_FW_04_A_L
+	dynamic = yes 
+	text_icon = noIcon_style
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FW_03_A_L
+	}
+	x = -2
+	y = 2
+	relative_position_id = QFK_01_FW_02_A
+}
+shared_focus = {
+	id = QFK_01_FW_04_A_R
+	icon = GFX_focus_goals_QFK_01_FW_04_A_R
+	dynamic = yes 
+	text_icon = noIcon_style
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FW_03_A_R
+	}
+	x = 2
+	y = 2
+	relative_position_id = QFK_01_FW_02_A
+}
+shared_focus = {
+	id = QFK_01_FW_05_A
+	icon = GFX_focus_goals_QFK_01_FW_05_A
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FW_04_A_L
+	}
+	prerequisite = {
+		focus = QFK_01_FW_04_A_R
+	}
+	x = 0
+	y = 4
+	relative_position_id = QFK_01_FW_02_A
+}
+shared_focus = {
+	id = QFK_01_FW_06_A
+	icon = GFX_focus_goals_QFK_01_FW_06_A
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = QFK_01_FW_05_A
+	}
+	x = 0
+	y = 2
+	relative_position_id = QFK_01_FW_05_A
+}
