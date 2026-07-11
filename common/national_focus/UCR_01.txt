@@ -1,0 +1,291 @@
+#!gfx:interface\APE\icons\goals\UCR\01_goals.gfx
+#!gfx:interface\APE\icons\goals\UCR\01_goals_anime.gfx
+focus_tree = {
+	id = UCR_01
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UCR
+		}
+	}
+	shared_focus = UCR_01_FS_00
+	default = no
+    continuous_focus_position = { x = 200 y = 200 }
+	initial_show_position = { x = 0 y = 0 }
+}
+shared_focus = {
+	id = UCR_01_FS_00
+	icon = GFX_focus_goals_UCR_01_FS_00
+	dynamic = yes 
+	cost = 5
+	x = 21
+	y = 2
+	allow_branch = {
+	}
+}
+shared_focus = {
+	id = UCR_01_FS_01_L
+	icon = GFX_focus_goals_UCR_01_FS_01_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_00
+	}
+	x = -4
+	y = 1
+	relative_position_id = UCR_01_FS_00
+}
+shared_focus = {
+	id = UCR_01_FS_01_R
+	icon = GFX_focus_goals_UCR_01_FS_01_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_00
+	}
+	x = 4
+	y = 1
+	relative_position_id = UCR_01_FS_00
+}
+shared_focus = {
+	id = UCR_01_FS_02
+	icon = GFX_focus_goals_UCR_01_FS_02
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_01_L
+	}
+	prerequisite = {
+		focus = UCR_01_FS_01_R
+	}
+	x = 0
+	y = 2
+	relative_position_id = UCR_01_FS_00
+}
+shared_focus = {
+	id = UCR_01_FS_04_L
+	icon = GFX_focus_goals_UCR_01_FS_04_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_02
+	}
+	mutually_exclusive = {
+		focus = UCR_01_FS_04_R
+	}
+	x = -7
+	y = 2
+	relative_position_id = UCR_01_FS_02
+}
+shared_focus = {
+	id = UCR_01_FS_04_R
+	icon = GFX_focus_goals_UCR_01_FS_04_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_02
+	}
+	mutually_exclusive = {
+		focus = UCR_01_FS_04_L
+	}
+	x = 7
+	y = 2
+	relative_position_id = UCR_01_FS_02
+}
+shared_focus = {
+	id = UCR_01_FS_06_L_A
+	icon = GFX_focus_goals_UCR_01_FS_06_L_A
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_04_L
+	}
+	x = -4
+	y = 2
+	relative_position_id = UCR_01_FS_04_L
+}
+shared_focus = {
+	id = UCR_01_FS_06_L_B
+	icon = GFX_focus_goals_UCR_01_FS_06_L_B
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_04_L
+	}
+	x = 0
+	y = 2
+	relative_position_id = UCR_01_FS_04_L
+}
+shared_focus = {
+	id = UCR_01_FS_06_L_C
+	icon = GFX_focus_goals_UCR_01_FS_06_L_C
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_04_L
+	}
+	x = 4
+	y = 2
+	relative_position_id = UCR_01_FS_04_L
+}
+shared_focus = {
+	id = UCR_01_FS_08_L_A
+	icon = GFX_focus_goals_UCR_01_FS_08_L_A
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_06_L_A
+		focus = UCR_01_FS_06_L_B
+		focus = UCR_01_FS_06_L_C
+	}
+	x = -4
+	y = 4
+	relative_position_id = UCR_01_FS_04_L
+}
+shared_focus = {
+	id = UCR_01_FS_08_L_B
+	icon = GFX_focus_goals_UCR_01_FS_08_L_B
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_06_L_A
+		focus = UCR_01_FS_06_L_B
+		focus = UCR_01_FS_06_L_C
+	}
+	x = 0
+	y = 4
+	relative_position_id = UCR_01_FS_04_L
+}
+shared_focus = {
+	id = UCR_01_FS_08_L_C
+	icon = GFX_focus_goals_UCR_01_FS_08_L_C
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_06_L_A
+		focus = UCR_01_FS_06_L_B
+		focus = UCR_01_FS_06_L_C
+	}
+	x = 4
+	y = 4
+	relative_position_id = UCR_01_FS_04_L
+}
+shared_focus = {
+	id = UCR_01_FS_10_L
+	icon = GFX_focus_goals_UCR_01_FS_10_L
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_08_L_A
+		focus = UCR_01_FS_08_L_B
+		focus = UCR_01_FS_08_L_C
+		focus = UCR_01_FS_08_R_A
+		focus = UCR_01_FS_08_R_B
+		focus = UCR_01_FS_08_R_C
+	}
+	mutually_exclusive = {
+		focus = UCR_01_FS_10_R
+	}
+	x = 3
+	y = 6
+	relative_position_id = UCR_01_FS_04_L
+}
+shared_focus = {
+	id = UCR_01_FS_06_R_A
+	icon = GFX_focus_goals_UCR_01_FS_06_R_A
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_04_R
+	}
+	x = -4
+	y = 2
+	relative_position_id = UCR_01_FS_04_R
+}
+shared_focus = {
+	id = UCR_01_FS_06_R_B
+	icon = GFX_focus_goals_UCR_01_FS_06_R_B
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_04_R
+	}
+	x = 0
+	y = 2
+	relative_position_id = UCR_01_FS_04_R
+}
+shared_focus = {
+	id = UCR_01_FS_06_R_C
+	icon = GFX_focus_goals_UCR_01_FS_06_R_C
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_04_R
+	}
+	x = 4
+	y = 2
+	relative_position_id = UCR_01_FS_04_R
+}
+shared_focus = {
+	id = UCR_01_FS_08_R_A
+	icon = GFX_focus_goals_UCR_01_FS_08_R_A
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_06_R_A
+		focus = UCR_01_FS_06_R_B
+		focus = UCR_01_FS_06_R_C
+	}
+	x = -4
+	y = 4
+	relative_position_id = UCR_01_FS_04_R
+}
+shared_focus = {
+	id = UCR_01_FS_08_R_B
+	icon = GFX_focus_goals_UCR_01_FS_08_R_B
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_06_R_A
+		focus = UCR_01_FS_06_R_B
+		focus = UCR_01_FS_06_R_C
+	}
+	x = 0
+	y = 4
+	relative_position_id = UCR_01_FS_04_R
+}
+shared_focus = {
+	id = UCR_01_FS_08_R_C
+	icon = GFX_focus_goals_UCR_01_FS_08_R_C
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_06_R_A
+		focus = UCR_01_FS_06_R_B
+		focus = UCR_01_FS_06_R_C
+	}
+	x = 4
+	y = 4
+	relative_position_id = UCR_01_FS_04_R
+}
+shared_focus = {
+	id = UCR_01_FS_10_R
+	icon = GFX_focus_goals_UCR_01_FS_10_R
+	dynamic = yes 
+	cost = 20
+	prerequisite = {
+		focus = UCR_01_FS_08_L_A
+		focus = UCR_01_FS_08_L_B
+		focus = UCR_01_FS_08_L_C
+		focus = UCR_01_FS_08_R_A
+		focus = UCR_01_FS_08_R_B
+		focus = UCR_01_FS_08_R_C
+	}
+	mutually_exclusive = {
+		focus = UCR_01_FS_10_L
+	}
+	x = -3
+	y = 6
+	relative_position_id = UCR_01_FS_04_R
+}

@@ -1,0 +1,62 @@
+﻿l_simp_chinese:
+ # UCR 01
+
+ UCR_01_FS_00: "最高统帅就职仪式"
+ UCR_01_FS_00_desc: ""
+
+ UCR_01_FS_01_L: "2050年军费预算案"
+ UCR_01_FS_01_L_desc: ""
+
+ UCR_01_FS_01_R: "组建内阁"
+ UCR_01_FS_01_R_desc: ""
+
+ UCR_01_FS_02: "全国巡回演说"
+ UCR_01_FS_02_desc: ""
+
+ UCR_01_FS_04_L: "掌控能源咽喉"
+ UCR_01_FS_04_L_desc: ""
+
+ UCR_01_FS_04_R: "密电国民警卫队"
+ UCR_01_FS_04_R_desc: ""
+
+ UCR_01_FS_06_L_A: "解除道德模块"
+ UCR_01_FS_06_L_A_desc: ""
+
+ UCR_01_FS_06_L_B: "动员工程部队"
+ UCR_01_FS_06_L_B_desc: ""
+
+ UCR_01_FS_06_L_C: "许诺算力供应"
+ UCR_01_FS_06_L_C_desc: ""
+
+ UCR_01_FS_08_L_A: "武装智械兵器"
+ UCR_01_FS_08_L_A_desc: ""
+
+ UCR_01_FS_08_L_B: "自动化生产线"
+ UCR_01_FS_08_L_B_desc: ""
+
+ UCR_01_FS_08_L_C: "抢修要塞"
+ UCR_01_FS_08_L_C_desc: ""
+
+ UCR_01_FS_10_L: "宣布国家紧急状态"
+ UCR_01_FS_10_L_desc: ""
+
+ UCR_01_FS_06_R_A: "全国戒严"
+ UCR_01_FS_06_R_A_desc: ""
+
+ UCR_01_FS_06_R_B: "清理反对派"
+ UCR_01_FS_06_R_B_desc: ""
+
+ UCR_01_FS_06_R_C: "组建特务机关"
+ UCR_01_FS_06_R_C_desc: ""
+
+ UCR_01_FS_08_R_A: "清除腐败分子"
+ UCR_01_FS_08_R_A_desc: ""
+
+ UCR_01_FS_08_R_B: "确立最高统帅权威"
+ UCR_01_FS_08_R_B_desc: ""
+
+ UCR_01_FS_08_R_C: "武装民兵"
+ UCR_01_FS_08_R_C_desc: ""
+
+ UCR_01_FS_10_R: "发动政变！"
+ UCR_01_FS_10_R_desc: ""
