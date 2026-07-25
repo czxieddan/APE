@@ -52,7 +52,7 @@ replace_path="map/supplyareas"
 replace_path="music"
 replace_path="music/hoi2"
 replace_path="music/hoi3"
-supported_version="1.17.*"
+supported_version="1.19.*"
 tags={
 	"Military"
 	"Ideologies"
